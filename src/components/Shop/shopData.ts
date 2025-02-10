@@ -1,0 +1,22878 @@
+import { Product } from "@/types/product";
+const shopData: Product[] = [
+  {
+    article: "кт4502]KLN",
+    title: "Ведерко для льда и шампанского КленМаркет, нержавеющая сталь, 35,5x22 см",
+    brand: "КленМаркет",
+    type: "Ведерко для льда",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 4000,
+    id: 1,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7087485415.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7087485496.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7087485415.jpg"
+      ]
+    }
+  },
+  {
+    article: "га14]KLN",
+    title: "Гастроемкость Luxstahl, нержавеющая сталь, 32,7x17,6x4 см",
+    brand: "Luxstahl",
+    type: "Гастроемкость",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 290,
+    "height": 4,
+    "length": 32.7,
+    "width": 17.6,
+    "volume": 1.5,
+    id: 2,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7087484877.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7087485000.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7087485525.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7087484877.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт121]KLN",
+    title: "Сковорода с тройным дном Luxstahl, нержавеющая сталь, 40 см",
+    brand: "Luxstahl",
+    type: "Сковорода",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 2200,
+    id: 3,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7087486594.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7087486594.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт147]KLN",
+    title: "Кастрюля с крышкой Luxstahl, нержавеющая сталь, 3 л",
+    brand: "Luxstahl",
+    type: "Кастрюля",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 1000,
+    id: 4,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7087485913.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7087485792.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-n/7087485479.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7087485972.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7087485647.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7087485913.jpg"
+      ]
+    }
+  },
+  {
+    article: "га08]KLN",
+    title: "Гастроемкость Luxstahl, нержавеющая сталь, 32,7x26,5x4 см",
+    brand: "Luxstahl",
+    type: "Гастроемкость",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 470,
+    "height": 4,
+    "length": 32.7,
+    "width": 26.5,
+    "volume": 2,
+    id: 5,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7087485474.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7087485207.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7087485474.jpg"
+      ]
+    }
+  },
+  {
+    article: "га62]KLN",
+    title: "Гастроемкость Luxstahl, нержавеющая сталь, 13,2x10,9x6,5 см",
+    brand: "Luxstahl",
+    type: "Гастроемкость",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 110,
+    "height": 6.5,
+    "length": 13.2,
+    "width": 10.9,
+    "volume": 0.4,
+    id: 6,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7087485070.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7087485891.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7087485850.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7087485070.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт356]KLN",
+    title: "Сковорода вок из нержавеющей стали Luxstahl, 26 см",
+    brand: "Luxstahl",
+    type: "Вок",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 900,
+    id: 7,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7087485578.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7087485060.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7087485425.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7087485578.jpg"
+      ]
+    }
+  },
+  {
+    article: "га10]KLN",
+    title: "Гастроемкость Luxstahl, нержавеющая сталь, 32,7x26,5x10 см",
+    brand: "Luxstahl",
+    type: "Гастроемкость",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 770,
+    "height": 10,
+    "length": 32.7,
+    "width": 26.5,
+    "volume": 6.5,
+    id: 8,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7087485193.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7087484904.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7087485323.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7087485193.jpg"
+      ]
+    }
+  },
+  {
+    article: "га53]KLN",
+    title: "Гастроемкость Luxstahl, нержавеющая сталь, 26,5x16,4x4 см",
+    brand: "Luxstahl",
+    type: "Гастроемкость",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 220,
+    "height": 4,
+    "length": 26.5,
+    "width": 16.4,
+    "volume": 0.5,
+    id: 9,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7087485743.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7087485950.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7087485597.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7087485743.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт116]KLN",
+    title: "Сковорода с тройным дном Luxstahl, нержавеющая сталь, 24 см",
+    brand: "Luxstahl",
+    type: "Сковорода",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 840,
+    id: 10,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7087486253.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7087486253.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт148]KLN",
+    title: "Кастрюля с крышкой Luxstahl, нержавеющая сталь, 5 л",
+    brand: "Luxstahl",
+    type: "Кастрюля",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 1400,
+    id: 11,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7087485903.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7087486054.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087486033.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7087485450.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7087485929.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-h/7087485185.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7087485903.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт4000]KLN",
+    title: "Рубанок для чистки разделочной доски КленМаркет, пластиковый, 17x60 см",
+    brand: "КленМаркет",
+    type: "Разделочная доска",
+    material: "Пластик",
+    color: [
+      "красный"
+    ],
+    origin: "Китай",
+    weight: 250,
+    "length": 17,
+    "width": 60,
+    id: 12,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7087485423.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7087485698.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7087485864.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7087485423.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк094]KLN",
+    title: "Гастроемкость Corone collezione d arte, керамическая, 32,2x16,8x3 см",
+    brand: "Corone collezione d’arte",
+    type: "Гастроемкость",
+    material: "Керамика",
+    color: [
+      "черный"
+    ],
+    origin: "Китай",
+    weight: 1100,
+    "height": 3,
+    "length": 32.2,
+    "width": 16.8,
+    "volume": 0.75,
+    id: 13,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7087485862.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087485961.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7087485174.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7087485718.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-h/7087485941.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7087485862.jpg"
+      ]
+    }
+  },
+  {
+    article: "2-SPAIK(фк9105)KLN",
+    title: "Тарелки 2 шт Corone collezione d arte Sacramento, фарфоровые, 18 см",
+    brand: "Corone collezione d’arte",
+    type: "Тарелка",
+    material: "Фарфор",
+    color: [
+      "серый",
+      "зеленый"
+    ],
+    origin: "Китай",
+    weight: 500,
+    id: 14,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7087487022.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7087487089.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7087486993.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7087486957.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7087487325.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7087487259.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7087487022.jpg"
+      ]
+    }
+  },
+  {
+    article: "3-SPAIK(кт0142)KLN",
+    title: "Тарелки квадратные 3 шт Corone collezione d arte Aqua, стеклянные, 20 см",
+    brand: "Corone collezione d’arte",
+    type: "Тарелка",
+    material: "Стекло",
+    color: [
+      "голубой",
+      "прозрачный"
+    ],
+    origin: "Китай",
+    weight: 1000,
+    id: 15,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7087486670.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7087486539.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7087486621.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7087486577.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7087486603.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7087486670.jpg"
+      ]
+    }
+  },
+  {
+    article: "3-SPAIK(фк8214)KLN",
+    title: "Блюдца чайные 3 шт Corone collezione d arte, фарфор, 16 см",
+    brand: "Corone collezione d’arte",
+    type: "Блюдце",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 600,
+    id: 16,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7087485518.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7087484835.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7087485544.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7087485518.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк0803]KLN",
+    title: "Тарелка для пасты Corone collezione d arte Celeste, фарфоровая, 21 см",
+    brand: "Corone collezione d’arte",
+    type: "Тарелка",
+    material: "Фарфор",
+    color: [
+      "голубой",
+      "серый"
+    ],
+    origin: "Китай",
+    weight: 560,
+    id: 17,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7087486846.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7087486865.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7087486834.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7087486846.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт351]KLN",
+    title: "Сковорода вок из нержавеющей стали Luxstahl, 30 см",
+    brand: "Luxstahl",
+    type: "Вок",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 1000,
+    id: 18,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7087485758.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7087484834.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7087485251.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7087485758.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт357]KLN",
+    title: "Сковорода вок из нержавеющей стали Luxstahl, 26 см",
+    brand: "Luxstahl",
+    type: "Вок",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 900,
+    id: 19,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7087485197.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7087485409.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7087485251.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7087485197.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк0920]KLN",
+    title: "Тарелка сервировочная Corone collezione d arte Corone Natura, фарфоровая, 20 см",
+    brand: "Corone collezione d’arte",
+    type: "Тарелка",
+    material: "Фарфор",
+    color: [
+      "коричневый"
+    ],
+    origin: "Китай",
+    weight: 450,
+    id: 20,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7087486515.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7087486500.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7087486711.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-h/7087486589.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7087486515.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк6939]KLN",
+    title: "Тарелка для пасты Corone collezione d arte Grafica, фарфоровая, 25,5 см",
+    brand: "Corone collezione d’arte",
+    type: "Тарелка",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 700,
+    id: 21,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7087487037.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7087486998.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7087487173.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7087487102.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7087485559.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7087485344.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087485097.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7087486032.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7087487037.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк1408]KLN",
+    title: "Тарелка для пасты Corone collezione d arte Gourmet, фарфоровая, 22,9 см",
+    brand: "Corone collezione d’arte",
+    type: "Тарелка",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 608,
+    id: 22,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7087486593.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7087486676.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7087486570.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7087486704.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7087486593.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт142]KLN",
+    title: "Кастрюля с крышкой Luxstahl, нержавеющая сталь, 9 л",
+    brand: "Luxstahl",
+    type: "Кастрюля",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 2300,
+    id: 23,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7087485917.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7087485819.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7087485161.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7087485888.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087486033.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7087485929.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087485745.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7087485957.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7087485610.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7087485917.jpg"
+      ]
+    }
+  },
+  {
+    article: "га09]KLN",
+    title: "Гастроемкость Luxstahl, нержавеющая сталь, 32,7x26,5x6,5 см",
+    brand: "Luxstahl",
+    type: "Гастроемкость",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 540,
+    "height": 6.5,
+    "length": 32.7,
+    "width": 26.5,
+    "volume": 4,
+    id: 24,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7087485439.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7087485549.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7087485142.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7087485439.jpg"
+      ]
+    }
+  },
+  {
+    article: "2-SPAIK(фк4003)KLN",
+    title: "Тарелки 2 шт Tvist Ivory, фарфоровые, 23 см",
+    brand: "TVIST",
+    type: "Тарелка",
+    material: "Фарфор",
+    color: [
+      "светло-бежевый"
+    ],
+    origin: "Китай",
+    weight: 440,
+    id: 25,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7087487198.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7087487174.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7087487276.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7087488543.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7087487629.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7087487582.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7087487198.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт024]KLN",
+    title: "Сковорода с тройным дном Luxstahl, нержавеющая сталь, 26 см",
+    brand: "Luxstahl",
+    type: "Сковорода",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 1100,
+    id: 26,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7087485919.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7087485919.jpg"
+      ]
+    }
+  },
+  {
+    article: "га06]KLN",
+    title: "Гастроемкость Luxstahl, нержавеющая сталь, 53x32,5 см",
+    brand: "Luxstahl",
+    type: "Гастроемкость",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 2030,
+    "length": 53,
+    "width": 32.5,
+    id: 27,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7087484797.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7087484797.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк1409]KLN",
+    title: "Тарелка для пасты Corone collezione d arte Gourmet, фарфоровая, 20 см",
+    brand: "Corone collezione d’arte",
+    type: "Тарелка",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 473,
+    id: 28,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-7/7087486507.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7087486490.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7087486491.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7087486494.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7087486530.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7087486417.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7087486551.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-7/7087486507.jpg"
+      ]
+    }
+  },
+  {
+    article: "га71]KLN",
+    title: "Гастроемкость Luxstahl, нержавеющая сталь, 32,7x26,5x6,5 см",
+    brand: "Luxstahl",
+    type: "Гастроемкость",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 470,
+    "height": 6.5,
+    "length": 32.7,
+    "width": 26.5,
+    "volume": 4,
+    id: 29,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7087485713.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7087485346.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7087485284.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7087485713.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк6938]KLN",
+    title: "Тарелка для пасты Corone collezione d arte Grafica, фарфоровая, 28 см",
+    brand: "Corone collezione d’arte",
+    type: "Тарелка",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 800,
+    id: 30,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7087487034.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7087487148.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7087486996.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7087487020.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7087485559.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7087485344.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087485097.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7087486032.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7087487034.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк0981]KLN",
+    title: "Блюдце чайное Corone collezione d arte, фарфор, 15 см",
+    brand: "Corone collezione d’arte",
+    type: "Блюдце",
+    material: "Фарфор",
+    color: [
+      "коричневый"
+    ],
+    origin: "Китай",
+    weight: 260,
+    id: 31,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7087485094.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7087485539.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7087485582.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7087485094.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк1513]KLN",
+    title: "Тарелка для пасты Corone collezione d arte Terra, фарфоровая, 20 см",
+    brand: "Corone collezione d’arte",
+    type: "Тарелка",
+    material: "Фарфор",
+    color: [
+      "синий",
+      "коричневый"
+    ],
+    origin: "Китай",
+    weight: 350,
+    id: 32,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7087486655.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-n/7087486487.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7087486580.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7087486655.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк785]KLN",
+    title: "Тарелка для супа Sam&Squito Quadro, фарфоровая, 20 см",
+    brand: "Sam&Squito",
+    type: "Тарелка",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 510,
+    id: 33,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7087486983.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7087486950.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7087486986.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7087486959.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7087486983.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк6949]KLN",
+    title: "Тарелка сервировочная Corone collezione d arte Grafica, фарфоровая, 26 см",
+    brand: "Corone collezione d’arte",
+    type: "Тарелка",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 1000,
+    id: 34,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087487797.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7087487507.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-n/7087487135.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7087489013.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7087487297.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7087485559.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7087485344.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087485097.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7087486032.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087487797.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк6918]KLN",
+    title: "Тарелка сервировочная Corone collezione d arte Grafica, фарфоровая, 26 см",
+    brand: "Corone collezione d’arte",
+    type: "Тарелка",
+    material: "Фарфор",
+    color: [
+      "черный"
+    ],
+    origin: "Китай",
+    weight: 700,
+    id: 35,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7087489054.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7087487323.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7087489908.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7087487558.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7087486978.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7087487031.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7087487002.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7087485559.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7087485344.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087485097.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7087489054.jpg"
+      ]
+    }
+  },
+  {
+    article: "4-SPAIK(кт0148)KLN",
+    title: "Тарелки сервировочные 4 шт Corone collezione d arte Aqua, стеклянные, 22x16 см",
+    brand: "Corone collezione d’arte",
+    type: "Тарелка",
+    material: "Стекло",
+    color: [
+      "голубой",
+      "прозрачный"
+    ],
+    origin: "Китай",
+    weight: 1000,
+    id: 36,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7087486734.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7087486754.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7087485058.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7087485051.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7087486734.jpg"
+      ]
+    }
+  },
+  {
+    article: "2-SPAIK(фк7809)KLN",
+    title: "Блюдца чайные 2 шт Corone collezione d arte, фарфор, 15,5 см",
+    brand: "Corone collezione d’arte",
+    type: "Блюдце",
+    material: "Фарфор",
+    color: [
+      "зеленый",
+      "коричневый"
+    ],
+    origin: "Китай",
+    weight: 300,
+    id: 37,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7087485447.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7087484915.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7087485071.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7087484790.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7087485447.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк799]KLN",
+    title: "Блюдо глубокое прямоугольное Sam&Squito Quadro, фарфор, 25x14,5 см",
+    brand: "Sam&Squito",
+    type: "Блюдо",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 550,
+    id: 38,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7087484949.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7087485614.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087485457.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7087485172.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7087484949.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк0252]KLN",
+    title: "Блюдо прямоугольное Chan Wave Quadro, фарфор, 27,5x13 см",
+    brand: "Chan Wave",
+    type: "Блюдо",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 610,
+    id: 39,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-n/7087484867.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7087484924.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7087484999.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-n/7087484867.jpg"
+      ]
+    }
+  },
+  {
+    article: "2-SPAIK(фк806)KLN",
+    title: "Блюдо прямоугольное набор 2 шт Sam&Squito Quadro, фарфор, 25x7,5 см",
+    brand: "Sam&Squito",
+    type: "Блюдо",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 235,
+    id: 40,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7087485441.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7087485631.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-h/7087485149.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7087485593.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7087485547.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7087485441.jpg"
+      ]
+    }
+  },
+  {
+    article: "2-SPAIK(фк7812)KLN",
+    title: "Блюдца чайные 2 шт Corone collezione d arte, фарфор, 12 см",
+    brand: "Corone collezione d’arte",
+    type: "Блюдце",
+    material: "Фарфор",
+    color: [
+      "коричневый",
+      "зеленый"
+    ],
+    origin: "Китай",
+    weight: 210,
+    id: 41,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7087485744.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7087484822.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7087484961.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7087485609.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7087485744.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк0199]KLN",
+    title: "Блюдо овальное сервировочное Chan Wave Classic, фарфор, 40 см",
+    brand: "Chan Wave",
+    type: "Блюдо",
+    material: "Фарфор",
+    color: [
+      "слоновая кость"
+    ],
+    origin: "Китай",
+    weight: 1490,
+    id: 42,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-7/7087484923.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-7/7087484923.jpg"
+      ]
+    }
+  },
+  {
+    article: "Кт58]KLN",
+    title: "Кастрюля с крышкой Luxstahl, нержавеющая сталь, 2 л",
+    brand: "Luxstahl",
+    type: "Кастрюля",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 950,
+    id: 43,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7087485857.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087486033.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-h/7087485977.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7087485929.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7087485857.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк913]KLN",
+    title: "Блюдо квадратное для завтрака Sam&Squito Quadro, фарфор, 24,5x24,5 см",
+    brand: "Sam&Squito",
+    type: "Блюдо",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 810,
+    id: 44,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7087485642.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7087485768.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7087484780.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7087485642.jpg"
+      ]
+    }
+  },
+  {
+    article: "2-SPAIK(фк6505)KLN",
+    title: "Блюдо для суши набор 2 шт Corone Bushido, фарфор, 26,5x7,5 см",
+    brand: "Corone collezione d’arte",
+    type: "Блюдо",
+    material: "Фарфор",
+    color: [
+      "черный"
+    ],
+    origin: "Китай",
+    weight: 400,
+    id: 45,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7087485046.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7087484906.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7087485720.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7087484983.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7087484960.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7087485046.jpg"
+      ]
+    }
+  },
+  {
+    article: "га005]KLN",
+    title: "Гастроемкость Luxstahl, нержавеющая сталь, 53x32,5x15 см",
+    brand: "Luxstahl",
+    type: "Гастроемкость",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 1530,
+    "height": 15,
+    "length": 53,
+    "width": 32.5,
+    id: 46,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7087485259.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7087485259.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк805]KLN",
+    title: "Блюдо прямоугольное Sam&Squito Quadro, фарфор, 35x21 см",
+    brand: "Sam&Squito",
+    type: "Блюдо",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 1210,
+    id: 47,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7087485190.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7087484840.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7087485022.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7087485190.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт607]KLN",
+    title: "Сковорода с антипригарным покрытием Luxstahl, нержавеющая сталь, 24 см",
+    brand: "Luxstahl",
+    type: "Сковорода",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 1100,
+    id: 48,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-h/7087486625.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7087486643.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-h/7087486625.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт1729]KLN",
+    title: "Доска разделочная КленМаркет, пластиковая, 60x40 см",
+    brand: "КленМаркет",
+    type: "Разделочная доска",
+    material: "Полипропилен",
+    color: [
+      "красный"
+    ],
+    origin: "Китай",
+    weight: 3800,
+    "length": 60,
+    "width": 40,
+    id: 49,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7087485541.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7087485321.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7087485148.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7087486026.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7087485616.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7087485576.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7087485497.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7087485092.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7087485541.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт83]KLN",
+    title: "Дозатор для жидкого мыла настенный КленМаркет, нержавеющая сталь, 1 л",
+    brand: "КленМаркет",
+    type: "Диспенсер для мыла",
+    material: "Нержавеющая сталь",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Китай",
+    weight: 393,
+    "height": 20,
+    "length": 6,
+    "width": 12.5,
+    id: 50,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7087485841.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7087485841.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт4004]KLN",
+    title: "Рубанок для чистки разделочной доски КленМаркет, пластиковый, 17x60 см",
+    brand: "КленМаркет",
+    type: "Разделочная доска",
+    material: "Пластик",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 250,
+    "length": 17,
+    "width": 60,
+    id: 51,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7087485964.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7087485698.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7087485864.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7087485964.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт350]KLN",
+    title: "Сковорода вок из нержавеющей стали Luxstahl, 30 см",
+    brand: "Luxstahl",
+    type: "Вок",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 1000,
+    id: 52,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087484917.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7087485749.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7087485073.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087484917.jpg"
+      ]
+    }
+  },
+  {
+    article: "4-SPAIK(кт0135)KLN",
+    title: "Тарелки круглые 4 шт Corone collezione d arte Aqua, стеклянные, 15 см",
+    brand: "Corone collezione d’arte",
+    type: "Тарелка",
+    material: "Стекло",
+    color: [
+      "голубой"
+    ],
+    origin: "Китай",
+    weight: 600,
+    id: 53,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7087486567.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7087486577.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7087486621.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7087486539.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7087486567.jpg"
+      ]
+    }
+  },
+  {
+    article: "га17]KLN",
+    title: "Гастроемкость Luxstahl, нержавеющая сталь, 32,7x17,6 см",
+    brand: "Luxstahl",
+    type: "Гастроемкость",
+    material: "Нержавеющая сталь",
+    color: [
+      "серый металлик"
+    ],
+    origin: "Китай",
+    weight: 610,
+    "length": 32.7,
+    "width": 17.6,
+    id: 54,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-h/7087485725.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-h/7087485725.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк1805]KLN",
+    title: "Тарелка для пасты Corone collezione d arte Corone Carmen, фарфоровая, 29 см",
+    brand: "Corone collezione d’arte",
+    type: "Тарелка",
+    material: "Фарфор",
+    color: [
+      "коричневый",
+      "красный"
+    ],
+    origin: "Китай",
+    weight: 500,
+    id: 55,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7087487799.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7087487838.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7087488515.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087487077.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7087487931.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7087487758.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7087487527.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7087487799.jpg"
+      ]
+    }
+  },
+  {
+    article: "Кт141]KLN",
+    title: "Кастрюля с крышкой Luxstahl, нержавеющая сталь, 7 л",
+    brand: "Luxstahl",
+    type: "Кастрюля",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 1700,
+    id: 56,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7087486004.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7087486077.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7087485786.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087486033.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7087485929.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7087486004.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк6907]KLN",
+    title: "Тарелка для пасты Corone collezione d arte Grafica, фарфоровая, 28 см",
+    brand: "Corone collezione d’arte",
+    type: "Тарелка",
+    material: "Фарфор",
+    color: [
+      "черный"
+    ],
+    origin: "Китай",
+    weight: 800,
+    id: 57,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-7/7087488487.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7087487535.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7087487152.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087487185.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7087487100.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7087485559.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7087485344.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087485097.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7087486032.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-7/7087488487.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк1506]KLN",
+    title: "Тарелка сервировочная Corone collezione d arte Terra, фарфоровая, 27 см",
+    brand: "Corone collezione d’arte",
+    type: "Тарелка",
+    material: "Фарфор",
+    color: [
+      "синий",
+      "коричневый"
+    ],
+    origin: "Китай",
+    weight: 350,
+    id: 58,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7087486712.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7087486509.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7087486554.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7087486498.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7087486712.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк6714]KLN",
+    title: "Чайник заварочный Corone collezione d arte, фарфоровый, 1200 мл",
+    brand: "Corone collezione d’arte",
+    type: "Чайник заварочный",
+    material: "Фарфор",
+    color: [
+      "белый",
+      "голубой"
+    ],
+    origin: "Китай",
+    weight: 800,
+    id: 59,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7087487363.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7087487363.jpg"
+      ]
+    }
+  },
+  {
+    article: "4-SPAIK(фк447)KLN",
+    title: "Блюдо овальное набор 4 шт Collage, фарфор, 25x18 см",
+    brand: "Collage",
+    type: "Блюдо",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 465,
+    id: 60,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7087485630.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7087485430.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7087484928.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7087485144.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7087485630.jpg"
+      ]
+    }
+  },
+  {
+    article: "2-SPAIK(фк1756)KLN",
+    title: "Блюдо набор 2 шт Corone Primavera, фарфор, 22,5x11,5 см",
+    brand: "Corone collezione d’arte",
+    type: "Блюдо",
+    material: "Фарфор",
+    color: [
+      "темно-зеленый"
+    ],
+    origin: "Китай",
+    weight: 500,
+    id: 61,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7087484951.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7087485230.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7087485327.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7087485705.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7087485120.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7087484951.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт118]KLN",
+    title: "Сковорода с антипригарным покрытием Luxstahl, нержавеющая сталь, 22 см",
+    brand: "Luxstahl",
+    type: "Сковорода",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 750,
+    id: 62,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7087486404.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7087486404.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт105]KLN",
+    title: "Сковорода с тройным дном Luxstahl, нержавеющая сталь, 32 см",
+    brand: "Luxstahl",
+    type: "Сковорода",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 1300,
+    id: 63,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7087486353.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7087486444.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7087486353.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк1608]KLN",
+    title: "Тарелка сервировочная Corone collezione d arte Rust, фарфоровая, 26,5 см",
+    brand: "Corone collezione d’arte",
+    type: "Тарелка",
+    material: "Фарфор",
+    color: [
+      "серый"
+    ],
+    origin: "Китай",
+    weight: 900,
+    id: 64,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7087486572.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7087486588.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7087486456.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7087486616.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7087486572.jpg"
+      ]
+    }
+  },
+  {
+    article: "га13]KLN",
+    title: "Гастроемкость Luxstahl, нержавеющая сталь, 32,7x17,6 см",
+    brand: "Luxstahl",
+    type: "Гастроемкость",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 240,
+    "length": 32.7,
+    "width": 17.6,
+    id: 65,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7087485064.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7087485064.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт1502]KLN",
+    title: "Сковророда с деревянной ручкой Luxstahl, чугунная, 28 см",
+    brand: "Luxstahl",
+    type: "Сковорода",
+    material: "Чугун",
+    color: [
+      "черный"
+    ],
+    origin: "Китай",
+    weight: 3300,
+    id: 66,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7087486541.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7087486597.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-7/7087486543.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7087486541.jpg"
+      ]
+    }
+  },
+  {
+    article: "4-SPAIK(кт0141)KLN",
+    title: "Тарелки квадратные 4 шт Corone collezione d arte Aqua, стеклянные, 15 см",
+    brand: "Corone collezione d’arte",
+    type: "Тарелка",
+    material: "Стекло",
+    color: [
+      "голубой",
+      "прозрачный"
+    ],
+    origin: "Китай",
+    weight: 800,
+    id: 67,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7087486803.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7087486603.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7087486577.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7087486621.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7087486539.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7087486803.jpg"
+      ]
+    }
+  },
+  {
+    article: "2-SPAIK(кт0150)KLN",
+    title: "Тарелки сервировочные 2 шт Corone collezione d arte Aqua, стеклянные, 30x20 см",
+    brand: "Corone collezione d’arte",
+    type: "Тарелка",
+    material: "Стекло",
+    color: [
+      "голубой",
+      "прозрачный"
+    ],
+    origin: "Китай",
+    weight: 1200,
+    id: 68,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7087486765.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7087486644.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7087485058.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7087485051.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7087486765.jpg"
+      ]
+    }
+  },
+  {
+    article: "2-SPAIK(кт0143)KLN",
+    title: "Тарелки квадратные 2 шт Corone collezione d arte Aqua, стеклянные, 25 см",
+    brand: "Corone collezione d’arte",
+    type: "Тарелка",
+    material: "Стекло",
+    color: [
+      "голубой",
+      "прозрачный"
+    ],
+    origin: "Китай",
+    weight: 2000,
+    id: 69,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7087486670.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7087486539.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7087486621.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7087486577.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7087486603.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7087486670.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт608]KLN",
+    title: "Сковорода с антипригарным покрытием Luxstahl, нержавеющая сталь, 28 см",
+    brand: "Luxstahl",
+    type: "Сковорода",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 1400,
+    id: 70,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7087486780.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7087486780.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт709]KLN",
+    title: "Гастроемкость КленМаркет, поликарбонат, 26,4x16,4 см",
+    brand: "КленМаркет",
+    type: "Гастроемкость",
+    material: "Поликарбонат",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Китай",
+    weight: 230,
+    "length": 26.4,
+    "width": 16.4,
+    id: 71,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7087485456.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7087485456.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк162]KLN",
+    title: "Гастроемкость Corone collezione d arte, керамическая, 32,8x17,5x6 см",
+    brand: "Corone collezione d’arte",
+    type: "Гастроемкость",
+    material: "Керамика",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 1757,
+    "height": 6,
+    "length": 32.8,
+    "width": 17.5,
+    "volume": 2.5,
+    id: 72,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7087485466.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7087485965.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7087485480.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7087485466.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк9914]KLN",
+    title: "Чайник заварочный Corone Rosenthal, фарфор, 500 мл",
+    brand: "КленМаркет",
+    type: "Чайник заварочный",
+    material: "Фарфор",
+    color: [
+      "голубой"
+    ],
+    origin: "Китай",
+    weight: 1600,
+    id: 73,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7214470914.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7214471232.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-n/7214471375.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7214471462.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7214471408.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7214471645.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7214470950.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7214470909.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-h/7214471009.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7214471468.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7214471934.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7214470875.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7214471396.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7214470914.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт577]KLN",
+    title: "Кастрюля большая Luxstahl, нержавеющая сталь, 15 л",
+    brand: "Luxstahl",
+    type: "Кастрюля",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 3760,
+    id: 74,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7087485249.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7087485665.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087486033.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7087485929.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7087485249.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт4500]KLN",
+    title: "Ведерко для льда и шампанского КленМаркет, нержавеющая сталь, 33,7x21 см",
+    brand: "КленМаркет",
+    type: "Ведерко для льда",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 4000,
+    id: 75,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7087484946.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7087485049.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7087484900.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7087484946.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт1521]KLN",
+    title: "Венчик из нержавеющей стали Luxstahl, 40 см",
+    brand: "Luxstahl",
+    type: "Венчик",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 277,
+    "length": 40,
+    id: 76,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7087484911.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7087484911.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт115]KLN",
+    title: "Сковорода с тройным дном Luxstahl, нержавеющая сталь, 22 см",
+    brand: "Luxstahl",
+    type: "Сковорода",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 700,
+    id: 77,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7087486107.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7087486107.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк6950]KLN",
+    title: "Тарелка сервировочная Corone collezione d arte Grafica, фарфоровая, 23 см",
+    brand: "Corone collezione d’arte",
+    type: "Тарелка",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 900,
+    id: 78,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7087487195.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7087488637.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-h/7087488641.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7087487112.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7087487297.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7087485559.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7087485344.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087485097.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7087486032.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7087487195.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк0334]KLN",
+    title: "Блюдце чайное КленМаркет, фарфор, 16,5 см",
+    brand: "КленМаркет",
+    type: "Блюдце",
+    material: "Фарфор",
+    color: [
+      "слоновая кость"
+    ],
+    origin: "Китай",
+    weight: 260,
+    id: 79,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7087484892.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7087484892.jpg"
+      ]
+    }
+  },
+  {
+    article: "2-SPAIK(фк6115)KLN",
+    title: "Тарелки для супа 2 шт Madeira, фарфоровые, 17 см",
+    brand: "TVIST",
+    type: "Тарелка",
+    material: "Фарфор",
+    color: [
+      "коричневый"
+    ],
+    origin: "Китай",
+    weight: 700,
+    id: 80,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7087487023.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7087486979.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7087487023.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк0844]KLN",
+    title: "Соусник Corone collezione d arte, фарфор, 45 мл",
+    brand: "Corone collezione d’arte",
+    type: "Соусник",
+    material: "Фарфор",
+    color: [
+      "синий"
+    ],
+    origin: "Китай",
+    weight: 85,
+    id: 81,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7087486534.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7087486599.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-7/7087486687.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7087486695.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7087486534.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк093]KLN",
+    title: "Гастроемкость Corone collezione d arte, керамическая, 32,2x16,8x3 см",
+    brand: "Corone collezione d’arte",
+    type: "Гастроемкость",
+    material: "Керамика",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 980,
+    "height": 3,
+    "length": 32.2,
+    "width": 16.8,
+    "volume": 0.75,
+    id: 82,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7087485459.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7087485923.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-7/7087485499.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7087485685.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7087485613.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7087485459.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк161]KLN",
+    title: "Гастроемкость Corone collezione d arte, керамическая, 32,6x26,5x6 см",
+    brand: "Corone collezione d’arte",
+    type: "Гастроемкость",
+    material: "Керамика",
+    color: [
+      "черный"
+    ],
+    origin: "Китай",
+    weight: 2140,
+    "height": 6,
+    "length": 32.6,
+    "width": 26.5,
+    "volume": 4,
+    id: 83,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7087485315.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7087485285.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7087485110.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7087485334.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087485709.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7087485315.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк1504]KLN",
+    title: "Тарелка сервировочная Corone collezione d arte Terra, фарфоровая, 18 см",
+    brand: "Corone collezione d’arte",
+    type: "Тарелка",
+    material: "Фарфор",
+    color: [
+      "синий",
+      "коричневый"
+    ],
+    origin: "Китай",
+    weight: 350,
+    id: 84,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7087486483.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7087486486.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7087486638.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7087486522.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7087486483.jpg"
+      ]
+    }
+  },
+  {
+    article: "га02]KLN",
+    title: "Гастроемкость Luxstahl, нержавеющая сталь, 53x32,5 см",
+    brand: "Luxstahl",
+    type: "Гастроемкость",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 1090,
+    "length": 53,
+    "width": 32.5,
+    id: 85,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7087485208.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7087485208.jpg"
+      ]
+    }
+  },
+  {
+    article: "2-SPAIK(фк1709)KLN",
+    title: "Тарелки для супа 2 шт Corone collezione d arte Rust, фарфоровые, 21,6 см",
+    brand: "Corone collezione d’arte",
+    type: "Тарелка",
+    material: "Фарфор",
+    color: [
+      "серый",
+      "светло-серый"
+    ],
+    origin: "Китай",
+    weight: 700,
+    id: 86,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7087486740.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7087486745.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7087486663.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7087486746.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7087486533.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7087486740.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк1522]KLN",
+    title: "Чайник заварочный с фильтром Corone collezione d arte, фарфоровый, 550 мл",
+    brand: "Corone collezione d’arte",
+    type: "Чайник заварочный",
+    material: "Фарфор",
+    color: [
+      "синий",
+      "коричневый"
+    ],
+    origin: "Китай",
+    weight: 450,
+    id: 87,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7087487386.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7087487242.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7087487338.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7087487331.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7087487386.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк6945]KLN",
+    title: "Блюдо овальное сервировочное Corone Grafica, фарфор, 48,5x11,5 см",
+    brand: "Corone collezione d’arte",
+    type: "Блюдо",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 850,
+    id: 88,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7087485158.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7087485035.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7087485093.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7087485288.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7087485158.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк1562]KLN",
+    title: "Чайник заварочный с фильтром Corone collezione d arte, фарфоровый, 550 мл",
+    brand: "Corone collezione d’arte",
+    type: "Чайник заварочный",
+    material: "Фарфор",
+    color: [
+      "темно-серый"
+    ],
+    origin: "Китай",
+    weight: 450,
+    id: 89,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7087486977.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7087486997.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087487005.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7087486977.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк781]KLN",
+    title: "Тарелка сервировочная Sam&Squito Quadro, фарфоровая, 20 см",
+    brand: "Sam&Squito",
+    type: "Тарелка",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 2180,
+    id: 90,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7087486995.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7087486980.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7087487107.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7087487084.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7087487001.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7087486995.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк1922]KLN",
+    title: "Чайник заварочный Corone collezione d arte, фарфоровый, 700 мл",
+    brand: "Corone collezione d’arte",
+    type: "Чайник заварочный",
+    material: "Фарфор",
+    color: [
+      "серый"
+    ],
+    origin: "Китай",
+    weight: 1100,
+    id: 91,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7087487146.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7087487026.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7087487008.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-h/7087487165.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7087487081.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7087487513.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7087487146.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк800]KLN",
+    title: "Блюдо глубокое прямоугольное Sam&Squito Quadro, фарфор, 30x17,5 см",
+    brand: "Sam&Squito",
+    type: "Блюдо",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 800,
+    id: 92,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7087485062.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7087484987.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7087485359.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7087485117.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7087485062.jpg"
+      ]
+    }
+  },
+  {
+    article: "2-SPAIK(фк932)KLN",
+    title: "Блюдца чайные 2 шт Sam&Squito, фарфор, 17,5 см",
+    brand: "Sam&Squito",
+    type: "Блюдце",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 350,
+    id: 93,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7087484781.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-7/7087485643.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7087485522.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7087484875.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7087484781.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт9319]KLN",
+    title: "Блюдо на ножке Оригами, нержавеющая сталь, 41 см",
+    brand: "Luxstahl",
+    type: "Блюдо",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 1215,
+    id: 94,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7087485757.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7087485524.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087484881.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7087485012.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7087485757.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк0982]KLN",
+    title: "Блюдце чайное Corone collezione d arte, фарфор, 15 см",
+    brand: "Corone collezione d’arte",
+    type: "Блюдце",
+    material: "Фарфор",
+    color: [
+      "голубой",
+      "бирюзовый"
+    ],
+    origin: "Китай",
+    weight: 260,
+    id: 95,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7087484957.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7087485724.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7087484925.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7087485176.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7087484957.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт9315]KLN",
+    title: "Блюдо для подачи Волны, нержавеющая сталь, 20 см",
+    brand: "Luxstahl",
+    type: "Блюдо",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 620,
+    id: 96,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7087484774.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7087485452.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7087485095.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7087485386.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7087484774.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк665]KLN",
+    title: "Блюдце чайное КленМаркет, фарфор, 12,8 см",
+    brand: "КленМаркет",
+    type: "Блюдце",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 170,
+    id: 97,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7087485279.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7087485343.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7087485706.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7087485279.jpg"
+      ]
+    }
+  },
+  {
+    article: "4-SPAIK(фк718)KLN",
+    title: "Тарелки 4 шт Collage, фарфоровые, 17,5 см",
+    brand: "Collage",
+    type: "Тарелка",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 480,
+    id: 98,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7087487007.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7087486943.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7087487000.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7087487007.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк9509]KLN",
+    title: "Блюдце к бульонной чашке Corone collezione d arte, фарфор, 15 см",
+    brand: "Corone collezione d’arte",
+    type: "Блюдце",
+    material: "Фарфор",
+    color: [
+      "бежевый"
+    ],
+    origin: "Китай",
+    weight: 150,
+    id: 99,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7087485477.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7087485586.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7087485468.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7087484988.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7087485477.jpg"
+      ]
+    }
+  },
+  {
+    article: "2-SPAIK(фк9100)KLN",
+    title: "Тарелки 2 шт Corone collezione d arte Sacramento, фарфоровые, 23 см",
+    brand: "Corone collezione d’arte",
+    type: "Тарелка",
+    material: "Фарфор",
+    color: [
+      "серый",
+      "зеленый"
+    ],
+    origin: "Китай",
+    weight: 900,
+    id: 100,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7087487859.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7087487903.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7087490634.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7087486957.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7087487325.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7087487259.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7087487859.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк9101]KLN",
+    title: "Тарелка сервировочная Corone collezione d arte Sacramento, фарфоровая, 28,5 см",
+    brand: "Corone collezione d’arte",
+    type: "Тарелка",
+    material: "Фарфор",
+    color: [
+      "серый",
+      "зеленый"
+    ],
+    origin: "Китай",
+    weight: 1600,
+    id: 101,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7087487055.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7087487076.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7087487040.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7087486957.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7087487325.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7087487259.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7087487055.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк1517]KLN",
+    title: "Соусник Corone collezione d arte, фарфор, 85 мл",
+    brand: "Corone collezione d’arte",
+    type: "Соусник",
+    material: "Фарфор",
+    color: [
+      "синий",
+      "коричневый"
+    ],
+    origin: "Китай",
+    weight: 200,
+    id: 102,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7087486421.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7087486547.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7087486448.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7087486461.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7087486421.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк5021]KLN",
+    title: "Мисосупница с крышкой LY S Horeca, фарфор, 400 мл",
+    brand: "LY’S Horeca",
+    type: "Супница",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Вьетнам",
+    weight: 530,
+    id: 103,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7087486864.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7087486732.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7087486830.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7087486864.jpg"
+      ]
+    }
+  },
+  {
+    article: "2-SPAIK(фк6952)KLN",
+    title: "Тарелки 2 шт Corone collezione d arte Grafica, фарфоровые, 16 см",
+    brand: "Corone collezione d’arte",
+    type: "Тарелка",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 600,
+    id: 104,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7087486960.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7087487187.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7087487097.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7087487150.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7087485559.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7087485344.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087485097.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7087486032.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7087486960.jpg"
+      ]
+    }
+  },
+  {
+    article: "2-SPAIK(фк6113)KLN",
+    title: "Бульонницы набор 2 шт TVIST, фарфор, 300 мл",
+    brand: "TVIST",
+    type: "Супница",
+    material: "Фарфор",
+    color: [
+      "коричневый"
+    ],
+    origin: "Китай",
+    weight: 600,
+    id: 105,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7087486829.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7087486684.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7087486773.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7087486693.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7087486829.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк0974]KLN",
+    title: "Кружка для чая Corone collezione d arte, фарфор, 250 мл",
+    brand: "Corone collezione d’arte",
+    type: "Кружка",
+    material: "Фарфор",
+    color: [
+      "голубой"
+    ],
+    origin: "Китай",
+    weight: 460,
+    id: 106,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7087486058.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7087485779.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7087485438.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7087486070.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7087485345.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7087485605.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7087486058.jpg"
+      ]
+    }
+  },
+  {
+    article: "га19]KLN",
+    title: "Гастроемкость Luxstahl, нержавеющая сталь, 26,5x16,4x6,5 см",
+    brand: "Luxstahl",
+    type: "Гастроемкость",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 280,
+    "height": 6.5,
+    "length": 26.5,
+    "width": 16.4,
+    "volume": 1.8,
+    id: 107,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7087485233.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7087485112.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-7/7087484959.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7087485233.jpg"
+      ]
+    }
+  },
+  {
+    article: "2-SPAIK(фк9703)KLN",
+    title: "Кружки набор 2 шт Corone collezione d arte, фарфор, 200 мл",
+    brand: "Corone collezione d’arte",
+    type: "Кружка",
+    material: "Фарфор",
+    color: [
+      "коричневый"
+    ],
+    origin: "Китай",
+    weight: 1300,
+    id: 108,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7087485802.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7087485846.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7087485893.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7087485756.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7087485802.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк879/1]KLN",
+    title: "Чайник заварочный с фильтром КленМаркет, фарфоровый, 750 мл",
+    brand: "КленМаркет",
+    type: "Чайник заварочный",
+    material: "Фарфор",
+    color: [
+      "слоновая кость"
+    ],
+    origin: "Китай",
+    weight: 541,
+    id: 109,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7087487151.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7087487151.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк4022]KLN",
+    title: "Кружка для чая Tvist Ivory, стеклокерамика, 260 мл",
+    brand: "Tvist Ivory",
+    type: "Кружка",
+    material: "Стеклокерамика",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 400,
+    id: 110,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7087485783.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7087485906.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7087485783.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк0978]KLN",
+    title: "Кружка для чая Corone collezione d arte, фарфор, 320 мл",
+    brand: "Corone collezione d’arte",
+    type: "Кружка",
+    material: "Фарфор",
+    color: [
+      "голубой"
+    ],
+    origin: "Китай",
+    weight: 260,
+    id: 111,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7087485392.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7087485417.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7087486059.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7087485692.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7087485342.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7087485392.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк6917]KLN",
+    title: "Тарелка сервировочная Corone collezione d arte Grafica, фарфоровая, 27,5 см",
+    brand: "Corone collezione d’arte",
+    type: "Тарелка",
+    material: "Фарфор",
+    color: [
+      "черный"
+    ],
+    origin: "Китай",
+    weight: 600,
+    id: 112,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7087487074.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7087487056.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-7/7087487011.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7087487045.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7087486978.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7087487031.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7087487002.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7087485559.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7087485344.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087485097.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7087487074.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк0833]KLN",
+    title: "Кружка для кофе Corone collezione d arte, фарфор, 85 мл",
+    brand: "Corone collezione d’arte",
+    type: "Кружка",
+    material: "Фарфор",
+    color: [
+      "синий"
+    ],
+    origin: "Китай",
+    weight: 125,
+    id: 113,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7087485338.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7087485568.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7087485147.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7087486031.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7087485656.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7087485569.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7087485338.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк0860]KLN",
+    title: "Соусник Corone collezione d arte, фарфор, 150 мл",
+    brand: "Corone collezione d’arte",
+    type: "Соусник",
+    material: "Фарфор",
+    color: [
+      "синий"
+    ],
+    origin: "Китай",
+    weight: 140,
+    id: 114,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-7/7087486831.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7087486880.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7087486870.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7087486862.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7087486850.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-7/7087486831.jpg"
+      ]
+    }
+  },
+  {
+    article: "4-SPAIK(фк692)KLN",
+    title: "Кружки набор 4 шт Collage, фарфор, 250 мл",
+    brand: "Collage",
+    type: "Кружка",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 1181,
+    id: 115,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087485385.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087485385.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт110]KLN",
+    title: "Сковорода с антипригарным покрытием Luxstahl, нержавеющая сталь, 28 см",
+    brand: "Luxstahl",
+    type: "Сковорода",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 1000,
+    id: 116,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7087486404.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7087486404.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк1812]KLN",
+    title: "Салатник Corone Carmen, фарфоровый, 2,5 л",
+    brand: "Corone collezione d’arte",
+    type: "Салатник",
+    material: "Фарфор",
+    color: [
+      "коричневый",
+      "красный"
+    ],
+    origin: "Китай",
+    weight: 600,
+    id: 117,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7087486407.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7087486350.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7087486017.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7087486216.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7087486407.jpg"
+      ]
+    }
+  },
+  {
+    article: "2-SPAIK(Фк9113)KLN",
+    title: "Салатники 2 шт Corone Sacramento, фарфоровые, 650 мл",
+    brand: "Corone collezione d’arte",
+    type: "Салатник",
+    material: "Фарфор",
+    color: [
+      "серый",
+      "зеленый"
+    ],
+    origin: "Китай",
+    weight: 360,
+    id: 118,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7087486495.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7087486118.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7087486382.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7087486131.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7087486495.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк9919]KLN",
+    title: "Молочник Corone collezione d arte, фарфоровый, 150 мл",
+    brand: "Corone collezione d’arte",
+    type: "Молочник",
+    material: "Фарфор",
+    color: [
+      "голубой"
+    ],
+    origin: "Китай",
+    weight: 200,
+    id: 119,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7087485708.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7087485363.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7087485826.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7087485160.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7087486079.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7087485708.jpg"
+      ]
+    }
+  },
+  {
+    article: "2-SPAIK(фк6944)KLN",
+    title: "Соусники 2 шт Corone collezione d arte, фарфор, 50 мл",
+    brand: "Corone collezione d’arte",
+    type: "Соусник",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 100,
+    id: 120,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7087486568.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7087486536.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7087486505.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7087486510.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7087485559.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7087485344.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087485097.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7087486032.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7087486568.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк6930]KLN",
+    title: "Молочник Corone collezione d arte, фарфоровый, 40 мл",
+    brand: "Corone collezione d’arte",
+    type: "Молочник",
+    material: "Фарфор",
+    color: [
+      "черный"
+    ],
+    origin: "Китай",
+    weight: 200,
+    id: 121,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7087485154.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7087485428.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7087485901.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087485205.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7087486042.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7087485559.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7087485344.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087485097.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7087486032.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7087485154.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк8006]KLN",
+    title: "Салатник Cuong Phat Acquamarina, фарфоровый, 800 мл",
+    brand: "Coung Phat",
+    type: "Салатник",
+    material: "Фарфор",
+    color: [
+      "бирюзовый"
+    ],
+    origin: "Россия",
+    weight: 700,
+    id: 122,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7087486124.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7087486454.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7087486414.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7087486124.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт0153]KLN",
+    title: "Блюдо прямоугольное Corone Aqua, стекло, 40x30 см",
+    brand: "Corone collezione d’arte",
+    type: "Блюдо",
+    material: "Стекло",
+    color: [
+      "голубой",
+      "прозрачный"
+    ],
+    origin: "Китай",
+    weight: 1200,
+    id: 123,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-7/7087485211.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7087485032.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087484845.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7087485058.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-7/7087485211.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк7821]KLN",
+    title: "Молочник с крышкой Corone collezione d arte, фарфоровый, 100 мл",
+    brand: "Corone collezione d’arte",
+    type: "Молочник",
+    material: "Фарфор",
+    color: [
+      "зеленый"
+    ],
+    origin: "Китай",
+    weight: 150,
+    id: 124,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7087485412.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7087485258.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7087485312.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7087485412.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк855]KLN",
+    title: "Кружка для чая Sam&Squito, фарфор, 310 мл",
+    brand: "Sam&Squito",
+    type: "Кружка",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 284,
+    id: 125,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7087485999.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7087485634.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7087485765.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7087485999.jpg"
+      ]
+    }
+  },
+  {
+    article: "2-SPAIK(фк1521)KLN",
+    title: "Кружки набор 2 шт Corone collezione d arte, фарфор, 325 мл",
+    brand: "Corone collezione d’arte",
+    type: "Кружка",
+    material: "Фарфор",
+    color: [
+      "синий",
+      "коричневый"
+    ],
+    origin: "Китай",
+    weight: 400,
+    id: 126,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7087485812.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7087485831.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7087485747.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7087485812.jpg"
+      ]
+    }
+  },
+  {
+    article: "га15]KLN",
+    title: "Гастроемкость Luxstahl, нержавеющая сталь, 32,7x17,6 см",
+    brand: "Luxstahl",
+    type: "Гастроемкость",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 370,
+    "length": 32.7,
+    "width": 17.6,
+    "volume": 2.5,
+    id: 127,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7087485013.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7087484992.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7087485489.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7087485013.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт9316]KLN",
+    title: "Блюдо для подачи Волны, нержавеющая сталь, 30 см",
+    brand: "Luxstahl",
+    type: "Блюдо",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 1350,
+    id: 128,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7087485452.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7087484774.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7087485567.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7087485181.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7087485095.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7087485452.jpg"
+      ]
+    }
+  },
+  {
+    article: "3-SPAIK(фк8204)KLN",
+    title: "Тарелки 3 шт Corone collezione d arte Rosenthal Banquet, фарфоровые, 20,5 см",
+    brand: "Corone collezione d’arte",
+    type: "Тарелка",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 700,
+    id: 129,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7087487796.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7087487609.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7087487730.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7087487744.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7087486879.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7087487796.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк0964]KLN",
+    title: "Блюдо овальное сервировочное Corone Natura, фарфор, 25,5x12,5 см",
+    brand: "Corone collezione d’arte",
+    type: "Блюдо",
+    material: "Фарфор",
+    color: [
+      "коралловый"
+    ],
+    origin: "Китай",
+    weight: 500,
+    id: 130,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7087485540.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087484773.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7087485253.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7087485379.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7087485540.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк1509]KLN",
+    title: "Тарелка сервировочная Corone collezione d arte Terra, фарфоровая, 18 см",
+    brand: "Corone collezione d’arte",
+    type: "Тарелка",
+    material: "Фарфор",
+    color: [
+      "синий",
+      "коричневый"
+    ],
+    origin: "Китай",
+    weight: 350,
+    id: 131,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7087486531.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7087486598.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7087486526.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7087486690.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7087486531.jpg"
+      ]
+    }
+  },
+  {
+    article: "га31]KLN",
+    title: "Гастроемкость Luxstahl, нержавеющая сталь, 65,4x53x4 см",
+    brand: "Luxstahl",
+    type: "Гастроемкость",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 2200,
+    "height": 4,
+    "length": 65.4,
+    "width": 53,
+    "volume": 10,
+    id: 132,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7087485360.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7087485710.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7087485165.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7087485360.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк1555]KLN",
+    title: "Салатник Corone Urbano, фарфоровый, 1 л",
+    brand: "Corone collezione d’arte",
+    type: "Салатник",
+    material: "Фарфор",
+    color: [
+      "темно-серый"
+    ],
+    origin: "Китай",
+    weight: 300,
+    id: 133,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7087486140.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7087486161.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7087486088.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-7/7087486147.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7087486140.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт0140]KLN",
+    title: "Блюдо сервировочное Corone Aqua, стекло, 40 см",
+    brand: "Corone collezione d’arte",
+    type: "Блюдо",
+    material: "Стекло",
+    color: [
+      "синий"
+    ],
+    origin: "Китай",
+    weight: 1400,
+    id: 134,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7087485316.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7087485282.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7087485316.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк099]KLN",
+    title: "Гастроемкость Corone collezione d arte, керамическая, 32,6x26,5x6 см",
+    brand: "Corone collezione d’arte",
+    type: "Гастроемкость",
+    material: "Керамика",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 1880,
+    "height": 6,
+    "length": 32.6,
+    "width": 26.5,
+    id: 135,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7087485458.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7087485615.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7087485870.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7087485498.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7087485683.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7087485458.jpg"
+      ]
+    }
+  },
+  {
+    article: "4-SPAIK(фк1426)KLN",
+    title: "Блюдца чайные 4 шт Corone collezione d arte, фарфор, 16,5 см",
+    brand: "Corone collezione d’arte",
+    type: "Блюдце",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 350,
+    id: 136,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7087485188.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7087484841.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7087485021.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7087485188.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт1132]KLN",
+    title: "Кружка для чая КленМаркет, нержавеющая сталь, 350 мл",
+    brand: "КленМаркет",
+    type: "Кружка",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 70,
+    id: 137,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7087485234.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7087485114.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7087485938.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7087485234.jpg"
+      ]
+    }
+  },
+  {
+    article: "3-SPAIK(фк5037)KLN",
+    title: "Соусники набор 3 шт LY S Horeca, фарфор, 20 мл",
+    brand: "LY’S Horeca",
+    type: "Соусник",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Вьетнам",
+    weight: 60,
+    id: 138,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7087486618.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7087486682.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7087486585.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7087486618.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк8002]KLN",
+    title: "Салатник Cuong Phat Acquamarina, фарфоровый, 200 мл",
+    brand: "Coung Phat",
+    type: "Салатник",
+    material: "Фарфор",
+    color: [
+      "бирюзовый"
+    ],
+    origin: "Вьетнам",
+    weight: 300,
+    id: 139,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-h/7087486409.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7087486047.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7087486236.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7087486203.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7087486185.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7087486398.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7087485784.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7087486133.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-h/7087486409.jpg"
+      ]
+    }
+  },
+  {
+    article: "2-SPAIK(фк6017)KLN",
+    title: "Бульонницы набор 2 шт LAMBERT porcelain, фарфор, 500 мл",
+    brand: "LAMBERT porcelain",
+    type: "Супница",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 700,
+    id: 140,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7087486798.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7087486756.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7087486744.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7087486798.jpg"
+      ]
+    }
+  },
+  {
+    article: "2-SPAIK(фк1728)KLN",
+    title: "Кружки набор 2 шт Corone collezione d arte, фарфор, 350 мл",
+    brand: "Corone collezione d’arte",
+    type: "Кружка",
+    material: "Фарфор",
+    color: [
+      "коричневый"
+    ],
+    origin: "Китай",
+    weight: 400,
+    id: 141,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7087485556.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7087485981.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7087485640.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-n/7087485515.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7087485469.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7087485915.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7087485556.jpg"
+      ]
+    }
+  },
+  {
+    article: "2-SPAIK(фк1701)KLN",
+    title: "Тарелки 2 шт Corone collezione d arte Rust, фарфоровые, 20 см",
+    brand: "Corone collezione d’arte",
+    type: "Тарелка",
+    material: "Фарфор",
+    color: [
+      "серый",
+      "светло-серый"
+    ],
+    origin: "Китай",
+    weight: 1200,
+    id: 142,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-h/7087486985.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7087486730.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7087486549.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7087486652.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7087486710.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7087486623.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-7/7087486651.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-h/7087486985.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк089]KLN",
+    title: "Кружка для кофе Corone collezione d arte, фарфор, 180 мл",
+    brand: "Corone collezione d’arte",
+    type: "Кружка",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 180,
+    id: 143,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7087485378.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7087485252.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7087485314.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7087485198.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7087485408.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7087485378.jpg"
+      ]
+    }
+  },
+  {
+    article: "2-SPAIK(фк1747)KLN",
+    title: "Тарелки 2 шт Corone collezione d arte Primavera, фарфоровые, 20,5 см",
+    brand: "Corone collezione d’arte",
+    type: "Тарелка",
+    material: "Фарфор",
+    color: [
+      "светло-зеленый"
+    ],
+    origin: "Китай",
+    weight: 900,
+    id: 144,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087486861.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-h/7087486733.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7087486766.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7087486683.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7087486849.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7087485505.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7087486743.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087486861.jpg"
+      ]
+    }
+  },
+  {
+    article: "3-SPAIK(фк6947)KLN",
+    title: "Блюдо набор 3 шт Corone Grafica, фарфор, 14,5x8,5 см",
+    brand: "Corone collezione d’arte",
+    type: "Блюдо",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 500,
+    id: 145,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7087484898.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7087485048.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7087485044.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7087484940.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7087484898.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк064]KLN",
+    title: "Блюдо овальное Corone Simplice, фарфор, 33,3x26 см",
+    brand: "Нет бренда",
+    type: "Блюдо",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 930,
+    id: 146,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7087485604.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7087484930.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7087485632.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7087485472.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7087485145.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7087485604.jpg"
+      ]
+    }
+  },
+  {
+    article: "4-SPAIK(фк8010)KLN",
+    title: "Соусники набор 4 шт Coung Phat, фарфор, 50 мл",
+    brand: "Coung Phat",
+    type: "Соусник",
+    material: "Фарфор",
+    color: [
+      "бирюзовый"
+    ],
+    origin: "Китай",
+    weight: 600,
+    id: 147,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7087486660.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7087486529.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7087486557.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7087486506.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7087485784.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7087486133.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7087486660.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт111]KLN",
+    title: "Сковорода с антипригарным покрытием Luxstahl, нержавеющая сталь, 30 см",
+    brand: "Luxstahl",
+    type: "Сковорода",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 1200,
+    id: 148,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7087486404.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7087486404.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт601]KLN",
+    title: "Сковорода блинная с антипригарным покрытием Luxstahl, нержавеющая сталь, 16 см",
+    brand: "Luxstahl",
+    type: "Сковорода",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 360,
+    id: 149,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7087486800.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7087486741.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7087486748.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7087486800.jpg"
+      ]
+    }
+  },
+  {
+    article: "га27]KLN",
+    title: "Гастроемкость Luxstahl, нержавеющая сталь, 17,6x10,9x6,5 см",
+    brand: "Luxstahl",
+    type: "Гастроемкость",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 140,
+    "height": 6.5,
+    "length": 17.6,
+    "width": 10.9,
+    "volume": 0.6,
+    id: 150,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7087486007.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-h/7087485293.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7087486016.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7087486007.jpg"
+      ]
+    }
+  },
+  {
+    article: "га23]KLN",
+    title: "Гастроемкость Luxstahl, нержавеющая сталь, 17,6x16,4x6,5 см",
+    brand: "Luxstahl",
+    type: "Гастроемкость",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 200,
+    "height": 6.5,
+    "length": 17.6,
+    "width": 16.4,
+    "volume": 1,
+    id: 151,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7087485232.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7087485235.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7087485281.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7087485232.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт4001]KLN",
+    title: "Рубанок для чистки разделочной доски КленМаркет, пластиковый, 17x60 см",
+    brand: "КленМаркет",
+    type: "Разделочная доска",
+    material: "Пластик",
+    color: [
+      "синий",
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 250,
+    "length": 17,
+    "width": 60,
+    id: 152,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-h/7087485473.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7087485698.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7087485864.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-h/7087485473.jpg"
+      ]
+    }
+  },
+  {
+    article: "га63]KLN",
+    title: "Гастроемкость Luxstahl, нержавеющая сталь, 13,2x10,9 см",
+    brand: "Luxstahl",
+    type: "Гастроемкость",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 150,
+    "length": 13.2,
+    "width": 10.9,
+    "volume": 0.65,
+    id: 153,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-n/7087485839.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7087485933.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7087485481.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-n/7087485839.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт609]KLN",
+    title: "Сковорода с антипригарным покрытием Luxstahl, нержавеющая сталь, 32 см",
+    brand: "Luxstahl",
+    type: "Сковорода",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 1900,
+    id: 154,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7087486679.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7087486677.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7087486544.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7087486679.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк1750]KLN",
+    title: "Тарелка сервировочная Corone collezione d arte Primavera, фарфоровая, 27,7 см",
+    brand: "Corone collezione d’arte",
+    type: "Тарелка",
+    material: "Фарфор",
+    color: [
+      "зеленый"
+    ],
+    origin: "Китай",
+    weight: 1010,
+    id: 155,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7087486952.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7087486992.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7087486961.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7087486981.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-n/7087486955.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7087485505.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7087486743.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7087486952.jpg"
+      ]
+    }
+  },
+  {
+    article: "2-SPAIK(фк4020)KLN",
+    title: "Тарелки для супа 2 шт Tvist Ivory, фарфоровые, 20,5 см",
+    brand: "TVIST",
+    type: "Тарелка",
+    material: "Фарфор",
+    color: [
+      "светло-бежевый"
+    ],
+    origin: "Китай",
+    weight: 1980,
+    id: 156,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-n/7087487495.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7087489010.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7087487795.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7087487164.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-n/7087487495.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк8205]KLN",
+    title: "Тарелка сервировочная Corone collezione d arte Rosenthal Banquet, фарфоровая, 28 см",
+    brand: "Corone collezione d’arte",
+    type: "Тарелка",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 1000,
+    id: 157,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7087488363.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7087488521.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7087487175.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7087487744.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7087486879.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7087488363.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк1512]KLN",
+    title: "Тарелка для пасты Corone collezione d arte Terra, фарфоровая, 25,5 см",
+    brand: "Corone collezione d’arte",
+    type: "Тарелка",
+    material: "Фарфор",
+    color: [
+      "синий",
+      "коричневый"
+    ],
+    origin: "Китай",
+    weight: 350,
+    id: 158,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7087486796.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7087486790.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087486681.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7087486804.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7087486796.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк0818]KLN",
+    title: "Тарелка сервировочная Corone collezione d arte Celeste, фарфоровая, 20 см",
+    brand: "Corone collezione d’arte",
+    type: "Тарелка",
+    material: "Фарфор",
+    color: [
+      "синий"
+    ],
+    origin: "Китай",
+    weight: 450,
+    id: 159,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7087486688.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7087486519.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7087486590.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7087486751.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7087486715.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7087486688.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк6922]KLN",
+    title: "Чайник заварочный Corone collezione d arte, фарфоровый, 1000 мл",
+    brand: "Corone collezione d’arte",
+    type: "Чайник заварочный",
+    material: "Фарфор",
+    color: [
+      "черный"
+    ],
+    origin: "Китай",
+    weight: 350,
+    id: 160,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7087487215.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7087487464.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7087489040.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7087487825.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7087487215.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк0951]KLN",
+    title: "Чайник заварочный Corone collezione d arte, фарфоровый, 580 мл",
+    brand: "Corone collezione d’arte",
+    type: "Чайник заварочный",
+    material: "Фарфор",
+    color: [
+      "коричневый"
+    ],
+    origin: "Китай",
+    weight: 600,
+    id: 161,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7087487042.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-h/7087487093.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-n/7087487027.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7087487073.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7087487042.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк1606]KLN",
+    title: "Блюдо овальное сервировочное Corone Rust, фарфор, 33x10 см",
+    brand: "Corone collezione d’arte",
+    type: "Блюдо",
+    material: "Фарфор",
+    color: [
+      "серый"
+    ],
+    origin: "Китай",
+    weight: 400,
+    id: 162,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7087485726.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7087485726.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк063]KLN",
+    title: "Блюдо овальное Corone Simplice, фарфор, 28,5x22,5 см",
+    brand: "Corone collezione d’arte",
+    type: "Блюдо",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 670,
+    id: 163,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7087485267.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7087485484.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7087485225.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7087485352.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7087485217.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7087485267.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк0304]KLN",
+    title: "Блюдо прямоугольное Chan Wave Quadro, фарфор, 11 см",
+    brand: "Chan Wave",
+    type: "Блюдо",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 200,
+    id: 164,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7087485764.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087484989.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7087484784.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7087484920.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7087485764.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт0166]KLN",
+    title: "Блюдо сервировочное на ножках Corone Aqua, стекло, 50x30 см",
+    brand: "КленМаркет",
+    type: "Блюдо",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Китай",
+    weight: 1760,
+    id: 165,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7214471249.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7214470807.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7214471648.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-h/7214471621.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7214471466.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7214471438.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7214471593.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7214471799.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7214471332.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7214471104.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7214471249.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк0726]KLN",
+    title: "Супница с блюдцем Corone collezione d arte, фарфор, 400 мл",
+    brand: "Corone collezione d’arte",
+    type: "Супница",
+    material: "Фарфор",
+    color: [
+      "синий"
+    ],
+    origin: "Китай",
+    weight: 500,
+    id: 166,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7087486624.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7087486649.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7087486637.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-n/7087486703.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7087486699.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7087486664.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7087486624.jpg"
+      ]
+    }
+  },
+  {
+    article: "4-SPAIK(фк376)KLN",
+    title: "Бульонницы набор 4 шт Collage, фарфор, 300 мл",
+    brand: "Collage",
+    type: "Супница",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 665,
+    id: 167,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7087486906.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7087486771.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7087486794.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7087486911.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7087486906.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк917]KLN",
+    title: "Соусник Sam&Squito, фарфор, 60 мл",
+    brand: "Sam&Squito",
+    type: "Соусник",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 140,
+    id: 168,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7087486809.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7087486797.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7087486871.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7087486757.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7087486809.jpg"
+      ]
+    }
+  },
+  {
+    article: "4-SPAIK(фк4017)KLN",
+    title: "Бульонницы с ручками 4 шт TVIST, фарфор, 300 мл",
+    brand: "TVIST",
+    type: "Супница",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 1350,
+    id: 169,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7087486698.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7087486720.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7087486722.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7087486844.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7087486820.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7087486698.jpg"
+      ]
+    }
+  },
+  {
+    article: "га32]KLN",
+    title: "Гастроемкость Luxstahl, нержавеющая сталь, 65,4x53x6,5 см",
+    brand: "Luxstahl",
+    type: "Гастроемкость",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 2400,
+    "height": 6.5,
+    "length": 65.4,
+    "width": 53,
+    "volume": 18,
+    id: 170,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7087485899.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7087485813.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7087485449.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7087485899.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк8012]KLN",
+    title: "Тарелка сервировочная Coung Phat, фарфоровая, 26 см",
+    brand: "Coung Phat",
+    type: "Тарелка",
+    material: "Фарфор",
+    color: [
+      "слоновая кость"
+    ],
+    origin: "Вьетнам",
+    weight: 900,
+    id: 171,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7087487059.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7087486946.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7087487111.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7087487086.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7087486984.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7087487006.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7087487059.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк9103]KLN",
+    title: "Тарелка для супа Corone collezione d arte Sacramento, фарфоровые, 24 см",
+    brand: "Corone collezione d’arte",
+    type: "Тарелка",
+    material: "Фарфор",
+    color: [
+      "серый",
+      "зеленый"
+    ],
+    origin: "Китай",
+    weight: 496,
+    id: 172,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7087488946.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7087488666.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7087487364.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7087486957.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7087487325.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7087487259.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7087488946.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт113]KLN",
+    title: "Сковорода с антипригарным покрытием Luxstahl, нержавеющая сталь, 34 см",
+    brand: "Luxstahl",
+    type: "Сковорода",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 1300,
+    id: 173,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7087486478.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7087486384.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7087486135.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7087486478.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк9107]KLN",
+    title: "Тарелка сервировочная Corone collezione d arte Sacramento, фарфоровая, 25,5 см",
+    brand: "Corone collezione d’arte",
+    type: "Тарелка",
+    material: "Фарфор",
+    color: [
+      "серый",
+      "зеленый"
+    ],
+    origin: "Китай",
+    weight: 800,
+    id: 174,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7087487333.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7087488654.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7087487820.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7087487333.jpg"
+      ]
+    }
+  },
+  {
+    article: "га03]KLN",
+    title: "Гастроемкость Luxstahl, нержавеющая сталь, 53x32,5x6,5 см",
+    brand: "Luxstahl",
+    type: "Гастроемкость",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 1225,
+    "height": 6.5,
+    "length": 53,
+    "width": 32.5,
+    "volume": 9,
+    id: 175,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7087485003.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7087484882.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7087485003.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк6920]KLN",
+    title: "Тарелка сервировочная Corone collezione d arte Grafica, фарфоровая, 21 см",
+    brand: "Corone collezione d’arte",
+    type: "Тарелка",
+    material: "Фарфор",
+    color: [
+      "черный"
+    ],
+    origin: "Китай",
+    weight: 450,
+    id: 176,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7087487060.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7087487033.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7087487029.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7087486963.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7087486978.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7087487031.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7087487002.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7087485559.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7087485344.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087485097.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7087487060.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт610]KLN",
+    title: "Сковорода с антипригарным покрытием Luxstahl, нержавеющая сталь, 34 см",
+    brand: "Luxstahl",
+    type: "Сковорода",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 2100,
+    id: 177,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7087486556.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7087486677.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7087486544.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7087486556.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк6926]KLN",
+    title: "Кружка для чая Corone collezione d arte, фарфор, 360 мл",
+    brand: "Corone collezione d’arte",
+    type: "Кружка",
+    material: "Фарфор",
+    color: [
+      "черный"
+    ],
+    origin: "Китай",
+    weight: 300,
+    id: 178,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7087485180.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7087485624.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7087485926.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7087485462.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7087485773.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7087485559.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7087485344.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087485097.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7087486032.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7087485180.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк0717]KLN",
+    title: "Соусник Corone collezione d arte, фарфор, 85 мл",
+    brand: "Corone collezione d’arte",
+    type: "Соусник",
+    material: "Фарфор",
+    color: [
+      "синий"
+    ],
+    origin: "Китай",
+    weight: 690,
+    id: 179,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7087486718.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7087486550.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7087486582.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7087486742.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7087486662.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7087486718.jpg"
+      ]
+    }
+  },
+  {
+    article: "2-SPAIK(фк9953)KLN",
+    title: "Кружки для кофе 2 шт Corone collezione d arte, фарфор, 150 мл",
+    brand: "Corone collezione d’arte",
+    type: "Кружка",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 500,
+    id: 180,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7087485896.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7087485178.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7087485716.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7087485896.jpg"
+      ]
+    }
+  },
+  {
+    article: "Фк9111]KLN",
+    title: "Салатник Corone Sacramento, фарфоровый, 800 мл",
+    brand: "Corone collezione d’arte",
+    type: "Салатник",
+    material: "Фарфор",
+    color: [
+      "зеленый",
+      "серый"
+    ],
+    origin: "Китай",
+    weight: 600,
+    id: 181,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7087486197.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7087486261.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-n/7087486235.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7087486246.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7087486197.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк816]KLN",
+    title: "Салатник Sam&Squito Classic, фарфоровый, 600 мл",
+    brand: "Sam&Squito",
+    type: "Салатник",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 650,
+    id: 182,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-h/7087486193.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7087486466.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7087486257.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7087486244.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-h/7087486193.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк0926]KLN",
+    title: "Тарелка сервировочная Corone collezione d arte Corone Natura, фарфоровая, 25,5 см",
+    brand: "Corone collezione d’arte",
+    type: "Тарелка",
+    material: "Фарфор",
+    color: [
+      "коралловый"
+    ],
+    origin: "Китай",
+    weight: 900,
+    id: 183,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-n/7087486847.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-7/7087486903.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7087486920.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7087486888.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-n/7087486847.jpg"
+      ]
+    }
+  },
+  {
+    article: "2-SPAIK(фк1809)KLN",
+    title: "Салатники 2 шт Corone Carmen, фарфоровые, 200 мл",
+    brand: "Corone collezione d’arte",
+    type: "Салатник",
+    material: "Фарфор",
+    color: [
+      "коричнево-красный"
+    ],
+    origin: "Китай",
+    weight: 300,
+    id: 184,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087486249.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7087486226.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7087485876.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7087486017.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7087486202.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7087486154.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7087486227.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-n/7087486451.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7087486295.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7087485696.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087486249.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт47]KLN",
+    title: "Венчик из нержавеющей стали КленМаркет, 60 см",
+    brand: "КленМаркет",
+    type: "Венчик",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 387,
+    "length": 60,
+    id: 185,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7087485606.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7087485606.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк0838]KLN",
+    title: "Блюдце чайное Corone collezione d arte, фарфор, 16 см",
+    brand: "Corone collezione d’arte",
+    type: "Блюдце",
+    material: "Фарфор",
+    color: [
+      "синий"
+    ],
+    origin: "Китай",
+    weight: 250,
+    id: 186,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7087485739.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-7/7087485607.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7087484962.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7087485210.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7087485739.jpg"
+      ]
+    }
+  },
+  {
+    article: "2-SPAIK(фк6710)KLN",
+    title: "Салатники 2 шт Sam&Squito Vintage, фарфоровые, 14 см",
+    brand: "Corone collezione d’arte",
+    type: "Салатник",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 500,
+    id: 187,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7087486237.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7087486325.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7087485788.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-h/7087486337.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087486105.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7087486128.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7087485590.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7087485383.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7087486237.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк793]KLN",
+    title: "Чайник заварочный Sam&Squito, фарфоровый, 500 мл",
+    brand: "Sam&Squito",
+    type: "Чайник заварочный",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 514,
+    id: 188,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7087487251.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7087487162.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7087487482.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7087487272.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7087487251.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк6915]KLN",
+    title: "Блюдо овальное сервировочное Corone Grafica, фарфор, 43x11,5 см",
+    brand: "Corone collezione d’arte",
+    type: "Блюдо",
+    material: "Фарфор",
+    color: [
+      "черный"
+    ],
+    origin: "Китай",
+    weight: 600,
+    id: 189,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7087485196.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7087485410.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7087485454.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-7/7087485319.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7087485226.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7087485196.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк1749]KLN",
+    title: "Тарелка сервировочная Corone collezione d arte Primavera, фарфоровая, 28 см",
+    brand: "Corone collezione d’arte",
+    type: "Тарелка",
+    material: "Фарфор",
+    color: [
+      "темно-зеленый"
+    ],
+    origin: "Китай",
+    weight: 900,
+    id: 190,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7087487804.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7087487793.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7087487190.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7087487301.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7087486849.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7087485505.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7087486743.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7087487804.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк1516]KLN",
+    title: "Салатник Corone Terra, фарфоровый, 250 мл",
+    brand: "Corone collezione d’arte",
+    type: "Салатник",
+    material: "Фарфор",
+    color: [
+      "синий",
+      "коричневый"
+    ],
+    origin: "Китай",
+    weight: 300,
+    id: 191,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7087486366.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087486285.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7087486309.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7087485594.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7087486366.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк8009]KLN",
+    title: "Блюдо в форме листа Cuong Phat Acquamarina, фарфор, 32 см",
+    brand: "Coung Phat",
+    type: "Блюдо",
+    material: "Фарфор",
+    color: [
+      "бирюзовый"
+    ],
+    origin: "Китай",
+    weight: 500,
+    id: 192,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7087485328.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7087484772.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7087485332.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7087485543.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7087485784.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7087485328.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк0825]KLN",
+    title: "Салатник Corone Celeste, фарфоровый, 250 мл",
+    brand: "Corone collezione d’arte",
+    type: "Салатник",
+    material: "Фарфор",
+    color: [
+      "синий"
+    ],
+    origin: "Китай",
+    weight: 250,
+    id: 193,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7087485882.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7087485723.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7087485628.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7087485935.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7087485275.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7087485882.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк6951]KLN",
+    title: "Тарелка сервировочная Corone collezione d arte Grafica, фарфоровая, 21 см",
+    brand: "Corone collezione d’arte",
+    type: "Тарелка",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 450,
+    id: 194,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7087487044.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7087487062.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7087486999.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7087487010.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-7/7087487191.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7087485559.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7087485344.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087485097.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7087486032.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7087487044.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк0942]KLN",
+    title: "Салатник Corone Natura, фарфоровый, 400 мл",
+    brand: "Corone collezione d’arte",
+    type: "Салатник",
+    material: "Фарфор",
+    color: [
+      "коричневый"
+    ],
+    origin: "Китай",
+    weight: 350,
+    id: 195,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7087485759.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7087485844.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7087485838.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7087485555.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7087485759.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк1507]KLN",
+    title: "Тарелка сервировочная Corone collezione d arte Terra, фарфоровая, 28 см",
+    brand: "Corone collezione d’arte",
+    type: "Тарелка",
+    material: "Фарфор",
+    color: [
+      "синий",
+      "коричневый"
+    ],
+    origin: "Китай",
+    weight: 350,
+    id: 196,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7087486581.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7087486669.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7087486738.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7087486601.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7087486581.jpg"
+      ]
+    }
+  },
+  {
+    article: "2-SPAIK(фк4004)KLN",
+    title: "Тарелки 2 шт Tvist Ivory, фарфоровые, 26,6 см",
+    brand: "TVIST",
+    type: "Тарелка",
+    material: "Фарфор",
+    color: [
+      "светло-бежевый"
+    ],
+    origin: "Китай",
+    weight: 700,
+    id: 197,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7087486968.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7087486942.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7087487072.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7087486990.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7087486948.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7087487136.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7087486968.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк982]KLN",
+    title: "Блюдо прямоугольное Corone Carre, фарфор, 30x17,2 см",
+    brand: "КленМаркет",
+    type: "Блюдо",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 580,
+    id: 198,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7087484814.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7087485163.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7087485362.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7087485675.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7087485115.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7087484814.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт9314]KLN",
+    title: "Блюдо для подачи Волны, нержавеющая сталь, 12 см",
+    brand: "Luxstahl",
+    type: "Блюдо",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 200,
+    id: 199,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7087485567.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7087485583.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7087484774.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7087485664.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7087485095.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7087485567.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк6946]KLN",
+    title: "Блюдо овальное сервировочное Corone Grafica, фарфор, 43x11,5 см",
+    brand: "Corone collezione d’arte",
+    type: "Блюдо",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 600,
+    id: 200,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7087484905.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7087484844.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7087485552.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7087485002.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7087484905.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт9318]KLN",
+    title: "Блюдо на ножке Оригами, нержавеющая сталь, 30 см",
+    brand: "Luxstahl",
+    type: "Блюдо",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 900,
+    id: 201,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087484881.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7087485087.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7087485524.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7087485012.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087484881.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк1510]KLN",
+    title: "Блюдо овальное сервировочное Corone Terra, фарфор, 33x25,5 см",
+    brand: "Corone collezione d’arte",
+    type: "Блюдо",
+    material: "Фарфор",
+    color: [
+      "синий",
+      "коричневый"
+    ],
+    origin: "Китай",
+    weight: 350,
+    id: 202,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7087485592.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7087485652.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-h/7087484933.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7087485146.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7087485592.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк0979]KLN",
+    title: "Кружка для чая Corone collezione d arte, фарфор, 320 мл",
+    brand: "Corone collezione d’arte",
+    type: "Кружка",
+    material: "Фарфор",
+    color: [
+      "коралловый"
+    ],
+    origin: "Китай",
+    weight: 260,
+    id: 203,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7087485566.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7087485382.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7087485413.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-h/7087485257.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7087485200.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7087485566.jpg"
+      ]
+    }
+  },
+  {
+    article: "3-SPAIK(фк8519)KLN",
+    title: "Соусники набор 3 шт House of White Porcelain, фарфор, 50 мл",
+    brand: "House of White Porcelain",
+    type: "Соусник",
+    material: "Фарфор",
+    color: [
+      "зеленый"
+    ],
+    origin: "Китай",
+    weight: 300,
+    id: 204,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-h/7087486913.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7087486910.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7087486875.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-h/7087486913.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк0830]KLN",
+    title: "Кружка для чая Corone collezione d arte, фарфор, 485 мл",
+    brand: "Corone collezione d’arte",
+    type: "Кружка",
+    material: "Фарфор",
+    color: [
+      "синий"
+    ],
+    origin: "Китай",
+    weight: 475,
+    id: 205,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7087485287.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7087485717.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7087485460.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7087485836.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7087485122.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7087485347.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7087485287.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк0980]KLN",
+    title: "Кружка для чая Corone collezione d arte, фарфор, 320 мл",
+    brand: "Corone collezione d’arte",
+    type: "Кружка",
+    material: "Фарфор",
+    color: [
+      "зеленый"
+    ],
+    origin: "Китай",
+    weight: 260,
+    id: 206,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7087486010.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7087486048.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7087485943.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7087485960.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7087485865.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7087486010.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк085/3]KLN",
+    title: "Кружка для кофе Corone collezione d arte, фарфор, 90 мл",
+    brand: "Corone collezione d’arte",
+    type: "Кружка",
+    material: "Фарфор",
+    color: [
+      "серый"
+    ],
+    origin: "Китай",
+    weight: 90,
+    id: 207,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7087485771.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7087485074.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7087485340.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7087485771.jpg"
+      ]
+    }
+  },
+  {
+    article: "2-SPAIK(фк1612)KLN",
+    title: "Кружки набор 2 шт Corone collezione d arte, фарфор, 350 мл",
+    brand: "Corone collezione d’arte",
+    type: "Кружка",
+    material: "Фарфор",
+    color: [
+      "бежевый"
+    ],
+    origin: "Китай",
+    weight: 600,
+    id: 208,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7087485118.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7087485828.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7087485669.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7087485118.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк089/3]KLN",
+    title: "Кружка для кофе Corone collezione d arte, фарфор, 180 мл",
+    brand: "Corone collezione d’arte",
+    type: "Кружка",
+    material: "Фарфор",
+    color: [
+      "серый"
+    ],
+    origin: "Китай",
+    weight: 222,
+    id: 209,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7087486008.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7087485829.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7087485348.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7087485486.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7087486008.jpg"
+      ]
+    }
+  },
+  {
+    article: "2-SPAIK(фк6936)KLN",
+    title: "Салатники 2 шт Corone Grafica, фарфоровые, 220 мл",
+    brand: "Corone collezione d’arte",
+    type: "Салатник",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 500,
+    id: 210,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7087486210.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7087486340.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7087485974.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7087485978.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7087485559.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7087485344.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087485097.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7087486032.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7087486210.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк6933]KLN",
+    title: "Салатник Corone Grafica, фарфоровый, 600 мл",
+    brand: "Corone collezione d’arte",
+    type: "Салатник",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 500,
+    id: 211,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7087486209.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7087486306.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7087486402.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7087486251.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7087485719.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7087485942.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7087485559.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7087485344.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087485097.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7087486032.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7087486209.jpg"
+      ]
+    }
+  },
+  {
+    article: "2-SPAIK(фк9212)KLN",
+    title: "Кружки набор 2 шт Corone collezione d arte, фарфор, 325 мл",
+    brand: "Corone collezione d’arte",
+    type: "Кружка",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 660,
+    id: 212,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7087485909.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7087485790.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7087485976.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7087485763.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7087485909.jpg"
+      ]
+    }
+  },
+  {
+    article: "2-SPAIK(фк6910)KLN",
+    title: "Салатники 2 шт Corone Grafica, фарфоровые, 100 мл",
+    brand: "Corone collezione d’arte",
+    type: "Салатник",
+    material: "Фарфор",
+    color: [
+      "черный"
+    ],
+    origin: "Китай",
+    weight: 500,
+    id: 213,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7087486383.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7087486348.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7087486372.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7087486317.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7087485825.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7087485898.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7087485559.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7087485344.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087485097.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7087486032.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7087486383.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк0966]KLN",
+    title: "Кружка для кофе Corone collezione d arte, фарфор, 95 мл",
+    brand: "Corone collezione d’arte",
+    type: "Кружка",
+    material: "Фарфор",
+    color: [
+      "голубой"
+    ],
+    origin: "Китай",
+    weight: 100,
+    id: 214,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7087485220.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087485349.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7087485834.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7087486006.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7087485214.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7087485220.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк6911]KLN",
+    title: "Салатник Corone Grafica, фарфоровый, 375 мл",
+    brand: "Corone collezione d’arte",
+    type: "Салатник",
+    material: "Фарфор",
+    color: [
+      "черный"
+    ],
+    origin: "Китай",
+    weight: 500,
+    id: 215,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7087486424.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7087486385.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7087486290.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7087486390.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7087486352.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7087486432.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7087485559.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7087485344.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087485097.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7087486032.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7087486424.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк1604]KLN",
+    title: "Салатник Corone Rust, фарфоровый, 15 см",
+    brand: "Corone collezione d’arte",
+    type: "Салатник",
+    material: "Фарфор",
+    color: [
+      "серый"
+    ],
+    origin: "Китай",
+    weight: 350,
+    id: 216,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7087486360.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7087486292.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7087486314.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7087486360.jpg"
+      ]
+    }
+  },
+  {
+    article: "2-SPAIK(фк6107)KLN",
+    title: "Салатники 2 шт Tvist Madeira, фарфоровые, 250 мл",
+    brand: "TVIST",
+    type: "Салатник",
+    material: "Фарфор",
+    color: [
+      "коричневый"
+    ],
+    origin: "Китай",
+    weight: 500,
+    id: 217,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7087486419.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7087486419.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк843]KLN",
+    title: "Салатник Sam&Squito Classic, фарфоровый, 500 мл",
+    brand: "Sam&Squito",
+    type: "Салатник",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 570,
+    id: 218,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-7/7087486363.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7087486195.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7087486096.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7087486279.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-7/7087486363.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк0948]KLN",
+    title: "Салатник Corone Natura, фарфоровый, 900 мл",
+    brand: "Corone collezione d’arte",
+    type: "Салатник",
+    material: "Фарфор",
+    color: [
+      "коралловый"
+    ],
+    origin: "Китай",
+    weight: 500,
+    id: 219,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7087485476.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7087485464.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7087485570.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7087485959.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7087485476.jpg"
+      ]
+    }
+  },
+  {
+    article: "2-SPAIK(фк6709)KLN",
+    title: "Салатники 2 шт Sam&Squito Vintage, фарфоровые, 16 см",
+    brand: "Corone collezione d’arte",
+    type: "Салатник",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 600,
+    id: 220,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7087486264.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7087485788.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7087486452.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7087486222.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087486105.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7087485590.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7087486128.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7087485383.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7087486264.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк6942]KLN",
+    title: "Салатник Corone Grafica, фарфоровый, 375 мл",
+    brand: "Corone collezione d’arte",
+    type: "Салатник",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 500,
+    id: 221,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7087486228.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7087486411.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-n/7087486199.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7087486341.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7087486290.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7087486367.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7087485559.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7087485344.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087485097.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7087486032.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7087486228.jpg"
+      ]
+    }
+  },
+  {
+    article: "2-SPAIK(фк6943)KLN",
+    title: "Салатники 2 шт Corone Grafica, фарфоровые, 80 мл",
+    brand: "Corone collezione d’arte",
+    type: "Салатник",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 200,
+    id: 222,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7087486101.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7087486284.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7087486388.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7087486247.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7087485559.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7087485344.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087485097.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7087486032.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7087486101.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк6708]KLN",
+    title: "Салатник Sam&Squito Vintage, фарфоровый, 20 см",
+    brand: "Corone collezione d’arte",
+    type: "Салатник",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 700,
+    id: 223,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7087486328.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7087485788.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7087486335.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7087486287.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087486105.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7087486128.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7087485383.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7087485590.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7087486328.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк167]KLN",
+    title: "Гастроемкость Corone collezione d arte, керамическая, 32,8x17,5x6 см",
+    brand: "Corone collezione d’arte",
+    type: "Гастроемкость",
+    material: "Керамика",
+    color: [
+      "черный"
+    ],
+    origin: "Китай",
+    weight: 1640,
+    "height": 6,
+    "length": 32.8,
+    "width": 17.5,
+    "volume": 2.5,
+    id: 224,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7087486011.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7087485837.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7087485881.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7087485318.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7087485195.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7087486011.jpg"
+      ]
+    }
+  },
+  {
+    article: "га24]KLN",
+    title: "Гастроемкость Luxstahl, нержавеющая сталь, 17,6x16,4x10 см",
+    brand: "Luxstahl",
+    type: "Гастроемкость",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 260,
+    "height": 10,
+    "length": 17.6,
+    "width": 16.4,
+    "volume": 1.6,
+    id: 225,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7087486052.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-7/7087485895.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7087485815.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7087486052.jpg"
+      ]
+    }
+  },
+  {
+    article: "га20]KLN",
+    title: "Гастроемкость Luxstahl, нержавеющая сталь, 26,5x16,4 см",
+    brand: "Luxstahl",
+    type: "Гастроемкость",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 340,
+    "length": 26.5,
+    "width": 16.4,
+    "volume": 2.8,
+    id: 226,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-h/7087485581.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7087485411.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7087485199.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-h/7087485545.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-h/7087485581.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт112]KLN",
+    title: "Сковорода с антипригарным покрытием Luxstahl, нержавеющая сталь, 32 см",
+    brand: "Luxstahl",
+    type: "Сковорода",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 1200,
+    id: 227,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7087486198.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7087486384.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7087486135.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7087486198.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт1212]KLN",
+    title: "Сковорода порционная Luxstahl, чугунная, 9,8 см",
+    brand: "Luxstahl",
+    type: "Сковорода",
+    material: "Чугун",
+    color: [
+      "черный"
+    ],
+    origin: "Китай",
+    weight: 400,
+    id: 228,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-n/7087486631.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-n/7087486631.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт2552]KLN",
+    title: "Ведерко для льда с ручкой Luxstahl, нержавеющая сталь, 16,2 мл",
+    brand: "Luxstahl",
+    type: "Ведерко для льда",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 400,
+    id: 229,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7087484846.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7087484846.jpg"
+      ]
+    }
+  },
+  {
+    article: "га04]KLN",
+    title: "Гастроемкость Luxstahl, нержавеющая сталь, 53x32,5x10 см",
+    brand: "Luxstahl",
+    type: "Гастроемкость",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 1390,
+    "height": 10,
+    "length": 53,
+    "width": 32.5,
+    id: 230,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7087485088.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7087485088.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт4503]KLN",
+    title: "Ведерко для льда и шампанского КленМаркет, нержавеющая сталь, 35,5x22 см",
+    brand: "КленМаркет",
+    type: "Ведерко для льда",
+    material: "Нержавеющая сталь",
+    color: [
+      "золотой"
+    ],
+    origin: "Китай",
+    weight: 4000,
+    id: 231,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7087484985.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7087484910.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7087484985.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт114]KLN",
+    title: "Сковорода с тройным дном Luxstahl, нержавеющая сталь, 20 см",
+    brand: "Luxstahl",
+    type: "Сковорода",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 650,
+    id: 232,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7087486438.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7087485948.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7087486319.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7087486098.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7087486438.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк084]KLN",
+    title: "Блюдце чайное Corone collezione d arte, фарфор, 11,2 см",
+    brand: "Corone collezione d’arte",
+    type: "Блюдце",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 110,
+    id: 233,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7087484837.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7087484837.jpg"
+      ]
+    }
+  },
+  {
+    article: "4-SPAIK(фк386)KLN",
+    title: "Тарелки 4 шт Collage, фарфоровые, 20 см",
+    brand: "Collage",
+    type: "Тарелка",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 720,
+    id: 234,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7087487209.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7087488659.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7087487300.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7087487209.jpg"
+      ]
+    }
+  },
+  {
+    article: "2-SPAIK(кт0144)KLN",
+    title: "Тарелки квадратные 2 шт Corone collezione d arte Aqua, стеклянные, 30 см",
+    brand: "Corone collezione d’arte",
+    type: "Тарелка",
+    material: "Стекло",
+    color: [
+      "голубой",
+      "прозрачный"
+    ],
+    origin: "Китай",
+    weight: 1000,
+    id: 235,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7087486761.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7087486621.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7087486539.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7087486577.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7087486764.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7087486761.jpg"
+      ]
+    }
+  },
+  {
+    article: "2-SPAIK(фк1406)KLN",
+    title: "Тарелки 2 шт Corone collezione d arte Gourmet, фарфоровые, 19 см",
+    brand: "Corone collezione d’arte",
+    type: "Тарелка",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 359,
+    id: 236,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7087486705.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087486825.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7087486785.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7087486801.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7087486854.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7087486778.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7087486705.jpg"
+      ]
+    }
+  },
+  {
+    article: "4-SPAIK(фк380)KLN",
+    title: "Тарелки 4 шт Collage Collage, фарфоровые, 26,3 см",
+    brand: "Collage",
+    type: "Тарелка",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 700,
+    id: 237,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7087487280.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7087487167.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7087487053.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7087487280.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк826]KLN",
+    title: "Чайник заварочный Sam&Squito, фарфоровый, 440 мл",
+    brand: "Sam&Squito",
+    type: "Чайник заварочный",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 379,
+    id: 238,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7087488399.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7087487317.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7087487904.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-n/7087488251.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7087488399.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк879]KLN",
+    title: "Чайник заварочный КленМаркет, фарфоровый, 750 мл",
+    brand: "КленМаркет",
+    type: "Чайник заварочный",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 490,
+    id: 239,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7087488642.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-7/7087487767.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7087488241.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-n/7087487531.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7087488642.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт0154]KLN",
+    title: "Блюдо прямоугольное Corone Aqua, стекло, 50x30 см",
+    brand: "Corone collezione d’arte",
+    type: "Блюдо",
+    material: "Стекло",
+    color: [
+      "голубой"
+    ],
+    origin: "Китай",
+    weight: 1550,
+    id: 240,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7087484918.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7087485648.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7087485782.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7087485015.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7087484783.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7087484918.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк1502]KLN",
+    title: "Соусник Corone collezione d arte, фарфор, 75 мл",
+    brand: "Corone collezione d’arte",
+    type: "Соусник",
+    material: "Фарфор",
+    color: [
+      "синий",
+      "коричневый"
+    ],
+    origin: "Китай",
+    weight: 200,
+    id: 241,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7087486634.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7087486671.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7087486665.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7087486634.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк918]KLN",
+    title: "Соусник с ручкой Sam&Squito, фарфор, 90 мл",
+    brand: "Sam&Squito",
+    type: "Соусник",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 160,
+    id: 242,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7087486752.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7087486783.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7087486735.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7087486776.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7087486806.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7087486752.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк796]KLN",
+    title: "Сахарница с крышкой Sam&Squito, фарфоровая, 230 мл",
+    brand: "Sam&Squito",
+    type: "Сахарница",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 323,
+    id: 243,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7087486396.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7087486395.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7087486349.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7087486431.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7087486396.jpg"
+      ]
+    }
+  },
+  {
+    article: "4-SPAIK(Фк6114)KLN",
+    title: "Соусники набор 4 шт TVIST, фарфор, 50 мл",
+    brand: "TVIST",
+    type: "Соусник",
+    material: "Фарфор",
+    color: [
+      "коричневый"
+    ],
+    origin: "Китай",
+    weight: 300,
+    id: 244,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7087486784.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7087486762.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7087486760.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7087486728.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7087486784.jpg"
+      ]
+    }
+  },
+  {
+    article: "2-SPAIK(фк1727)KLN",
+    title: "Кружки набор 2 шт Corone collezione d arte, фарфор, 350 мл",
+    brand: "Corone collezione d’arte",
+    type: "Кружка",
+    material: "Фарфор",
+    color: [
+      "оранжевый"
+    ],
+    origin: "Китай",
+    weight: 400,
+    id: 245,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7087485820.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7087485670.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7087485123.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-7/7087486039.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7087485575.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7087485820.jpg"
+      ]
+    }
+  },
+  {
+    article: "2-SPAIK(фк1817)KLN",
+    title: "Салатники 2 шт Corone Carmen, фарфоровые, 750 мл",
+    brand: "Corone collezione d’arte",
+    type: "Салатник",
+    material: "Фарфор",
+    color: [
+      "коричнево-красный"
+    ],
+    origin: "Китай",
+    weight: 400,
+    id: 246,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7087486389.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7087486248.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7087486488.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7087486370.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7087486283.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7087486320.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087486357.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7087486375.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7087486145.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7087486430.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7087486389.jpg"
+      ]
+    }
+  },
+  {
+    article: "2-SPAIK(фк1923)KLN",
+    title: "Кружки набор 2 шт Corone collezione d arte, фарфор, 400 мл",
+    brand: "Corone collezione d’arte",
+    type: "Кружка",
+    material: "Фарфор",
+    color: [
+      "серый"
+    ],
+    origin: "Китай",
+    weight: 600,
+    id: 247,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7087485563.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7087485780.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7087485662.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7087485090.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7087485255.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7087485560.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7087485563.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк0325]KLN",
+    title: "Ваза для цветов Chan Wave Chan Wave Quadro, стеклянная, 18 см",
+    brand: "Chan Wave",
+    type: "Ваза",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Китай",
+    weight: 160,
+    "height": 18,
+    id: 248,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7087484838.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7087485558.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7087484843.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7087484838.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт600]KLN",
+    title: "Сковорода блинная с антипригарным покрытием Luxstahl, нержавеющая сталь, 12 см",
+    brand: "Luxstahl",
+    type: "Сковорода",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 400,
+    id: 249,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7087486953.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7087486499.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7087486970.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7087486953.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт4501]KLN",
+    title: "Ведерко для льда и шампанского КленМаркет, нержавеющая сталь, 33,7x21 см",
+    brand: "КленМаркет",
+    type: "Ведерко для льда",
+    material: "Нержавеющая сталь",
+    color: [
+      "золотой"
+    ],
+    origin: "Китай",
+    weight: 4000,
+    id: 250,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7087484956.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7087485173.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7087484956.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт028]KLN",
+    title: "Сковорода с тройным дном Luxstahl, нержавеющая сталь, 30 см",
+    brand: "Luxstahl",
+    type: "Сковорода",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 1050,
+    id: 251,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-h/7087486265.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7087486098.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7087486455.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7087485948.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-h/7087486265.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк1603]KLN",
+    title: "Тарелка для супа Corone collezione d arte Rust, фарфоровая, 21,2 см",
+    brand: "Corone collezione d’arte",
+    type: "Тарелка",
+    material: "Фарфор",
+    color: [
+      "серый"
+    ],
+    origin: "Китай",
+    weight: 800,
+    id: 252,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7087486548.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7087486574.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-7/7087486579.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7087486548.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк783]KLN",
+    title: "Тарелка сервировочная Sam&Squito Quadro, фарфоровая, 30 см",
+    brand: "Sam&Squito",
+    type: "Тарелка",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 1340,
+    id: 253,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7087488602.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7087487367.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7087487834.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7087488602.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк1825]KLN",
+    title: "Чайник заварочный Corone collezione d arte, фарфоровый, 700 мл",
+    brand: "Corone collezione d’arte",
+    type: "Чайник заварочный",
+    material: "Фарфор",
+    color: [
+      "коричневый"
+    ],
+    origin: "Китай",
+    weight: 700,
+    id: 254,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7087487137.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-7/7087487587.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7087487806.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7087487137.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт025]KLN",
+    title: "Сковорода с тройным дном Luxstahl, нержавеющая сталь, 28 см",
+    brand: "Luxstahl",
+    type: "Сковорода",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 1100,
+    id: 255,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-7/7087485967.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7087485948.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7087486098.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7087485728.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-7/7087485967.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк0928]KLN",
+    title: "Тарелка для супа Corone collezione d arte Corone Natura, фарфоровая, 20,5 см",
+    brand: "Corone collezione d’arte",
+    type: "Тарелка",
+    material: "Фарфор",
+    color: [
+      "коричневый"
+    ],
+    origin: "Китай",
+    weight: 510,
+    id: 256,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7087486853.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-h/7087486877.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7087486828.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7087486878.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7087486853.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк6522]KLN",
+    title: "Тарелка сервировочная Corone collezione d arte Bushido, фарфоровая, 26 см",
+    brand: "Corone collezione d’arte",
+    type: "Тарелка",
+    material: "Фарфор",
+    color: [
+      "черный"
+    ],
+    origin: "Китай",
+    weight: 500,
+    id: 257,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7087487452.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7087487318.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7087487697.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7087487285.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-h/7087489037.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7087487452.jpg"
+      ]
+    }
+  },
+  {
+    article: "2-SPAIK(кт0151)KLN",
+    title: "Блюдо набор 2 шт Corone Aqua, стекло, 32x22 см",
+    brand: "Corone collezione d’arte",
+    type: "Блюдо",
+    material: "Стекло",
+    color: [
+      "голубой",
+      "прозрачный"
+    ],
+    origin: "Китай",
+    weight: 1500,
+    id: 258,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7087484907.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7087484947.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7087485058.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7087485051.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7087484907.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт887]KLN",
+    title: "Гастроемкость КленМаркет, поликарбонат, 32,5x26,5 см",
+    brand: "КленМаркет",
+    type: "Гастроемкость",
+    material: "Поликарбонат",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Россия",
+    weight: 200,
+    "length": 32.5,
+    "width": 26.5,
+    id: 259,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7087485096.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7087485096.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк6929]KLN",
+    title: "Соусник Corone collezione d arte, фарфор, 140 мл",
+    brand: "Corone collezione d’arte",
+    type: "Соусник",
+    material: "Фарфор",
+    color: [
+      "черный"
+    ],
+    origin: "Китай",
+    weight: 170,
+    id: 260,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7087486641.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7087486511.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7087486656.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7087486479.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7087486584.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7087485559.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7087485344.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087485097.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7087486032.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7087486641.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт106]KLN",
+    title: "Сковорода с тройным дном Luxstahl, нержавеющая сталь, 34 см",
+    brand: "Luxstahl",
+    type: "Сковорода",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 1300,
+    id: 261,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087486321.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7087486444.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7087486374.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7087485948.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087486321.jpg"
+      ]
+    }
+  },
+  {
+    article: "2-SPAIK(фк8216)KLN",
+    title: "Соусники 2 шт Corone Rosenthal, фарфор, 300 мл",
+    brand: "Corone Rosenthal",
+    type: "Соусник",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 600,
+    id: 262,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7087486696.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7087486856.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7087486876.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7087486700.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7087486879.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7087486696.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт3156]KLN",
+    title: "Кастрюля с крышкой Luxstahl, нержавеющая сталь, 5 л",
+    brand: "Luxstahl",
+    type: "Кастрюля",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 2000,
+    id: 263,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7087485418.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7087485418.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк970]KLN",
+    title: "Мисосупница с крышкой Sam&Squito, фарфор, 500 мл",
+    brand: "Sam&Squito",
+    type: "Супница",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 696,
+    id: 264,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7087486736.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-n/7087486811.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7087486868.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087486789.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7087486724.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7087486813.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7087486807.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7087486736.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт1217]KLN",
+    title: "Сковорода порционная Luxstahl, чугунная, 12,6 см",
+    brand: "Luxstahl",
+    type: "Сковорода",
+    material: "Чугун",
+    color: [
+      "черный"
+    ],
+    origin: "Китай",
+    weight: 550,
+    id: 265,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7087486779.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7087486914.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7087486904.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7087486779.jpg"
+      ]
+    }
+  },
+  {
+    article: "3-SPAIK(фк5034)KLN",
+    title: "Соусники набор 3 шт LY S Horeca, фарфор, 50 мл",
+    brand: "LY’S Horeca",
+    type: "Соусник",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 80,
+    id: 266,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7087486619.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7087486606.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7087486642.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7087486619.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт120]KLN",
+    title: "Сковорода с тройным дном Luxstahl, нержавеющая сталь, 36 см",
+    brand: "Luxstahl",
+    type: "Сковорода",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 1800,
+    id: 267,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7087486569.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7087486444.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7087485948.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7087486569.jpg"
+      ]
+    }
+  },
+  {
+    article: "2-SPAIK(фк1912)KLN",
+    title: "Соусники 2 шт Corone collezione d arte, фарфор, 60 мл",
+    brand: "Corone collezione d’arte",
+    type: "Соусник",
+    material: "Фарфор",
+    color: [
+      "медь"
+    ],
+    origin: "Китай",
+    weight: 230,
+    id: 268,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-h/7087486697.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087486645.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7087486657.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7087486691.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7087486460.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7087485795.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7087485918.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-h/7087486697.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк0967]KLN",
+    title: "Кружка для кофе Corone collezione d arte, фарфор, 95 мл",
+    brand: "Corone collezione d’arte",
+    type: "Кружка",
+    material: "Фарфор",
+    color: [
+      "коралловый"
+    ],
+    origin: "Китай",
+    weight: 100,
+    id: 269,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7087485830.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-h/7087485221.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-h/7087486013.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7087485325.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7087485194.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7087485830.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк6903]KLN",
+    title: "Салатник Corone Grafica, фарфоровый, 1,35 л",
+    brand: "Corone collezione d’arte",
+    type: "Салатник",
+    material: "Фарфор",
+    color: [
+      "черный"
+    ],
+    origin: "Китай",
+    weight: 1000,
+    id: 270,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7087486012.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7087486050.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7087485958.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7087486100.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7087485719.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7087485942.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7087485861.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7087485344.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087485097.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7087485559.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7087486012.jpg"
+      ]
+    }
+  },
+  {
+    article: "2-SPAIK(фк6935)KLN",
+    title: "Салатники 2 шт Corone Grafica, фарфоровые, 280 мл",
+    brand: "Corone collezione d’arte",
+    type: "Салатник",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 360,
+    id: 271,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7087486162.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7087485832.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7087486104.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-7/7087486003.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7087485559.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7087485344.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087485097.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7087486032.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7087486162.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк954]KLN",
+    title: "Салатник Sam&Squito Classic, фарфоровый, 750 мл",
+    brand: "Sam&Squito",
+    type: "Салатник",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 700,
+    id: 272,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7087486252.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7087486413.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7087486286.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7087486364.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7087486304.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7087486252.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк782]KLN",
+    title: "Тарелка сервировочная Sam&Squito Quadro, фарфоровая, 25 см",
+    brand: "Sam&Squito",
+    type: "Тарелка",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 820,
+    id: 273,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7087487094.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7087487028.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7087487071.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7087487094.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк1556]KLN",
+    title: "Тарелка сервировочная Corone collezione d arte Urbano, фарфоровая, 18 см",
+    brand: "Corone collezione d’arte",
+    type: "Тарелка",
+    material: "Фарфор",
+    color: [
+      "темно-серый"
+    ],
+    origin: "Китай",
+    weight: 300,
+    id: 274,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7087486808.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7087486729.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-h/7087486661.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-7/7087486759.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7087486808.jpg"
+      ]
+    }
+  },
+  {
+    article: "2-SPAIK(фк6509)KLN",
+    title: "Бульонницы набор 2 шт Corone collezione d arte, фарфор, 550 мл",
+    brand: "Corone collezione d’arte",
+    type: "Супница",
+    material: "Фарфор",
+    color: [
+      "черный"
+    ],
+    origin: "Китай",
+    weight: 500,
+    id: 275,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7087486648.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7087486707.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7087486552.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7087486647.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7087486648.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк9109]KLN",
+    title: "Блюдо овальное сервировочное Corone Sacramento, фарфор, 36,5x14 см",
+    brand: "Corone collezione d’arte",
+    type: "Блюдо",
+    material: "Фарфор",
+    color: [
+      "серый",
+      "зеленый"
+    ],
+    origin: "Китай",
+    weight: 220,
+    id: 276,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7087485006.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7087484839.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7087485554.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7087485517.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7087485006.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк0111]KLN",
+    title: "Супница с крышкой Corone collezione d arte, фарфор, 450 мл",
+    brand: "Corone collezione d’arte",
+    type: "Супница",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 571,
+    id: 277,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7087486532.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7087486692.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7087486596.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7087486474.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7087486532.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт1055]KLN",
+    title: "Сахарница с дозатором КленМаркет, стеклянная, 150 мл",
+    brand: "КленМаркет",
+    type: "Сахарница",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Китай",
+    weight: 190,
+    id: 278,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7087486334.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7087486334.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк0362]KLN",
+    title: "Сахарница с крышкой Chan Wave, фарфоровая, 250 мл",
+    brand: "Chan Wave",
+    type: "Сахарница",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 288,
+    id: 279,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7087485651.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7087485651.jpg"
+      ]
+    }
+  },
+  {
+    article: "3-SPAIK(фк6036)KLN",
+    title: "Соусники набор 3 шт LAMBERT porcelain, фарфор, 80 мл",
+    brand: "LAMBERT porcelain",
+    type: "Соусник",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 370,
+    id: 280,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7087486632.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7087486604.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7087486617.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7087486613.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7087486632.jpg"
+      ]
+    }
+  },
+  {
+    article: "4-SPAIK(фк6518)KLN",
+    title: "Соусники набор 4 шт Corone collezione d arte, фарфор, 50 мл",
+    brand: "Corone collezione d’arte",
+    type: "Соусник",
+    material: "Фарфор",
+    color: [
+      "черный"
+    ],
+    origin: "Китай",
+    weight: 500,
+    id: 281,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7087486782.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7087486918.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7087486899.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7087486917.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7087486782.jpg"
+      ]
+    }
+  },
+  {
+    article: "2-SPAIK(фк9957)KLN",
+    title: "Кружки набор 2 шт Corone collezione d arte, фарфор, 330 мл",
+    brand: "Corone collezione d’arte",
+    type: "Кружка",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 700,
+    id: 282,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7087485680.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7087485495.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7087485393.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7087485871.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7087485680.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк0977]KLN",
+    title: "Кружка для чая Corone collezione d arte, фарфор, 320 мл",
+    brand: "Corone collezione d’arte",
+    type: "Кружка",
+    material: "Фарфор",
+    color: [
+      "коричневый"
+    ],
+    origin: "Китай",
+    weight: 260,
+    id: 283,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7087485703.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7087486036.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7087486002.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7087485256.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7087485289.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7087485703.jpg"
+      ]
+    }
+  },
+  {
+    article: "2-SPAIK(фк1816)KLN",
+    title: "Салатники 2 шт Corone Carmen, фарфоровые, 375 мл",
+    brand: "Corone collezione d’arte",
+    type: "Салатник",
+    material: "Фарфор",
+    color: [
+      "коричнево-красный"
+    ],
+    origin: "Китай",
+    weight: 300,
+    id: 284,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7087486145.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7087486277.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087486429.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7087486123.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7087486420.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7087486145.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк8007]KLN",
+    title: "Салатник Cuong Phat Acquamarina, фарфоровый, 30x13 см",
+    brand: "Coung Phat",
+    type: "Салатник",
+    material: "Фарфор",
+    color: [
+      "бирюзовый"
+    ],
+    origin: "Вьетнам",
+    weight: 800,
+    id: 285,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7087486125.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7087486142.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7087486179.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7087486143.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7087485784.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7087486133.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7087486125.jpg"
+      ]
+    }
+  },
+  {
+    article: "2-SPAIK(Фк9110)KLN",
+    title: "Салатники 2 шт Corone Sacramento, фарфоровые, 550 мл",
+    brand: "Corone collezione d’arte",
+    type: "Салатник",
+    material: "Фарфор",
+    color: [
+      "зеленый",
+      "серый"
+    ],
+    origin: "Китай",
+    weight: 300,
+    id: 286,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-7/7087486255.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7087486207.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7087486381.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7087486269.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-7/7087486255.jpg"
+      ]
+    }
+  },
+  {
+    article: "4-SPAIK(фк1814)KLN",
+    title: "Салатники 4 шт Corone Carmen, фарфоровые, 130 мл",
+    brand: "Corone collezione d’arte",
+    type: "Салатник",
+    material: "Фарфор",
+    color: [
+      "коричнево-красный"
+    ],
+    origin: "Китай",
+    weight: 250,
+    id: 287,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7087486387.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7087486392.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7087486434.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7087486347.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7087485436.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7087486280.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7087486200.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7087486308.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7087486365.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7087486485.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7087486387.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк8003]KLN",
+    title: "Салатник Cuong Phat Acquamarina, фарфоровый, 280 мл",
+    brand: "Coung Phat",
+    type: "Салатник",
+    material: "Фарфор",
+    color: [
+      "бирюзовый"
+    ],
+    origin: "Китай",
+    weight: 550,
+    id: 288,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7087486276.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7087486047.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-n/7087486307.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7087486196.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7087486095.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7087486362.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7087485784.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7087486133.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7087486276.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк953]KLN",
+    title: "Салатник Sam&Squito Classic, фарфоровый, 550 мл",
+    brand: "Sam&Squito",
+    type: "Салатник",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 550,
+    id: 289,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7087486224.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7087486192.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7087486464.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7087486422.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7087486224.jpg"
+      ]
+    }
+  },
+  {
+    article: "2-SPAIK(фк6909)KLN",
+    title: "Салатники 2 шт Corone Grafica, фарфоровые, 150 мл",
+    brand: "Corone collezione d’arte",
+    type: "Салатник",
+    material: "Фарфор",
+    color: [
+      "черный"
+    ],
+    origin: "Китай",
+    weight: 500,
+    id: 290,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7087485894.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7087485444.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7087485807.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7087486051.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7087485825.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7087485898.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7087485559.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7087485344.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087485097.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7087486032.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7087485894.jpg"
+      ]
+    }
+  },
+  {
+    article: "2-SPAIK(Фк9114)KLN",
+    title: "Салатники 2 шт Corone Sacramento, фарфоровые, 425 мл",
+    brand: "Corone collezione d’arte",
+    type: "Салатник",
+    material: "Фарфор",
+    color: [
+      "серый",
+      "зеленый"
+    ],
+    origin: "Китай",
+    weight: 400,
+    id: 291,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7087486358.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7087486318.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7087486441.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7087486358.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк6948]KLN",
+    title: "Тарелка сервировочная Corone collezione d arte Grafica, фарфоровая, 27,5 см",
+    brand: "Corone collezione d’arte",
+    type: "Тарелка",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 600,
+    id: 292,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7087487013.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-7/7087487047.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7087487147.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7087486962.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-7/7087487191.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7087485559.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7087485344.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087485097.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7087486032.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7087487013.jpg"
+      ]
+    }
+  },
+  {
+    article: "4-SPAIK(фк387)KLN",
+    title: "Тарелки для супа 4 шт Collage, фарфоровые, 20 см",
+    brand: "Collage",
+    type: "Тарелка",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 680,
+    id: 293,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7087486994.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7087487200.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7087486994.jpg"
+      ]
+    }
+  },
+  {
+    article: "га16]KLN",
+    title: "Гастроемкость Luxstahl, нержавеющая сталь, 32,7x17,6x10 см",
+    brand: "Luxstahl",
+    type: "Гастроемкость",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 490,
+    "height": 10,
+    "length": 32.7,
+    "width": 17.6,
+    "volume": 4,
+    id: 294,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7087484793.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7087485446.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7087485076.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7087484793.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт604]KLN",
+    title: "Сковорода блинная с антипригарным покрытием Luxstahl, нержавеющая сталь, 28 см",
+    brand: "Luxstahl",
+    type: "Сковорода",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 900,
+    id: 295,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7087486758.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7087486499.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7087486516.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7087486758.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт1498]KLN",
+    title: "Сковророда с деревянной ручкой Luxstahl, чугунная, 20 см",
+    brand: "Luxstahl",
+    type: "Сковорода",
+    material: "Чугун",
+    color: [
+      "черный"
+    ],
+    origin: "Китай",
+    weight: 1500,
+    id: 296,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7087486767.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7087486767.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк6908]KLN",
+    title: "Тарелка для пасты Corone collezione d arte Grafica, фарфоровая, 25,5 см",
+    brand: "Corone collezione d’arte",
+    type: "Тарелка",
+    material: "Фарфор",
+    color: [
+      "черный"
+    ],
+    origin: "Китай",
+    weight: 700,
+    id: 297,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7087487104.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7087488658.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7087487271.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7087487130.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7087487100.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7087485344.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087485097.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7087486032.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7087487104.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк0983]KLN",
+    title: "Блюдце чайное Corone collezione d arte, фарфор, 15 см",
+    brand: "Corone collezione d’arte",
+    type: "Блюдце",
+    material: "Фарфор",
+    color: [
+      "коралловый"
+    ],
+    origin: "Китай",
+    weight: 260,
+    id: 298,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7087485317.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7087484894.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7087485455.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7087485714.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7087485317.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк0837]KLN",
+    title: "Блюдце чайное Corone collezione d arte, фарфор, 14,5 см",
+    brand: "Corone collezione d’arte",
+    type: "Блюдце",
+    material: "Фарфор",
+    color: [
+      "синий"
+    ],
+    origin: "Китай",
+    weight: 230,
+    id: 299,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7087485186.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7087485625.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7087484954.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7087485274.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7087485186.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк5048]KLN",
+    title: "Блюдце чайное LY S Horeca, фарфор, 12 см",
+    brand: "LY’S Horeca",
+    type: "Блюдце",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 113,
+    id: 300,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7087484823.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7087484823.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк0855]KLN",
+    title: "Тарелка сервировочная Corone collezione d arte Celeste, фарфоровая, 22,3 см",
+    brand: "Corone collezione d’arte",
+    type: "Тарелка",
+    material: "Фарфор",
+    color: [
+      "синий"
+    ],
+    origin: "Китай",
+    weight: 58,
+    id: 301,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7087486869.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-h/7087486841.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7087486816.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7087486835.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7087486680.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7087486869.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт380]KLN",
+    title: "Дозатор для жидкого мыла настенный КленМаркет, нержавеющая сталь, 500 мл",
+    brand: "КленМаркет",
+    type: "Диспенсер для мыла",
+    material: "Нержавеющая сталь",
+    color: [
+      "белый",
+      "серый"
+    ],
+    origin: "Китай",
+    weight: 393,
+    "height": 15,
+    "length": 10,
+    "width": 5.5,
+    id: 302,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-7/7087485859.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-7/7087485859.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк6914]KLN",
+    title: "Блюдо овальное сервировочное Corone Grafica, фарфор, 48,5x11,5 см",
+    brand: "Corone collezione d’arte",
+    type: "Блюдо",
+    material: "Фарфор",
+    color: [
+      "черный"
+    ],
+    origin: "Китай",
+    weight: 900,
+    id: 303,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7087484792.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7087485075.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-n/7087484795.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7087484922.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7087484792.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт149]KLN",
+    title: "Кастрюля с крышкой Luxstahl, нержавеющая сталь, 11 л",
+    brand: "Luxstahl",
+    type: "Кастрюля",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 2300,
+    id: 304,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7087485945.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087486033.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7087485665.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7087485929.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7087485945.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт45]KLN",
+    title: "Венчик из нержавеющей стали КленМаркет, 40 см",
+    brand: "КленМаркет",
+    type: "Венчик",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 283,
+    "length": 40,
+    id: 305,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7087485322.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7087485322.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт123]KLN",
+    title: "Сковорода с антипригарным покрытием Luxstahl, нержавеющая сталь, 40 см",
+    brand: "Luxstahl",
+    type: "Сковорода",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 2100,
+    id: 306,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7087486480.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7087486480.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт109]KLN",
+    title: "Сковорода с антипригарным покрытием Luxstahl, нержавеющая сталь, 26 см",
+    brand: "Luxstahl",
+    type: "Сковорода",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 1050,
+    id: 307,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7087486404.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7087486404.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк1607]KLN",
+    title: "Тарелка сервировочная Corone collezione d arte Rust, фарфоровая, 21,6 см",
+    brand: "Corone collezione d’arte",
+    type: "Тарелка",
+    material: "Фарфор",
+    color: [
+      "серый"
+    ],
+    origin: "Китай",
+    weight: 600,
+    id: 308,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-h/7087486769.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7087486823.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7087486836.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7087486709.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-h/7087486769.jpg"
+      ]
+    }
+  },
+  {
+    article: "4-SPAIK(фк4000)KLN",
+    title: "Тарелки 4 шт Tvist Ivory, фарфоровые, 15 см",
+    brand: "TVIST",
+    type: "Тарелка",
+    material: "Фарфор",
+    color: [
+      "светло-бежевый"
+    ],
+    origin: "Китай",
+    weight: 450,
+    id: 309,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7087487003.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-n/7087486991.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7087487128.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087486969.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7087487075.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7087487003.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк6512]KLN",
+    title: "Блюдо прямоугольное Corone Bushido, фарфор, 36,5x17 см",
+    brand: "Corone collezione d’arte",
+    type: "Блюдо",
+    material: "Фарфор",
+    color: [
+      "черный"
+    ],
+    origin: "Китай",
+    weight: 500,
+    id: 310,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7087484909.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7087485649.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7087484782.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7087485769.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7087484909.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк812]KLN",
+    title: "Тарелка сервировочная Sam&Squito Classic, фарфоровая, 24 см",
+    brand: "Sam&Squito",
+    type: "Тарелка",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 610,
+    id: 311,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-7/7087486975.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7087487052.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7087486976.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-7/7087486975.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк1505]KLN",
+    title: "Тарелка сервировочная Corone collezione d arte Terra, фарфоровая, 22 см",
+    brand: "Corone collezione d’arte",
+    type: "Тарелка",
+    material: "Фарфор",
+    color: [
+      "синий",
+      "коричневый"
+    ],
+    origin: "Китай",
+    weight: 350,
+    id: 312,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7087486822.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7087486788.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-n/7087486775.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7087486855.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7087486822.jpg"
+      ]
+    }
+  },
+  {
+    article: "2-SPAIK(фк1806)KLN",
+    title: "Блюдо овальное набор 2 шт Corone Carmen, фарфор, 23,5x11 см",
+    brand: "Corone collezione d’arte",
+    type: "Блюдо",
+    material: "Фарфор",
+    color: [
+      "коричневый",
+      "красный"
+    ],
+    origin: "Китай",
+    weight: 500,
+    id: 313,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7087485339.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087485493.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7087485686.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-h/7087485689.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7087485390.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087485781.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7087485339.jpg"
+      ]
+    }
+  },
+  {
+    article: "4-SPAIK(кт0147)KLN",
+    title: "Тарелки сервировочные 4 шт Corone collezione d arte Aqua, стеклянные, 16x12 см",
+    brand: "Corone collezione d’arte",
+    type: "Тарелка",
+    material: "Стекло",
+    color: [
+      "голубой",
+      "прозрачный"
+    ],
+    origin: "Китай",
+    weight: 800,
+    id: 314,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7087486636.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7087486540.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087484845.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7087485058.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7087485051.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7087486636.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк1414]KLN",
+    title: "Соусник Corone collezione d arte, фарфор, 100 мл",
+    brand: "Corone collezione d’arte",
+    type: "Соусник",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 120,
+    id: 315,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7087486821.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7087486810.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7087486873.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7087486704.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7087486821.jpg"
+      ]
+    }
+  },
+  {
+    article: "2-SPAIK(фк8515)KLN",
+    title: "Емкость для соевого соуса 2 шт House of White Porcelain, фарфор, 50 мл",
+    brand: "House of White Porcelain",
+    type: "Соусник",
+    material: "Фарфор",
+    color: [
+      "зеленый"
+    ],
+    origin: "Китай",
+    weight: 140,
+    id: 316,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7087486639.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7087486512.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7087486583.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7087486639.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк6953]KLN",
+    title: "Чайник заварочный Corone collezione d arte, фарфоровый, 1150 мл",
+    brand: "Corone collezione d’arte",
+    type: "Чайник заварочный",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 400,
+    id: 317,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7087487352.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7087487016.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7087487046.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7087487352.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк8008]KLN",
+    title: "Блюдо в форме листа Cuong Phat Acquamarina, фарфор, 27 см",
+    brand: "Coung Phat",
+    type: "Блюдо",
+    material: "Фарфор",
+    color: [
+      "бирюзовый"
+    ],
+    origin: "Вьетнам",
+    weight: 500,
+    id: 318,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7087485014.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7087484772.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7087485254.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7087485661.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7087485375.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7087485014.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк0965]KLN",
+    title: "Кружка для кофе Corone collezione d arte, фарфор, 95 мл",
+    brand: "Corone collezione d’arte",
+    type: "Кружка",
+    material: "Фарфор",
+    color: [
+      "коричневый"
+    ],
+    origin: "Китай",
+    weight: 100,
+    id: 319,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7087485633.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7087485482.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7087486005.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7087485963.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7087485467.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7087485633.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк820]KLN",
+    title: "Соусник Sam&Squito, фарфор, 50 мл",
+    brand: "Sam&Squito",
+    type: "Соусник",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 140,
+    id: 320,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7087486497.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7087486658.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7087486449.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7087486497.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк6961]KLN",
+    title: "Молочник Corone collezione d arte, фарфоровый, 40 мл",
+    brand: "Corone collezione d’arte",
+    type: "Молочник",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 200,
+    id: 321,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7087485806.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7087486015.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7087485920.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7087485877.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7087486042.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7087485559.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7087485344.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7087486032.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087485097.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7087485806.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк1463]KLN",
+    title: "Соусник Corone collezione d arte, фарфор, 100 мл",
+    brand: "Corone collezione d’arte",
+    type: "Соусник",
+    material: "Фарфор",
+    color: [
+      "зеленый"
+    ],
+    origin: "Китай",
+    weight: 120,
+    id: 322,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7087486611.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7087486453.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7087486528.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7087486527.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7087486575.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7087486611.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк0836]KLN",
+    title: "Кружка для кофе Corone collezione d arte, фарфор, 120 мл",
+    brand: "Corone collezione d’arte",
+    type: "Кружка",
+    material: "Фарфор",
+    color: [
+      "синий"
+    ],
+    origin: "Китай",
+    weight: 146,
+    id: 323,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7087485246.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7087485939.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7087485269.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7087485485.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7087485845.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7087485246.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк0831]KLN",
+    title: "Кружка для чая Corone collezione d arte, фарфор, 340 мл",
+    brand: "Corone collezione d’arte",
+    type: "Кружка",
+    material: "Фарфор",
+    color: [
+      "синий"
+    ],
+    origin: "Китай",
+    weight: 454,
+    id: 324,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7087485940.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7087485218.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7087485268.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7087485842.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7087485354.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7087485491.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7087485940.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк795]KLN",
+    title: "Чайник заварочный Sam&Squito, фарфоровый, 950 мл",
+    brand: "Sam&Squito",
+    type: "Чайник заварочный",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 781,
+    id: 325,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7087486971.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7087486951.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7087486974.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7087487098.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7087486971.jpg"
+      ]
+    }
+  },
+  {
+    article: "2-SPAIK(фк1913)KLN",
+    title: "Соусники 2 шт Corone collezione d arte, фарфор, 60 мл",
+    brand: "Corone collezione d’arte",
+    type: "Соусник",
+    material: "Фарфор",
+    color: [
+      "серый"
+    ],
+    origin: "Китай",
+    weight: 230,
+    id: 326,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7087486626.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7087486591.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087486573.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-7/7087486435.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7087486460.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7087485795.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7087485918.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7087486626.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк9512]KLN",
+    title: "Кружка для кофе Corone collezione d arte, фарфор, 160 мл",
+    brand: "Corone collezione d’arte",
+    type: "Кружка",
+    material: "Фарфор",
+    color: [
+      "бежевый"
+    ],
+    origin: "Китай",
+    weight: 200,
+    id: 327,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7087486046.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7087485676.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7087485361.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7087485121.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7087485827.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7087485164.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7087486030.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7087485668.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7087485294.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7087485721.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7087486046.jpg"
+      ]
+    }
+  },
+  {
+    article: "2-SPAIK(фк9811)KLN",
+    title: "Кружки для кофе 2 шт Corone collezione d arte, фарфор, 190 мл",
+    brand: "Corone collezione d’arte",
+    type: "Кружка",
+    material: "Фарфор",
+    color: [
+      "синий",
+      "зеленый"
+    ],
+    origin: "Китай",
+    weight: 900,
+    id: 328,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7087485688.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7087486063.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7087485330.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7087485772.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7087486022.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7087485351.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087485565.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7087485688.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк0829]KLN",
+    title: "Кружка для чая Corone collezione d arte, фарфор, 300 мл",
+    brand: "Corone collezione d’arte",
+    type: "Кружка",
+    material: "Фарфор",
+    color: [
+      "синий"
+    ],
+    origin: "Китай",
+    weight: 347,
+    id: 329,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7087486056.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7087485678.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7087485166.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7087485840.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7087485116.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7087486056.jpg"
+      ]
+    }
+  },
+  {
+    article: "2-SPAIK(фк1815)KLN",
+    title: "Салатники 2 шт Corone Carmen, фарфоровые, 500 мл",
+    brand: "Corone collezione d’arte",
+    type: "Салатник",
+    material: "Фарфор",
+    color: [
+      "коричнево-красный"
+    ],
+    origin: "Китай",
+    weight: 400,
+    id: 330,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7087485904.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7087486084.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7087485644.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7087485436.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7087486108.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7087485746.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7087485611.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7087485951.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7087485824.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7087485904.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк027]KLN",
+    title: "Кружка для чая Corone collezione d arte, фарфор, 250 мл",
+    brand: "Corone collezione d’arte",
+    type: "Кружка",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 240,
+    id: 331,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7087485222.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7087485324.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7087485192.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7087485215.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7087485222.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк6931]KLN",
+    title: "Салатник Corone Grafica, фарфоровый, 800 мл",
+    brand: "Corone collezione d’arte",
+    type: "Салатник",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 400,
+    id: 332,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7087486401.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7087486311.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7087486250.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7087486412.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7087485559.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7087485344.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087485097.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7087486032.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7087486401.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк6957]KLN",
+    title: "Кружка для чая Corone collezione d arte, фарфор, 360 мл",
+    brand: "Corone collezione d’arte",
+    type: "Кружка",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 300,
+    id: 333,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7087485414.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7087486057.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7087485326.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7087485691.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7087485773.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7087485559.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7087485344.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087485097.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7087486032.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7087485414.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк6901]KLN",
+    title: "Салатник Corone Grafica, фарфоровый, 1,25 л",
+    brand: "Corone collezione d’arte",
+    type: "Салатник",
+    material: "Фарфор",
+    color: [
+      "черный"
+    ],
+    origin: "Китай",
+    weight: 500,
+    id: 334,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7087486094.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7087486150.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7087485884.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7087486092.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7087486134.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7087485559.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7087485344.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087485097.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7087486032.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7087486094.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк0968]KLN",
+    title: "Кружка для кофе Corone collezione d arte, фарфор, 95 мл",
+    brand: "Corone collezione d’arte",
+    type: "Кружка",
+    material: "Фарфор",
+    color: [
+      "зеленый"
+    ],
+    origin: "Китай",
+    weight: 100,
+    id: 335,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7087485808.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7087485880.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7087485922.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7087486018.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7087486043.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7087485808.jpg"
+      ]
+    }
+  },
+  {
+    article: "2-SPAIK(фк6109)KLN",
+    title: "Салатники 2 шт Tvist Madeira, фарфоровые, 600 мл",
+    brand: "TVIST",
+    type: "Салатник",
+    material: "Фарфор",
+    color: [
+      "коричневый"
+    ],
+    origin: "Китай",
+    weight: 740,
+    id: 336,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7087486109.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7087486168.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-7/7087486111.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7087486206.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7087486138.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7087486109.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк0946]KLN",
+    title: "Салатник Corone Natura, фарфоровый, 900 мл",
+    brand: "Corone collezione d’arte",
+    type: "Салатник",
+    material: "Фарфор",
+    color: [
+      "коричневый"
+    ],
+    origin: "Китай",
+    weight: 500,
+    id: 337,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7087486153.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7087486425.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7087486463.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7087486450.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7087486153.jpg"
+      ]
+    }
+  },
+  {
+    article: "2-SPAIK(фк6912)KLN",
+    title: "Салатники 2 шт Corone Grafica, фарфоровые, 80 мл",
+    brand: "Corone collezione d’arte",
+    type: "Салатник",
+    material: "Фарфор",
+    color: [
+      "черный"
+    ],
+    origin: "Китай",
+    weight: 200,
+    id: 338,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7087486093.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7087486475.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7087486151.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7087486344.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7087485559.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7087485344.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087485097.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7087486032.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7087486093.jpg"
+      ]
+    }
+  },
+  {
+    article: "2-SPAIK(фк6105)KLN",
+    title: "Салатники 2 шт Tvist Madeira, фарфоровые, 260 мл",
+    brand: "TVIST",
+    type: "Салатник",
+    material: "Фарфор",
+    color: [
+      "коричневый"
+    ],
+    origin: "Китай",
+    weight: 440,
+    id: 339,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-h/7087486121.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7087486146.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-h/7087486121.jpg"
+      ]
+    }
+  },
+  {
+    article: "3-SPAIK(фк6916)KLN",
+    title: "Блюдо набор 3 шт Corone Grafica, фарфор, 14,5x8,5 см",
+    brand: "Corone collezione d’arte",
+    type: "Блюдо",
+    material: "Фарфор",
+    color: [
+      "черный"
+    ],
+    origin: "Китай",
+    weight: 500,
+    id: 340,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7087485550.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7087484996.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7087485766.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7087485004.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7087485550.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк9104]KLN",
+    title: "Тарелка сервировочная Corone collezione d arte Sacramento, фарфоровая, 27,5 см",
+    brand: "Corone collezione d’arte",
+    type: "Тарелка",
+    material: "Фарфор",
+    color: [
+      "серый",
+      "зеленый"
+    ],
+    origin: "Китай",
+    weight: 431,
+    id: 341,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7087488676.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7087488555.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7087486957.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7087487325.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7087487259.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7087488676.jpg"
+      ]
+    }
+  },
+  {
+    article: "4-SPAIK(фк861)KLN",
+    title: "Тарелки 4 шт Collage, фарфоровые, 15 см",
+    brand: "Collage",
+    type: "Тарелка",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 400,
+    id: 342,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7087487043.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7087487516.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7087487014.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7087487043.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк1508]KLN",
+    title: "Тарелка сервировочная Corone collezione d arte Terra, фарфоровая, 22,5 см",
+    brand: "Corone collezione d’arte",
+    type: "Тарелка",
+    material: "Фарфор",
+    color: [
+      "синий",
+      "коричневый"
+    ],
+    origin: "Китай",
+    weight: 350,
+    id: 343,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7087486484.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7087486542.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7087486482.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-h/7087486517.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7087486526.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7087486484.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк8011]KLN",
+    title: "Тарелка сервировочная Coung Phat, фарфоровая, 22 см",
+    brand: "Coung Phat",
+    type: "Тарелка",
+    material: "Фарфор",
+    color: [
+      "слоновая кость"
+    ],
+    origin: "Вьетнам",
+    weight: 950,
+    id: 344,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7087487145.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7087487086.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7087487226.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7087486984.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7087487006.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7087487145.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк0819]KLN",
+    title: "Тарелка сервировочная Corone collezione d arte Celeste, фарфоровая, 23 см",
+    brand: "Corone collezione d’arte",
+    type: "Тарелка",
+    material: "Фарфор",
+    color: [
+      "синий"
+    ],
+    origin: "Китай",
+    weight: 550,
+    id: 345,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7087486635.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7087486672.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7087486600.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7087486666.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7087486635.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк0853]KLN",
+    title: "Чайник заварочный Corone collezione d arte, фарфоровый, 480 мл",
+    brand: "Corone collezione d’arte",
+    type: "Чайник заварочный",
+    material: "Фарфор",
+    color: [
+      "синий"
+    ],
+    origin: "Китай",
+    weight: 688,
+    id: 346,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7087487304.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-7/7087487299.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-n/7087489043.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7087487353.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7087487304.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт602]KLN",
+    title: "Сковорода блинная с антипригарным покрытием Luxstahl, нержавеющая сталь, 20 см",
+    brand: "Luxstahl",
+    type: "Сковорода",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 540,
+    id: 347,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7087486770.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7087486499.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7087486516.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7087486770.jpg"
+      ]
+    }
+  },
+  {
+    article: "2-SPAIK(фк807)KLN",
+    title: "Блюдо прямоугольное набор 2 шт Sam&Squito Quadro, фарфор, 31x9 см",
+    brand: "Sam&Squito",
+    type: "Блюдо",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 350,
+    id: 348,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7087484821.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7087484955.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7087485738.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7087485595.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7087484821.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт9317]KLN",
+    title: "Блюдо на ножке Оригами, нержавеющая сталь, 21 см",
+    brand: "Luxstahl",
+    type: "Блюдо",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 700,
+    id: 349,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7087485012.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087484881.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7087484991.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7087485524.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7087485012.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк0963]KLN",
+    title: "Блюдо овальное сервировочное Corone Natura, фарфор, 25,5x12,5 см",
+    brand: "Corone collezione d’arte",
+    type: "Блюдо",
+    material: "Фарфор",
+    color: [
+      "коричневый"
+    ],
+    origin: "Китай",
+    weight: 500,
+    id: 350,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-7/7087485571.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7087485672.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7087485248.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7087485712.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7087484819.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-7/7087485571.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт603]KLN",
+    title: "Сковорода блинная с антипригарным покрытием Luxstahl, нержавеющая сталь, 24 см",
+    brand: "Luxstahl",
+    type: "Сковорода",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 700,
+    id: 351,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7087486686.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7087486499.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7087486516.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7087486686.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк020]KLN",
+    title: "Блюдо квадратное Corone Metropolis, фарфор, 26,4 см",
+    brand: "КленМаркет",
+    type: "Блюдо",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 1115,
+    id: 352,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7087484986.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-h/7087484897.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087484953.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7087484986.jpg"
+      ]
+    }
+  },
+  {
+    article: "га69]KLN",
+    title: "Гастроемкость Luxstahl, нержавеющая сталь, 32,7x26,5x2,5 см",
+    brand: "Luxstahl",
+    type: "Гастроемкость",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 480,
+    "height": 2.5,
+    "length": 32.7,
+    "width": 26.5,
+    id: 353,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7087485687.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7087485879.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7087485500.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7087485687.jpg"
+      ]
+    }
+  },
+  {
+    article: "2-SPAIK(фк931)KLN",
+    title: "Бульонницы набор 2 шт Sam&Squito, фарфор, 350 мл",
+    brand: "Sam&Squito",
+    type: "Супница",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 220,
+    id: 354,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7087486874.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7087486755.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7087486747.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7087486714.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7087486874.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт122]KLN",
+    title: "Сковорода с антипригарным покрытием Luxstahl, нержавеющая сталь, 36 см",
+    brand: "Luxstahl",
+    type: "Сковорода",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 1800,
+    id: 355,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7087486468.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7087486384.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7087486546.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7087486468.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк1551]KLN",
+    title: "Соусник Corone collezione d arte, фарфор, 75 мл",
+    brand: "Corone collezione d’arte",
+    type: "Соусник",
+    material: "Фарфор",
+    color: [
+      "серый"
+    ],
+    origin: "Китай",
+    weight: 120,
+    id: 356,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7087486799.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7087486675.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7087486787.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7087486799.jpg"
+      ]
+    }
+  },
+  {
+    article: "2-SPAIK(фк9106)KLN",
+    title: "Тарелки 2 шт Corone collezione d arte Sacramento, фарфоровые, 20,5 см",
+    brand: "Corone collezione d’arte",
+    type: "Тарелка",
+    material: "Фарфор",
+    color: [
+      "серый",
+      "зеленый"
+    ],
+    origin: "Китай",
+    weight: 500,
+    id: 357,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7087488541.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7087488668.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7087487636.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7087486957.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7087487325.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7087487259.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7087488541.jpg"
+      ]
+    }
+  },
+  {
+    article: "2-SPAIK(фк9121)KLN",
+    title: "Кружки набор 2 шт Corone collezione d arte, фарфор, 440 мл",
+    brand: "Corone collezione d’arte",
+    type: "Кружка",
+    material: "Фарфор",
+    color: [
+      "зеленый"
+    ],
+    origin: "Китай",
+    weight: 550,
+    id: 358,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7087485975.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7087485483.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7087485572.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7087485774.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7087485975.jpg"
+      ]
+    }
+  },
+  {
+    article: "2-SPAIK(фк1700)KLN",
+    title: "Тарелки 2 шт Corone collezione d arte Rust, фарфоровые, 27 см",
+    brand: "Corone collezione d’arte",
+    type: "Тарелка",
+    material: "Фарфор",
+    color: [
+      "серый",
+      "светло-серый"
+    ],
+    origin: "Китай",
+    weight: 2200,
+    id: 359,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7087486614.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7087486710.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7087486549.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7087486730.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7087486652.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7087486623.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-7/7087486651.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7087486614.jpg"
+      ]
+    }
+  },
+  {
+    article: "4-SPAIK(фк6517)KLN",
+    title: "Соусники набор 4 шт Corone collezione d arte, фарфор, 140 мл",
+    brand: "Corone collezione d’arte",
+    type: "Соусник",
+    material: "Фарфор",
+    color: [
+      "черный"
+    ],
+    origin: "Китай",
+    weight: 600,
+    id: 360,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7087486685.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7087486629.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-n/7087486523.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7087486477.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7087486685.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк1763]KLN",
+    title: "Чайник заварочный Corone collezione d arte, фарфоровый, 700 мл",
+    brand: "Corone collezione d’arte",
+    type: "Чайник заварочный",
+    material: "Фарфор",
+    color: [
+      "зеленый"
+    ],
+    origin: "Китай",
+    weight: 1100,
+    id: 361,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7087487126.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7087488681.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7087487832.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-h/7087487813.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7087487126.jpg"
+      ]
+    }
+  },
+  {
+    article: "4-SPAIK(фк890)KLN",
+    title: "Соусники набор 4 шт Collage, фарфор, 40 мл",
+    brand: "Collage",
+    type: "Соусник",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 100,
+    id: 362,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7087486633.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-7/7087486615.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7087486586.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7087486653.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7087486633.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк821]KLN",
+    title: "Блюдо овальное сервировочное Sam&Squito Classic, фарфор, 30x25 см",
+    brand: "Sam&Squito",
+    type: "Блюдо",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 880,
+    id: 363,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7087485848.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7087485753.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7087484902.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7087485805.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7087485848.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк0338]KLN",
+    title: "Кружка для чая Corone collezione d arte, фарфор, 485 мл",
+    brand: "Corone collezione d’arte",
+    type: "Кружка",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 458,
+    id: 364,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7087485183.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7087485897.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7087485448.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7087485811.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7087485183.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк0922]KLN",
+    title: "Тарелка сервировочная Corone collezione d arte Corone Natura, фарфоровая, 20 см",
+    brand: "Corone collezione d’arte",
+    type: "Тарелка",
+    material: "Фарфор",
+    color: [
+      "коралловый"
+    ],
+    origin: "Китай",
+    weight: 400,
+    id: 365,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7087486630.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7087486576.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7087486565.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7087486627.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087486609.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7087486630.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк803]KLN",
+    title: "Блюдо прямоугольное Sam&Squito Quadro, фарфор, 25x15 см",
+    brand: "Sam&Squito",
+    type: "Блюдо",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 520,
+    id: 366,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7087485016.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7087485290.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7087485033.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7087485016.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк0971]KLN",
+    title: "Блюдце чайное Corone collezione d arte, фарфор, 11,4 см",
+    brand: "Corone collezione d’arte",
+    type: "Блюдце",
+    material: "Фарфор",
+    color: [
+      "коралловый"
+    ],
+    origin: "Китай",
+    weight: 180,
+    id: 367,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-n/7087485047.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7087484879.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7087484981.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-n/7087485047.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт2870]KLN",
+    title: "Блюдо для подачи, нержавеющая сталь, 18 см",
+    brand: "КленМаркет",
+    type: "Блюдо",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 250,
+    id: 368,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7087485546.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7087485492.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7087485602.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7087485138.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7087485546.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк092/3]KLN",
+    title: "Кружка для чая Corone collezione d arte, фарфор, 220 мл",
+    brand: "Corone collezione d’arte",
+    type: "Кружка",
+    material: "Фарфор",
+    color: [
+      "серый"
+    ],
+    origin: "Китай",
+    weight: 233,
+    id: 369,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7087485655.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7087485914.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7087485429.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7087485157.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7087485655.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк1820]KLN",
+    title: "Блюдо овальное сервировочное Corone Carmen, фарфор, 26,7x19,7 см",
+    brand: "Corone collezione d’arte",
+    type: "Блюдо",
+    material: "Фарфор",
+    color: [
+      "коричневый",
+      "красный"
+    ],
+    origin: "Китай",
+    weight: 500,
+    id: 370,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7087484958.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7087485776.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7087485741.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7087485596.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7087484958.jpg"
+      ]
+    }
+  },
+  {
+    article: "2-SPAIK(фк080)KLN",
+    title: "Соусники 2 шт Corone collezione d arte, фарфор, 65 мл",
+    brand: "Corone collezione d’arte",
+    type: "Соусник",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 10,
+    id: 371,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7087486749.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7087486706.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7087486802.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7087486838.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7087486817.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7087486749.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк0976]KLN",
+    title: "Кружка для чая Corone collezione d arte, фарфор, 250 мл",
+    brand: "Corone collezione d’arte",
+    type: "Кружка",
+    material: "Фарфор",
+    color: [
+      "зеленый"
+    ],
+    origin: "Китай",
+    weight: 405,
+    id: 372,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7087486053.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7087485818.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7087485843.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7087485887.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-h/7087485761.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7087486053.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк047]KLN",
+    title: "Соусник Corone collezione d arte, фарфор, 75 мл",
+    brand: "Corone collezione d’arte",
+    type: "Соусник",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 60,
+    id: 373,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7087486777.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7087486713.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087486753.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7087486727.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7087486763.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7087486777.jpg"
+      ]
+    }
+  },
+  {
+    article: "2-SPAIK(фк9209)KLN",
+    title: "Кружки для кофе 2 шт Corone collezione d arte, фарфор, 120 мл",
+    brand: "Corone collezione d’arte",
+    type: "Кружка",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 200,
+    id: 374,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7087485212.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7087485219.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7087485350.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7087485212.jpg"
+      ]
+    }
+  },
+  {
+    article: "2-SPAIK(фк9955)KLN",
+    title: "Кружки набор 2 шт Corone collezione d arte, фарфор, 225 мл",
+    brand: "Corone collezione d’arte",
+    type: "Кружка",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 500,
+    id: 375,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7087485962.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7087486001.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7087485856.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7087485796.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7087485962.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк8517]KLN",
+    title: "Чайник заварочный House of White Porcelain, фарфоровый, 850 мл",
+    brand: "House of White Porcelain",
+    type: "Чайник заварочный",
+    material: "Фарфор",
+    color: [
+      "темно-зеленый"
+    ],
+    origin: "Китай",
+    weight: 400,
+    id: 376,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7087488622.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7087488622.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк1424]KLN",
+    title: "Кружка для чая Corone collezione d arte, фарфор, 200 мл",
+    brand: "Corone collezione d’arte",
+    type: "Кружка",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 201,
+    id: 377,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7087485635.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7087485156.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7087485591.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-n/7087485551.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7087486071.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7087485143.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7087485440.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7087485635.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк0834]KLN",
+    title: "Кружка для чая Corone collezione d arte, фарфор, 300 мл",
+    brand: "Corone collezione d’arte",
+    type: "Кружка",
+    material: "Фарфор",
+    color: [
+      "синий"
+    ],
+    origin: "Китай",
+    weight: 333,
+    id: 378,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7087485538.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-7/7087485787.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7087485381.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7087485419.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7087485260.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7087485202.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7087485577.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7087485538.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк0828]KLN",
+    title: "Салатник Corone Celeste, фарфоровый, 650 мл",
+    brand: "Corone collezione d’arte",
+    type: "Салатник",
+    material: "Фарфор",
+    color: [
+      "синий"
+    ],
+    origin: "Китай",
+    weight: 340,
+    id: 379,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7087486233.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7087486458.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7087486159.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7087486233.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк0859]KLN",
+    title: "Салатник Corone Celeste, фарфоровый, 450 мл",
+    brand: "Corone collezione d’arte",
+    type: "Салатник",
+    material: "Фарфор",
+    color: [
+      "синий"
+    ],
+    origin: "Китай",
+    weight: 400,
+    id: 380,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7087486300.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7087486240.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7087486225.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7087486300.jpg"
+      ]
+    }
+  },
+  {
+    article: "2-SPAIK(Фк6117)KLN",
+    title: "Кружки набор 2 шт TVIST, фарфор, 260 мл",
+    brand: "TVIST",
+    type: "Кружка",
+    material: "Фарфор",
+    color: [
+      "коричневый",
+      "черный"
+    ],
+    origin: "Китай",
+    weight: 600,
+    id: 381,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7087485770.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7087485465.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7087486009.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7087485562.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7087485770.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк815]KLN",
+    title: "Салатник Sam&Squito Classic, фарфоровый, 500 мл",
+    brand: "Sam&Squito",
+    type: "Салатник",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 470,
+    id: 382,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7087486428.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-h/7087486373.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7087486354.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7087486315.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7087486428.jpg"
+      ]
+    }
+  },
+  {
+    article: "2-SPAIK(фк1818)KLN",
+    title: "Блюдо овальное набор 2 шт Corone Carmen, фарфор, 15x11 см",
+    brand: "Corone collezione d’arte",
+    type: "Блюдо",
+    material: "Фарфор",
+    color: [
+      "коричневый",
+      "красный"
+    ],
+    origin: "Китай",
+    weight: 300,
+    id: 383,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-n/7087485443.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7087485182.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7087484921.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7087485224.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-n/7087485443.jpg"
+      ]
+    }
+  },
+  {
+    article: "4-SPAIK(фк6711)KLN",
+    title: "Салатники 4 шт Sam&Squito Vintage, фарфоровые, 10 см",
+    brand: "Corone collezione d’arte",
+    type: "Салатник",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 1000,
+    id: 384,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7087485533.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-n/7087485659.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087486069.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7087485788.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7087485383.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7087486128.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087486105.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7087485590.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7087485533.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк6960]KLN",
+    title: "Соусник Corone collezione d arte, фарфор, 140 мл",
+    brand: "Corone collezione d’arte",
+    type: "Соусник",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 170,
+    id: 385,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7087486860.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7087486900.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7087486916.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7087486584.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7087485559.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7087485344.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087485097.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7087486032.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7087486860.jpg"
+      ]
+    }
+  },
+  {
+    article: "2-SPAIK(фк1914)KLN",
+    title: "Салатники 2 шт Corone Luminare, фарфоровые, 130 мл",
+    brand: "Corone collezione d’arte",
+    type: "Салатник",
+    material: "Фарфор",
+    color: [
+      "медь"
+    ],
+    origin: "Китай",
+    weight: 380,
+    id: 386,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7087485762.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7087485973.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7087485852.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7087486211.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7087486239.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7087485980.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7087485795.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7087485918.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7087485762.jpg"
+      ]
+    }
+  },
+  {
+    article: "2-SPAIK(фк6701)KLN",
+    title: "Кружки набор 2 шт Corone collezione d arte, фарфор, 280 мл",
+    brand: "Corone collezione d’arte",
+    type: "Кружка",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 500,
+    id: 387,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7087485946.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7087485600.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7087485908.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7087485946.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк0701]KLN",
+    title: "Салатник Corone Verde, фарфоровый, 270 мл",
+    brand: "Corone collezione d’arte",
+    type: "Салатник",
+    material: "Фарфор",
+    color: [
+      "зеленый",
+      "синий"
+    ],
+    origin: "Китай",
+    weight: 240,
+    id: 388,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7087486041.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7087485873.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7087485729.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-n/7087485947.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7087485971.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7087486041.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк1550]KLN",
+    title: "Салатник Corone Urbano, фарфоровый, 600 мл",
+    brand: "Corone collezione d’arte",
+    type: "Салатник",
+    material: "Фарфор",
+    color: [
+      "темно-серый"
+    ],
+    origin: "Китай",
+    weight: 300,
+    id: 389,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7087485810.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7087485849.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7087485754.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7087485892.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7087485810.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк1411]KLN",
+    title: "Салатник Corone Gourmet, фарфоровый, 800 мл",
+    brand: "Corone collezione d’arte",
+    type: "Салатник",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 616,
+    id: 390,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7087486397.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7087486436.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7087486231.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7087486267.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7087486397.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк788]KLN",
+    title: "Салатник Sam&Squito Quadro, фарфоровый, 500 мл",
+    brand: "Sam&Squito",
+    type: "Салатник",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 440,
+    id: 391,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7087486175.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7087486243.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7087486299.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7087486175.jpg"
+      ]
+    }
+  },
+  {
+    article: "4-SPAIK(фк374)KLN",
+    title: "Кружки набор 4 шт Collage, фарфор, 350 мл",
+    brand: "Collage",
+    type: "Кружка",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 375,
+    id: 392,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7087485704.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7087485358.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7087485159.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087485817.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-h/7087485113.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7087485667.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7087485704.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк9208]KLN",
+    title: "Салатник Corone Rosenthal Hotel, фарфоровый, 1,9 л",
+    brand: "Corone collezione d’arte",
+    type: "Салатник",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 1000,
+    id: 393,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-n/7087486163.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7087486297.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7087486272.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-h/7087486445.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-n/7087486163.jpg"
+      ]
+    }
+  },
+  {
+    article: "2-SPAIK(Фк9112)KLN",
+    title: "Салатники 2 шт Corone Sacramento, фарфоровые, 350 мл",
+    brand: "Corone collezione d’arte",
+    type: "Салатник",
+    material: "Фарфор",
+    color: [
+      "серый",
+      "зеленый"
+    ],
+    origin: "Китай",
+    weight: 500,
+    id: 394,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7087486457.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-h/7087486157.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7087486476.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7087486118.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7087486457.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк1514]KLN",
+    title: "Салатник Corone Terra, фарфоровый, 625 мл",
+    brand: "Corone collezione d’arte",
+    type: "Салатник",
+    material: "Фарфор",
+    color: [
+      "синий",
+      "коричневый"
+    ],
+    origin: "Китай",
+    weight: 300,
+    id: 395,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7087486459.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7087486326.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-h/7087486481.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7087486167.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7087486459.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк090]KLN",
+    title: "Кружка для чая Corone collezione d arte, фарфор, 330 мл",
+    brand: "Corone collezione d’arte",
+    type: "Кружка",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 230,
+    id: 396,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7087485337.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7087485280.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7087485111.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7087485700.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7087485239.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7087485337.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк0975]KLN",
+    title: "Кружка для чая Corone collezione d arte, фарфор, 250 мл",
+    brand: "Corone collezione d’arte",
+    type: "Кружка",
+    material: "Фарфор",
+    color: [
+      "коралловый"
+    ],
+    origin: "Китай",
+    weight: 230,
+    id: 397,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7087485612.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7087485690.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7087485389.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7087485874.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7087485501.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7087485684.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-7/7087485427.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7087485612.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк0809]KLN",
+    title: "Салатник Corone Celeste, фарфоровый, 310 мл",
+    brand: "Corone collezione d’arte",
+    type: "Салатник",
+    material: "Фарфор",
+    color: [
+      "синий"
+    ],
+    origin: "Китай",
+    weight: 270,
+    id: 398,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7087485141.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7087485442.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7087485603.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7087485557.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7087485141.jpg"
+      ]
+    }
+  },
+  {
+    article: "2-SPAIK(фк6921)KLN",
+    title: "Тарелки 2 шт Corone collezione d arte Grafica, фарфоровые, 16 см",
+    brand: "Corone collezione d’arte",
+    type: "Тарелка",
+    material: "Фарфор",
+    color: [
+      "черный"
+    ],
+    origin: "Китай",
+    weight: 600,
+    id: 399,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7087486956.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7087487342.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7087487116.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7087487278.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7087487297.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7087485559.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7087485344.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087485097.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7087486032.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7087486956.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк825]KLN",
+    title: "Чайник заварочный Sam&Squito, фарфоровый, 750 мл",
+    brand: "Sam&Squito",
+    type: "Чайник заварочный",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 649,
+    id: 400,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7087487302.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7087487018.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7087487054.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7087487302.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк0823]KLN",
+    title: "Тарелка сервировочная Corone collezione d arte Celeste, фарфоровая, 25,7 см",
+    brand: "Corone collezione d’arte",
+    type: "Тарелка",
+    material: "Фарфор",
+    color: [
+      "синий"
+    ],
+    origin: "Китай",
+    weight: 750,
+    id: 401,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7087486535.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-n/7087486739.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7087486508.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7087486538.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7087486535.jpg"
+      ]
+    }
+  },
+  {
+    article: "2-SPAIK(фк9102)KLN",
+    title: "Тарелки 2 шт Corone collezione d arte Sacramento, фарфоровые, 20,5 см",
+    brand: "Corone collezione d’arte",
+    type: "Тарелка",
+    material: "Фарфор",
+    color: [
+      "серый",
+      "зеленый"
+    ],
+    origin: "Китай",
+    weight: 600,
+    id: 402,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7087487930.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7087487537.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7087488396.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7087486957.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7087487325.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7087487259.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7087487930.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк933]KLN",
+    title: "Чайник заварочный с фильтром Corone collezione d arte, фарфоровый, 500 мл",
+    brand: "Corone collezione d’arte",
+    type: "Чайник заварочный",
+    material: "Фарфор",
+    color: [
+      "слоновая кость"
+    ],
+    origin: "Китай",
+    weight: 522,
+    id: 403,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087488949.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7087487703.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7087487254.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7087489044.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087488949.jpg"
+      ]
+    }
+  },
+  {
+    article: "4-SPAIK(кт0149)KLN",
+    title: "Тарелки сервировочные 4 шт Corone collezione d arte Aqua, стеклянные, 27x15 см",
+    brand: "Corone collezione d’arte",
+    type: "Тарелка",
+    material: "Стекло",
+    color: [
+      "голубой",
+      "прозрачный"
+    ],
+    origin: "Китай",
+    weight: 1000,
+    id: 404,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7087486607.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7087486587.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7087485058.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7087485051.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7087486607.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк043]KLN",
+    title: "Чайник заварочный с фильтром КленМаркет, фарфоровый, 450 мл",
+    brand: "КленМаркет",
+    type: "Чайник заварочный",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 505,
+    id: 405,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7087487032.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7087486964.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087487041.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7087487030.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7087487032.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк0856]KLN",
+    title: "Тарелка сервировочная Corone collezione d arte Celeste, фарфоровая, 26,5 см",
+    brand: "Corone collezione d’arte",
+    type: "Тарелка",
+    material: "Фарфор",
+    color: [
+      "синий"
+    ],
+    origin: "Китай",
+    weight: 900,
+    id: 406,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7087486721.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-h/7087486553.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7087486592.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7087486578.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7087486571.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7087486721.jpg"
+      ]
+    }
+  },
+  {
+    article: "4-SPAIK(фк693)KLN",
+    title: "Тарелки 4 шт Collage, фарфоровые, 17 см",
+    brand: "Collage",
+    type: "Тарелка",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 310,
+    id: 407,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7087487574.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7087487255.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7087487283.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7087487575.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7087487574.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк0832]KLN",
+    title: "Кружка для чая Corone collezione d arte, фарфор, 240 мл",
+    brand: "Corone collezione d’arte",
+    type: "Кружка",
+    material: "Фарфор",
+    color: [
+      "синий"
+    ],
+    origin: "Китай",
+    weight: 100,
+    id: 408,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7087485162.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-n/7087485371.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7087485291.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7087486020.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7087486035.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-7/7087485715.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7087485162.jpg"
+      ]
+    }
+  },
+  {
+    article: "2-SPAIK(фк1753)KLN",
+    title: "Блюдо овальное набор 2 шт Corone Primavera, фарфор, 22x16,5 см",
+    brand: "Corone collezione d’arte",
+    type: "Блюдо",
+    material: "Фарфор",
+    color: [
+      "светло-зеленый"
+    ],
+    origin: "Китай",
+    weight: 1000,
+    id: 409,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7087485537.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7087485153.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7087485089.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7087485037.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7087485505.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7087485537.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк0708]KLN",
+    title: "Кружка для чая Corone collezione d arte, фарфор, 325 мл",
+    brand: "Corone collezione d’arte",
+    type: "Кружка",
+    material: "Фарфор",
+    color: [
+      "зеленый",
+      "синий"
+    ],
+    origin: "Китай",
+    weight: 300,
+    id: 410,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7087485867.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7087485949.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7087485734.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7087485970.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7087485867.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк0241]KLN",
+    title: "Бутылка для соуса Chan Wave, фарфор, 100 мл",
+    brand: "Chan Wave",
+    type: "Соусник",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 200,
+    id: 411,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7087486812.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7087486812.jpg"
+      ]
+    }
+  },
+  {
+    article: "2-SPAIK(фк6941)KLN",
+    title: "Салатники 2 шт Corone Grafica, фарфоровые, 100 мл",
+    brand: "Corone collezione d’arte",
+    type: "Салатник",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 500,
+    id: 412,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-n/7087486379.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7087486205.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7087486268.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7087486254.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7087486346.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7087485898.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7087485559.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7087485344.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087485097.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7087486032.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-n/7087486379.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк045]KLN",
+    title: "Сахарница с крышкой КленМаркет, фарфоровая, 300 мл",
+    brand: "КленМаркет",
+    type: "Сахарница",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 322,
+    id: 413,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7087486443.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7087486178.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-n/7087486271.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7087486180.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7087486443.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк1501]KLN",
+    title: "Салатник Corone Terra, фарфоровый, 600 мл",
+    brand: "Corone collezione d’arte",
+    type: "Салатник",
+    material: "Фарфор",
+    color: [
+      "синий",
+      "коричневый"
+    ],
+    origin: "Китай",
+    weight: 300,
+    id: 414,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7087486176.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7087486166.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7087486294.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7087486270.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7087486176.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк926]KLN",
+    title: "Салатник Sam&Squito Classic, фарфоровый, 360 мл",
+    brand: "Sam&Squito",
+    type: "Салатник",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 450,
+    id: 415,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7087486288.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7087486359.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7087486316.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7087486440.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7087486288.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк0947]KLN",
+    title: "Салатник Corone Natura, фарфоровый, 900 мл",
+    brand: "Corone collezione d’arte",
+    type: "Салатник",
+    material: "Фарфор",
+    color: [
+      "голубой"
+    ],
+    origin: "Китай",
+    weight: 620,
+    id: 416,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7087486234.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7087486408.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7087486342.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7087486212.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7087486234.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк9115]KLN",
+    title: "Салатник Corone Sacramento, фарфоровый, 1 л",
+    brand: "Corone collezione d’arte",
+    type: "Салатник",
+    material: "Фарфор",
+    color: [
+      "серый",
+      "зеленый"
+    ],
+    origin: "Китай",
+    weight: 500,
+    id: 417,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7087485331.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7087486072.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7087486120.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7087485331.jpg"
+      ]
+    }
+  },
+  {
+    article: "2-SPAIK(фк6937)KLN",
+    title: "Салатники 2 шт Corone Grafica, фарфоровые, 350 мл",
+    brand: "Corone collezione d’arte",
+    type: "Салатник",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 500,
+    id: 418,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7087486045.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7087485944.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7087485968.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7087485858.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7087485559.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7087485344.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087485097.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7087486032.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7087486045.jpg"
+      ]
+    }
+  },
+  {
+    article: "2-SPAIK(фк9123)KLN",
+    title: "Салатники 2 шт Corone Sacramento, фарфоровые, 225 мл",
+    brand: "Corone collezione d’arte",
+    type: "Салатник",
+    material: "Фарфор",
+    color: [
+      "зеленый"
+    ],
+    origin: "Китай",
+    weight: 750,
+    id: 419,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7087486144.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7087486139.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7087486090.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7087486160.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7087486144.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк919]KLN",
+    title: "Соусник с ручкой Sam&Squito, фарфор, 45 мл",
+    brand: "Sam&Squito",
+    type: "Соусник",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 120,
+    id: 420,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7087486889.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7087486890.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-7/7087486867.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7087486857.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7087486889.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк0724]KLN",
+    title: "Соусник Corone collezione d arte, фарфор, 150 мл",
+    brand: "Corone collezione d’arte",
+    type: "Соусник",
+    material: "Фарфор",
+    color: [
+      "синий"
+    ],
+    origin: "Китай",
+    weight: 140,
+    id: 421,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7087486731.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7087486654.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7087486708.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7087486622.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7087486555.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7087486731.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк6713]KLN",
+    title: "Молочник Corone collezione d arte, фарфоровый, 220 мл",
+    brand: "Corone collezione d’arte",
+    type: "Молочник",
+    material: "Фарфор",
+    color: [
+      "белый",
+      "голубой"
+    ],
+    origin: "Китай",
+    weight: 200,
+    id: 422,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7087485639.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7087485206.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7087485431.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7087485639.jpg"
+      ]
+    }
+  },
+  {
+    article: "2-SPAIK(фк1810)KLN",
+    title: "Салатники 2 шт Corone Carmen, фарфоровые, 500 мл",
+    brand: "Corone collezione d’arte",
+    type: "Салатник",
+    material: "Фарфор",
+    color: [
+      "коричнево-красный"
+    ],
+    origin: "Китай",
+    weight: 350,
+    id: 423,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7087486462.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7087486202.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7087486226.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7087486017.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7087485876.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7087486154.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-n/7087486451.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7087486227.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7087485696.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7087486427.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7087486462.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк03]KLN",
+    title: "Салатник Chan Wave Classic, фарфоровый, 480 мл",
+    brand: "Chan Wave",
+    type: "Салатник",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 380,
+    id: 424,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7087486044.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7087486044.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк6900]KLN",
+    title: "Салатник Corone Grafica, фарфоровый, 800 мл",
+    brand: "Corone collezione d’arte",
+    type: "Салатник",
+    material: "Фарфор",
+    color: [
+      "черный"
+    ],
+    origin: "Китай",
+    weight: 550,
+    id: 425,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-n/7087486343.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7087486391.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7087486394.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7087486282.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7087485344.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087485097.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7087486032.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7087485559.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-n/7087486343.jpg"
+      ]
+    }
+  },
+  {
+    article: "2-SPAIK(ФК1811)KLN",
+    title: "Салатники 2 шт Corone Carmen, фарфоровые, 1 л",
+    brand: "Corone collezione d’arte",
+    type: "Салатник",
+    material: "Фарфор",
+    color: [
+      "коричнево-красный"
+    ],
+    origin: "Китай",
+    weight: 500,
+    id: 426,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7087485336.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7087485416.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7087486017.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7087485876.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7087486060.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7087485333.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7087485696.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7087485548.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7087485777.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7087485336.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк789]KLN",
+    title: "Салатник Sam&Squito Quadro, фарфоровый, 1,2 л",
+    brand: "Sam&Squito",
+    type: "Салатник",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 800,
+    id: 427,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7087486492.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7087486493.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7087486164.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7087486492.jpg"
+      ]
+    }
+  },
+  {
+    article: "2-SPAIK(фк6108)KLN",
+    title: "Салатники 2 шт Tvist Madeira, фарфоровые, 400 мл",
+    brand: "TVIST",
+    type: "Салатник",
+    material: "Фарфор",
+    color: [
+      "коричневый"
+    ],
+    origin: "Китай",
+    weight: 600,
+    id: 428,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087486141.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-h/7087486229.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7087486302.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7087486168.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7087486266.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087486141.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк1511]KLN",
+    title: "Блюдо овальное сервировочное Corone Terra, фарфор, 27x21 см",
+    brand: "Corone collezione d’arte",
+    type: "Блюдо",
+    material: "Фарфор",
+    color: [
+      "синий",
+      "коричневый"
+    ],
+    origin: "Китай",
+    weight: 350,
+    id: 429,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7087485682.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7087484908.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7087485384.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7087485682.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк1232]KLN",
+    title: "Блюдо прямоугольное с ручкой Corone Rustico, керамика, 25,5x13,7 см",
+    brand: "КленМаркет",
+    type: "Блюдо",
+    material: "Керамика",
+    color: [
+      "коричневый"
+    ],
+    origin: "Китай",
+    weight: 613,
+    id: 430,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7087485042.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7087485292.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7087485042.jpg"
+      ]
+    }
+  },
+  {
+    article: "2-SPAIK(фк1819)KLN",
+    title: "Блюдо овальное набор 2 шт Corone Carmen, фарфор, 22,5x11,7 см",
+    brand: "Corone collezione d’arte",
+    type: "Блюдо",
+    material: "Фарфор",
+    color: [
+      "коричневый",
+      "красный"
+    ],
+    origin: "Китай",
+    weight: 400,
+    id: 431,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7087485341.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7087485490.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-7/7087485823.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-n/7087485263.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7087485224.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7087485341.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк6712]KLN",
+    title: "Сахарница с крышкой Corone collezione d arte, фарфоровая, 10x10 см",
+    brand: "Corone collezione d’arte",
+    type: "Сахарница",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 350,
+    id: 432,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7087486132.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7087486117.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7087486386.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7087486073.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7087486132.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт9306]KLN",
+    title: "Блюдо прямоугольное Luxstah, нержавеющая сталь, 46x29 см",
+    brand: "Luxstahl",
+    type: "Блюдо",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Россия",
+    weight: 1300,
+    id: 433,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7087484796.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7087484919.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7087484794.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7087484796.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт1573]KLN",
+    title: "Блюдо овальное КленМаркет, нержавеющая сталь, 25x15,5 см",
+    brand: "КленМаркет",
+    type: "Блюдо",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 100,
+    id: 434,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-7/7087485463.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-7/7087485463.jpg"
+      ]
+    }
+  },
+  {
+    article: "2-SPAIK(фк6940)KLN",
+    title: "Салатники 2 шт Corone Grafica, фарфоровые, 150 мл",
+    brand: "Corone collezione d’arte",
+    type: "Салатник",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 500,
+    id: 435,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7087486400.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7087486368.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7087486303.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7087486293.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7087485559.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7087485344.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087485097.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7087486032.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7087486400.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк8000]KLN",
+    title: "Салатник Cuong Phat Acquamarina, фарфоровый, 600 мл",
+    brand: "Coung Phat",
+    type: "Салатник",
+    material: "Фарфор",
+    color: [
+      "бирюзовый"
+    ],
+    origin: "Вьетнам",
+    weight: 500,
+    id: 436,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7087485927.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7087485475.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7087486106.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7087486110.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7087485784.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7087486133.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7087485927.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк921]KLN",
+    title: "Салатник Sam&Squito Classic, фарфоровый, 500 мл",
+    brand: "Sam&Squito",
+    type: "Салатник",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 360,
+    id: 437,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7087486467.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7087486369.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7087486190.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7087486258.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7087486242.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7087486467.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк0703]KLN",
+    title: "Салатник Corone Verde, фарфоровый, 1,45 л",
+    brand: "Corone collezione d’arte",
+    type: "Салатник",
+    material: "Фарфор",
+    color: [
+      "зеленый",
+      "синий"
+    ],
+    origin: "Китай",
+    weight: 700,
+    id: 438,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7087485250.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7087485561.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7087485201.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7087485380.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7087485589.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7087485250.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк6932]KLN",
+    title: "Салатник Corone Grafica, фарфоровый, 1,25 л",
+    brand: "Corone collezione d’arte",
+    type: "Салатник",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 500,
+    id: 439,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7087486173.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087486177.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7087486126.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7087486099.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7087486134.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7087485559.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7087485344.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087485097.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7087486032.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7087486173.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк6934]KLN",
+    title: "Салатник Corone Grafica, фарфоровый, 1,35 л",
+    brand: "Corone collezione d’arte",
+    type: "Салатник",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 500,
+    id: 440,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7087486351.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7087486333.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7087486324.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7087486289.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7087486100.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7087485942.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7087485719.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7087485559.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7087485344.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087485097.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7087486351.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк1515]KLN",
+    title: "Салатник Corone Terra, фарфоровый, 375 мл",
+    brand: "Corone collezione d’arte",
+    type: "Салатник",
+    material: "Фарфор",
+    color: [
+      "синий",
+      "коричневый"
+    ],
+    origin: "Китай",
+    weight: 300,
+    id: 441,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7087486078.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7087485494.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7087485564.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7087485594.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7087486078.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк844]KLN",
+    title: "Салатник Sam&Squito Classic, фарфоровый, 350 мл",
+    brand: "Sam&Squito",
+    type: "Салатник",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 400,
+    id: 442,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7087486184.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7087485966.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7087486000.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7087486201.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7087486184.jpg"
+      ]
+    }
+  },
+  {
+    article: "2-SPAIK(фк6906)KLN",
+    title: "Салатники 2 шт Corone Grafica, фарфоровые, 350 мл",
+    brand: "Corone collezione d’arte",
+    type: "Салатник",
+    material: "Фарфор",
+    color: [
+      "черный"
+    ],
+    origin: "Китай",
+    weight: 500,
+    id: 443,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7087485405.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7087486089.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7087486136.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7087485311.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7087485344.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087485097.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7087486032.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7087485559.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7087485405.jpg"
+      ]
+    }
+  },
+  {
+    article: "2-SPAIK(фк6904)KLN",
+    title: "Салатники 2 шт Corone Grafica, фарфоровые, 11,5 см",
+    brand: "Corone collezione d’arte",
+    type: "Салатник",
+    material: "Фарфор",
+    color: [
+      "черный"
+    ],
+    origin: "Китай",
+    weight: 450,
+    id: 444,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7087486062.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7087486169.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-7/7087485535.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7087485778.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7087485344.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7087486032.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7087485559.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087485097.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7087486062.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк828]KLN",
+    title: "Сахарница большая с крышкой Sam&Squito, фарфоровая, 100 мл",
+    brand: "Sam&Squito",
+    type: "Сахарница",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 321,
+    id: 445,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7087486241.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7087486241.jpg"
+      ]
+    }
+  },
+  {
+    article: "2-SPAIK(фк6106)KLN",
+    title: "Салатники 2 шт Tvist Madeira, фарфоровые, 400 мл",
+    brand: "TVIST",
+    type: "Салатник",
+    material: "Фарфор",
+    color: [
+      "коричневый"
+    ],
+    origin: "Китай",
+    weight: 540,
+    id: 446,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-n/7087485335.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7087486112.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-n/7087485335.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк092/4]KLN",
+    title: "Кружка для чая Corone collezione d arte, фарфор, 220 мл",
+    brand: "Corone collezione d’arte",
+    type: "Кружка",
+    material: "Фарфор",
+    color: [
+      "синий"
+    ],
+    origin: "Китай",
+    weight: 200,
+    id: 447,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7087485184.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7087485816.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7087485451.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7087485900.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7087485184.jpg"
+      ]
+    }
+  },
+  {
+    article: "4-SPAIK(фк1758)KLN",
+    title: "Соусники набор 4 шт Corone collezione d arte, фарфор, 100 мл",
+    brand: "Corone collezione d’arte",
+    type: "Соусник",
+    material: "Фарфор",
+    color: [
+      "зеленый"
+    ],
+    origin: "Китай",
+    weight: 200,
+    id: 448,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7087486620.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7087486668.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7087486694.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7087486659.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7087486702.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7087486650.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7087486620.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк8004]KLN",
+    title: "Салатник Cuong Phat Acquamarina, фарфоровый, 1,25 л",
+    brand: "Coung Phat",
+    type: "Салатник",
+    material: "Фарфор",
+    color: [
+      "бирюзовый"
+    ],
+    origin: "Вьетнам",
+    weight: 700,
+    id: 449,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7087485814.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7087485369.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7087486087.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7087485711.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7087485784.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7087486133.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7087485814.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк857]KLN",
+    title: "Соусник с блюдцем Sam&Squito, фарфор, 90 мл",
+    brand: "Sam&Squito",
+    type: "Соусник",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 170,
+    id: 450,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7087486814.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7087486678.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7087486608.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7087486612.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7087486814.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк0840]KLN",
+    title: "Молочник Corone collezione d arte, фарфоровый, 100 мл",
+    brand: "Corone collezione d’arte",
+    type: "Молочник",
+    material: "Фарфор",
+    color: [
+      "синий"
+    ],
+    origin: "Китай",
+    weight: 177,
+    id: 451,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7087485822.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7087485573.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7087485982.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7087485520.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7087485822.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт1054]KLN",
+    title: "Сахарница с дозатором КленМаркет, стеклянная, 250 мл",
+    brand: "КленМаркет",
+    type: "Сахарница",
+    material: "[Стекло, Нержавеющая сталь]",
+    color: [
+      "прозрачный",
+      "хром"
+    ],
+    origin: "Китай",
+    weight: 255,
+    id: 452,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7087486171.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7087486171.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк1605]KLN",
+    title: "Салатник Corone Rust, фарфоровый, 17 см",
+    brand: "Corone collezione d’arte",
+    type: "Салатник",
+    material: "Фарфор",
+    color: [
+      "серый"
+    ],
+    origin: "Китай",
+    weight: 500,
+    id: 453,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087485889.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087485925.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7087486021.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087485889.jpg"
+      ]
+    }
+  },
+  {
+    article: "2-SPAIK(фк9127)KLN",
+    title: "Кружки для кофе 2 шт Corone collezione d arte, фарфор, 180 мл",
+    brand: "Corone collezione d’arte",
+    type: "Кружка",
+    material: "Фарфор",
+    color: [
+      "зеленый"
+    ],
+    origin: "Китай",
+    weight: 300,
+    id: 454,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7087485663.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7087485542.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7087486074.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7087485775.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7087485663.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк0857]KLN",
+    title: "Салатник Corone Celeste, фарфоровый, 920 мл",
+    brand: "Corone collezione d’arte",
+    type: "Салатник",
+    material: "Фарфор",
+    color: [
+      "синий"
+    ],
+    origin: "Китай",
+    weight: 64,
+    id: 455,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7087485722.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7087486102.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7087485453.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7087485912.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-n/7087486055.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7087485835.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7087485722.jpg"
+      ]
+    }
+  },
+  {
+    article: "2-SPAIK(фк9118)KLN",
+    title: "Салатники 2 шт Corone Sacramento, фарфоровые, 400 мл",
+    brand: "Corone collezione d’arte",
+    type: "Салатник",
+    material: "Фарфор",
+    color: [
+      "серый",
+      "зеленый"
+    ],
+    origin: "Китай",
+    weight: 400,
+    id: 456,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7087486296.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7087486165.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7087486230.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7087486296.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт2563]KLN",
+    title: "Ведерко для льда Luxstahl, нержавеющая сталь, 7,2x7,5 см",
+    type: "Ведерко для льда",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 290,
+    id: 457,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7155167823.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7155167823.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт2565]KLN",
+    title: "Ведерко для льда Luxstahl, нержавеющая сталь, 7,2x7,5 см",
+    brand: "Luxstahl",
+    type: "Ведерко для льда",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 290,
+    id: 458,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087485673.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087485673.jpg"
+      ]
+    }
+  },
+  {
+    article: "2-SPAIK(фк829)KLN",
+    title: "Молочники набор 2 шт Sam&Squito, фарфоровые, 120 мл",
+    brand: "Sam&Squito",
+    type: "Молочник",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 131,
+    id: 459,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7087485270.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7087485924.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7087485177.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7087485868.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7087485270.jpg"
+      ]
+    }
+  },
+  {
+    article: "2-SPAIK(фк0159)KLN",
+    title: "Молочники набор 2 шт Chan Wave, фарфоровые, 50 мл",
+    brand: "Chan Wave",
+    type: "Молочник",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 94,
+    id: 460,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7087486014.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7087486014.jpg"
+      ]
+    }
+  },
+  {
+    article: "2-SPAIK(фк385/1)KLN",
+    title: "Молочники набор 2 шт Collage, фарфоровые, 50 мл",
+    brand: "Collage",
+    type: "Молочник",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 134,
+    id: 461,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7087485699.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7087485921.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7087485872.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7087485320.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-n/7087485191.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7087485699.jpg"
+      ]
+    }
+  },
+  {
+    article: "2-SPAIK(фк927)KLN",
+    title: "Молочники набор 2 шт Sam&Squito, фарфоровые, 70 мл",
+    brand: "Sam&Squito",
+    type: "Молочник",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 97,
+    id: 462,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7087485511.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7087485979.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7087485553.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7087485821.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7087485511.jpg"
+      ]
+    }
+  },
+  {
+    article: "2-SPAIK(фк0179)KLN",
+    title: "Молочники набор 2 шт Chan Wave, фарфоровые, 150 мл",
+    brand: "Chan Wave",
+    type: "Молочник",
+    material: "Фарфор",
+    color: [
+      "белый"
+    ],
+    origin: "Китай",
+    weight: 286,
+    id: 463,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7087485752.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-h/7087485833.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7087485809.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7087485847.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7087485752.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк1617]KLN",
+    title: "Чайник заварочный с фильтром Corone collezione d arte, фарфоровый, 500 мл",
+    brand: "Corone collezione d’arte",
+    type: "Чайник заварочный",
+    material: "Фарфор",
+    color: [
+      "коричневый"
+    ],
+    origin: "Китай",
+    weight: 400,
+    id: 464,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7087487106.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7087487080.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7087487078.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7087486954.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7087487106.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк6919]KLN",
+    title: "Тарелка сервировочная Corone collezione d arte Grafica, фарфоровая, 23 см",
+    brand: "Corone collezione d’arte",
+    type: "Тарелка",
+    material: "Фарфор",
+    color: [
+      "черный"
+    ],
+    origin: "Китай",
+    weight: 900,
+    id: 465,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7087487266.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7087487079.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7087487019.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7087487144.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7087487297.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7087485559.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7087485344.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087485097.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7087486032.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7087487266.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк1618]KLN",
+    title: "Чайник заварочный с фильтром Corone collezione d arte, фарфоровый, 500 мл",
+    brand: "Corone collezione d’arte",
+    type: "Чайник заварочный",
+    material: "Фарфор",
+    color: [
+      "бежевый"
+    ],
+    origin: "Китай",
+    weight: 400,
+    id: 466,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7087486989.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7087487506.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7087487362.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7087486987.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7087486989.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк1616]KLN",
+    title: "Чайник заварочный с фильтром Corone collezione d arte, фарфоровый, 500 мл",
+    brand: "Corone collezione d’arte",
+    type: "Чайник заварочный",
+    material: "Фарфор",
+    color: [
+      "оранжевый"
+    ],
+    origin: "Китай",
+    weight: 400,
+    id: 467,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7087487823.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7188419379.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-7/7188419383.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7188419382.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7087487823.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк1615]KLN",
+    title: "Чайник заварочный с фильтром Corone collezione d arte, фарфоровый, 500 мл",
+    brand: "Corone collezione d’arte",
+    type: "Чайник заварочный",
+    material: "Фарфор",
+    color: [
+      "красный"
+    ],
+    origin: "Китай",
+    weight: 400,
+    id: 468,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7087487210.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7087487643.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7087487586.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7087488656.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7087487210.jpg"
+      ]
+    }
+  },
+  {
+    article: "фк6523]KLN",
+    title: "Тарелка сервировочная Corone collezione d arte Bushido, фарфоровая, 28,5 см",
+    brand: "Corone collezione d’arte",
+    type: "Тарелка",
+    material: "Фарфор",
+    color: [
+      "черный"
+    ],
+    origin: "Китай",
+    weight: 600,
+    id: 469,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7087487717.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7087489053.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7087489042.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7087489021.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7087487697.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7087487717.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт1977)KLN",
+    title: "Набор вилок столовых 6 шт Luxstahl Nizza, нержавеющая сталь, 20,5 см",
+    brand: "Luxstahl",
+    type: "Вилка столовая",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 264,
+    "length": 20.5,
+    id: 470,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7128123639.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7128123626.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7128123639.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт0239)KLN",
+    title: "Набор вилок столовых 6 шт Luxstahl Malta, нержавеющая сталь, 19,9 см",
+    brand: "Luxstahl",
+    type: "Вилка столовая",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 258,
+    "length": 19.9,
+    id: 471,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7128123619.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7128123645.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7128123625.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7128123623.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7128123619.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт0267)KLN",
+    title: "Набор вилок столовых 6 шт Luxstahl Vinci, нержавеющая сталь, 19 см",
+    brand: "Luxstahl",
+    type: "Вилка столовая",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 192,
+    "length": 19,
+    id: 472,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7128123718.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7128123628.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7128123718.jpg"
+      ]
+    }
+  },
+  {
+    article: "12-KVANT(786)KLN",
+    title: "Набор бокалов для шампанского 12 шт Pasabahce Tulipe, стекло, 200 мл",
+    brand: "Pasabahce",
+    type: "Набор бокалов",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 2748,
+    "height": 20.5,
+    id: 473,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7128123714.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7128123714.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт9116)KLN",
+    title: "Набор вилок столовых 6 шт Luxstahl Paris, нержавеющая сталь, 20,3 см",
+    brand: "Luxstahl",
+    type: "Вилка столовая",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 233,
+    "length": 20.3,
+    id: 474,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7128123692.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7128123690.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7128123653.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7128123633.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7128123692.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт0242)KLN",
+    title: "Набор вилок закусочных 6 шт Luxstahl Malta, нержавеющая сталь, 18,1 см",
+    brand: "Luxstahl",
+    type: "Вилка столовая",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 192,
+    "length": 18.1,
+    id: 475,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7128123678.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7128123645.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7128123625.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7128123623.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7128123678.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт1981)KLN",
+    title: "Набор вилок столовых 6 шт Luxstahl Toscana, нержавеющая сталь, 19,6 см",
+    brand: "Luxstahl",
+    type: "Вилка столовая",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 252,
+    "length": 19.6,
+    id: 476,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7128123688.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7128123686.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7128123685.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7128123698.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7128123688.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт3102)KLN",
+    title: "Набор вилок столовых 6 шт Luxstahl Frida, нержавеющая сталь, 20,3 см",
+    brand: "Luxstahl",
+    type: "Вилка столовая",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 300,
+    "length": 20.3,
+    id: 477,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7128123651.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7128123656.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7128123649.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7128123657.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7128123662.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7128123651.jpg"
+      ]
+    }
+  },
+  {
+    article: "12-KVANT(1277)KLN",
+    title: "Набор бокалов для шампанского 12 шт Pasabahce Изабелла, стекло, 200 мл",
+    brand: "Pasabahce",
+    type: "Набор бокалов",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 2916,
+    "height": 22.2,
+    id: 478,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7128123666.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7128123666.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт9124)KLN",
+    title: "Набор вилок закусочных 6 шт Luxstahl Rome, нержавеющая сталь, 18,8 см",
+    brand: "Luxstahl",
+    type: "Вилка столовая",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 240,
+    "length": 18.8,
+    id: 479,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7128123664.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7128123687.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7128123730.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7128123652.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7128123664.jpg"
+      ]
+    }
+  },
+  {
+    article: "12-KVANT(1530)KLN",
+    title: "Набор бокалов для мартини 12 шт Pasabahce Энотека, стекло, 215 мл",
+    brand: "Pasabahce",
+    type: "Набор бокалов",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 1692,
+    "height": 17.4,
+    id: 480,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7128123668.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-7/7128123667.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7128123659.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7128123731.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7128123668.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт9106)KLN",
+    title: "Набор вилок столовых 6 шт Luxstahl Prague, нержавеющая сталь, 20,2 см",
+    brand: "Luxstahl",
+    type: "Вилка столовая",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 300,
+    "length": 20.2,
+    id: 481,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7128123695.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7128123701.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7128123699.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7128123724.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7128123695.jpg"
+      ]
+    }
+  },
+  {
+    article: "12-KVANT(792)KLN",
+    title: "Набор бокалов для воды 12 шт Pasabahce Tulipe, стекло, 315 мл",
+    brand: "Pasabahce",
+    type: "Набор бокалов",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 3276,
+    "height": 17,
+    id: 482,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7128123697.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7128123697.jpg"
+      ]
+    }
+  },
+  {
+    article: "12-KVANT(886)KLN",
+    title: "Набор бокалов для вина 12 шт Pasabahce Bistro, стекло, 290 мл",
+    brand: "Pasabahce",
+    type: "Набор бокалов",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 2616,
+    "height": 16,
+    id: 483,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7128123707.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7128123707.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-KVANT(8360)KLN",
+    title: "Набор бокалов для вина 6 шт Pasabahce Энотека, стекло, 780 мл",
+    brand: "Pasabahce",
+    type: "Набор бокалов",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 1938,
+    "height": 22.8,
+    id: 484,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7128123689.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7128123689.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт9111)KLN",
+    title: "Набор вилок столовых 6 шт Luxstahl Oslo, нержавеющая сталь, 20,1 см",
+    brand: "Luxstahl",
+    type: "Вилка столовая",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 156,
+    "length": 20.1,
+    id: 485,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-n/7128123899.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7128123836.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7128123806.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-h/7128123821.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-n/7128123899.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт0255)KLN",
+    title: "Набор вилок столовых 6 шт Luxstahl Casablanca, нержавеющая сталь, 21 см",
+    brand: "Luxstahl",
+    type: "Вилка столовая",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 270,
+    "length": 21,
+    id: 486,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7128123881.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7128123760.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7128123751.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7128123881.jpg"
+      ]
+    }
+  },
+  {
+    article: "12-KVANT(1481)KLN",
+    title: "Бокал для маргариты 12 шт Pasabahce Bistro, стекло, 265 мл",
+    brand: "Pasabahce",
+    type: "Набор бокалов",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 3132,
+    "height": 16.5,
+    id: 487,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7128123780.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7128123782.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7128123789.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7128123780.jpg"
+      ]
+    }
+  },
+  {
+    article: "12-KVANT(2918)KLN",
+    title: "Набор бокалов для коньяка 12 шт Pasabahce Bistro, стекло, 395 мл",
+    brand: "Pasabahce",
+    type: "Набор бокалов",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 2736,
+    "height": 12.4,
+    id: 488,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7128123765.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7128123765.jpg"
+      ]
+    }
+  },
+  {
+    article: "12-KVANT(7849)KLN",
+    title: "Набор бокалов для вина 12 шт Pasabahce Империал Плюс, стекло, 240 мл",
+    brand: "Pasabahce",
+    type: "Набор бокалов",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 2376,
+    "height": 17.5,
+    id: 489,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7128123769.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7128123769.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт2052)KLN",
+    title: "Набор вилок закусочных 6 шт Luxstahl Barcelona, нержавеющая сталь, 18,5 см",
+    brand: "Luxstahl",
+    type: "Вилка столовая",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 192,
+    "length": 18.5,
+    id: 490,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7128123803.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7128123833.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7128123803.jpg"
+      ]
+    }
+  },
+  {
+    article: "12-KVANT(805)KLN",
+    title: "Набор бокалов для вина 12 шт Pasabahce Tulipe, стекло, 200 мл",
+    brand: "Pasabahce",
+    type: "Набор бокалов",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 2484,
+    "height": 15.5,
+    id: 491,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7128123815.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7128123815.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт0281)KLN",
+    title: "Набор вилок столовых 6 шт Luxstahl Asti, нержавеющая сталь, 20 см",
+    brand: "Luxstahl",
+    type: "Вилка столовая",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 288,
+    "length": 20,
+    id: 492,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7128123854.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7128123744.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7128123854.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт2049)KLN",
+    title: "Набор вилок столовых 6 шт Luxstahl Barcelona, нержавеющая сталь, 20,8 см",
+    brand: "Luxstahl",
+    type: "Вилка столовая",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 258,
+    "length": 20.8,
+    id: 493,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7128123828.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7128123833.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7128123828.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт0259)KLN",
+    title: "Набор вилок закусочных 6 шт Luxstahl Casablanca, нержавеющая сталь, 18,7 см",
+    brand: "Luxstahl",
+    type: "Вилка столовая",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 210,
+    "length": 18.7,
+    id: 494,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7128123856.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7128123760.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7128123751.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7128123856.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт2044)KLN",
+    title: "Набор вилок столовых 6 шт Luxstahl Monaco, нержавеющая сталь, 20,5 см",
+    brand: "Luxstahl",
+    type: "Вилка столовая",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 240,
+    "length": 20.5,
+    id: 495,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7128123865.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7128123862.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7128123865.jpg"
+      ]
+    }
+  },
+  {
+    article: "12-KVANT(2118)KLN",
+    title: "Набор бокалов для кофе 12 шт Pasabahce Irish Coffee, стекло, 220 мл",
+    brand: "Pasabahce",
+    type: "Набор бокалов",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 5184,
+    "height": 14.6,
+    id: 496,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7128123868.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7128123861.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7128123868.jpg"
+      ]
+    }
+  },
+  {
+    article: "12-KVANT(8736)KLN",
+    title: "Набор бокалов для вина 12 шт Pasabahce Империал Плюс, стекло, 310 мл",
+    brand: "Pasabahce",
+    type: "Набор бокалов",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 2760,
+    "height": 19.6,
+    id: 497,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7128123885.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7128123885.jpg"
+      ]
+    }
+  },
+  {
+    article: "12-KVANT(1291)KLN",
+    title: "Набор бокалов для вина 12 шт Pasabahce Изабелла, стекло, 400 мл",
+    brand: "Pasabahce",
+    type: "Набор бокалов",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 3756,
+    "height": 21.1,
+    id: 498,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7128123941.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7128123941.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт0266)KLN",
+    title: "Набор ножей столовых 6 шт Luxstahl, нержавеющая сталь, 21,1 см",
+    brand: "Luxstahl",
+    type: "Нож столовый",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 300,
+    "length": 21.1,
+    id: 499,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7128123830.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7128123628.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7128123830.jpg"
+      ]
+    }
+  },
+  {
+    article: "12-KVANT(4413)KLN",
+    title: "Набор бокалов для мартини 12 шт Pasabahce Bistro, стекло, 190 мл",
+    brand: "Pasabahce",
+    type: "Набор бокалов",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 2628,
+    "height": 13.6,
+    id: 500,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-7/7128123775.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7128123851.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-7/7128123775.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт2056)KLN",
+    title: "Набор вилок для пирожного 6 шт Luxstahl Barcelona, нержавеющая сталь, 14,2 см",
+    brand: "Luxstahl",
+    type: "Вилка столовая",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 114,
+    "length": 14.2,
+    id: 501,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7128123764.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7128123833.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7128123764.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт2702)KLN",
+    title: "Набор вилок столовых 6 шт Luxstahl Baguette, нержавеющая сталь, 20,9 см",
+    brand: "Luxstahl",
+    type: "Вилка столовая",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 294,
+    "length": 20.9,
+    id: 502,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-h/7128123785.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7128123762.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7128123797.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7128123798.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7128123848.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7128123905.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7128123874.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-h/7128123785.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт2935)KLN",
+    title: "Набор вилок столовых 6 шт Luxstahl Satin, нержавеющая сталь, 21 см",
+    brand: "Luxstahl",
+    type: "Вилка столовая",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 360,
+    "length": 21,
+    id: 503,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7128123877.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-7/7128123883.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7128123957.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-n/7128123863.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7128123864.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7128123894.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7128123878.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7128123867.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7128123898.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7128123949.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7128123942.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7128123829.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7128123877.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт2940)KLN",
+    title: "Набор вилок столовых 6 шт Luxstahl Iris, нержавеющая сталь, 19 см",
+    brand: "Luxstahl",
+    type: "Вилка столовая",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 204,
+    "length": 19,
+    id: 504,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7128123900.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7128123823.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7128123822.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7128123819.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7128123796.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7128123786.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7128123824.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7128123900.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт3110)KLN",
+    title: "Набор вилок столовых 6 шт Luxstahl Palermo, нержавеющая сталь, 20,3 см",
+    brand: "Luxstahl",
+    type: "Вилка столовая",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 294,
+    "length": 20.3,
+    id: 505,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7128123773.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7128123804.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-n/7128123827.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7128123817.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7128123773.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт2012)KLN",
+    title: "Набор вилок закусочных 6 шт Luxstahl Toscana, нержавеющая сталь, 17,4 см",
+    brand: "Luxstahl",
+    type: "Вилка столовая",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 198,
+    "length": 17.4,
+    id: 506,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7128123790.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7128123686.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7128123685.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7128123698.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7128123790.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт9101)KLN",
+    title: "Набор вилок столовых 6 шт Luxstahl Manhattan, нержавеющая сталь, 19,7 см",
+    brand: "Luxstahl",
+    type: "Вилка столовая",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 198,
+    "length": 19.7,
+    id: 507,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7128123924.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7128123933.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7128123952.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7128124012.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7128123924.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт0241)KLN",
+    title: "Набор ножей закусочных 6 шт Luxstahl, нержавеющая сталь, 20,4 см",
+    brand: "Luxstahl",
+    type: "Нож столовый",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 318,
+    "length": 20.4,
+    id: 508,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7128123872.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7128123645.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7128123625.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7128123623.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7128123872.jpg"
+      ]
+    }
+  },
+  {
+    article: "12-KVANT(8733)KLN",
+    title: "Набор бокалов для шампанского 12 шт Pasabahce Империал плюс, стекло, 150 мл",
+    brand: "Pasabahce",
+    type: "Набор бокалов",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 1992,
+    "height": 19.5,
+    id: 509,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-7/7128123919.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-7/7128123919.jpg"
+      ]
+    }
+  },
+  {
+    article: "12-KVANT(3028)KLN",
+    title: "Набор бокалов для вина 12 шт Pasabahce Классик, стекло, 360 мл",
+    brand: "Pasabahce",
+    type: "Набор бокалов",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 2820,
+    "height": 21.3,
+    id: 510,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7128123926.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7128123926.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт0238)KLN",
+    title: "Набор ножей столовых 6 шт Luxstahl, нержавеющая сталь, 22,8 см",
+    brand: "Luxstahl",
+    type: "Нож столовый",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 420,
+    "length": 22.8,
+    id: 511,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7128123934.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7128123645.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7128123625.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7128123623.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7128123934.jpg"
+      ]
+    }
+  },
+  {
+    article: "12-KVANT(3877)KLN",
+    title: "Набор бокалов харрикейн 12 шт Pasabahce Bistro, стекло, 380 мл",
+    brand: "Pasabahce",
+    type: "Набор бокалов",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 3504,
+    "height": 17.6,
+    id: 512,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-7/7128123739.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7128123745.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7128123908.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7128123860.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7128123776.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7128123886.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7128123746.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-7/7128123739.jpg"
+      ]
+    }
+  },
+  {
+    article: "12-KVANT(9695)KLN",
+    title: "Набор бокалов для мартини 12 шт Pasabahce Таймлесс, закаленное стекло, 230 мл",
+    brand: "Pasabahce",
+    type: "Набор бокалов",
+    material: "Закаленное стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Россия",
+    weight: 3624,
+    "height": 17.2,
+    id: 513,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7128123801.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7128123801.jpg"
+      ]
+    }
+  },
+  {
+    article: "12-KVANT(2117)KLN",
+    title: "Набор бокалов для кофе 12 шт Pasabahce Irish Coffee, стекло, 263 мл",
+    brand: "Pasabahce",
+    type: "Набор бокалов",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 5148,
+    "height": 14.8,
+    id: 514,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7128123927.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7128123927.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт0254)KLN",
+    title: "Набор ножей столовых 6 шт Luxstahl, нержавеющая сталь, 23 см",
+    brand: "Luxstahl",
+    type: "Нож столовый",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 546,
+    "length": 23,
+    id: 515,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7128123887.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7128123760.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7128123751.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7128123887.jpg"
+      ]
+    }
+  },
+  {
+    article: "12-KVANT(1004)KLN",
+    title: "Набор бокалов для вина 12 шт Pasabahce Карат, стекло, 270 мл",
+    brand: "Pasabahce",
+    type: "Набор бокалов",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 2976,
+    "height": 16.2,
+    id: 516,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7128123752.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7128123752.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт0270)KLN",
+    title: "Набор ножей столовых 6 шт Luxstahl, нержавеющая сталь, 23 см",
+    brand: "Luxstahl",
+    type: "Нож столовый",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 720,
+    "length": 23,
+    id: 517,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7128123938.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7128123916.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7128123938.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт0249)KLN",
+    title: "Набор ножей закусочных 6 шт Luxstahl, нержавеющая сталь, 20,5 см",
+    brand: "Luxstahl",
+    type: "Нож столовый",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 348,
+    "length": 20.5,
+    id: 518,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7128123792.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7128123770.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7128123795.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7128123768.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7128123792.jpg"
+      ]
+    }
+  },
+  {
+    article: "12-KVANT(3891)KLN",
+    title: "Набор бокалов для вина 12 шт Pasabahce Casablanca, стекло, 235 мл",
+    brand: "Pasabahce",
+    type: "Набор бокалов",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 4572,
+    "height": 16,
+    id: 519,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7128123858.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7128123858.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт0278)KLN",
+    title: "Набор вилок для рыбы 6 шт Luxstahl Frankfurt, нержавеющая сталь, 18 см",
+    brand: "Luxstahl",
+    type: "Вилка для рыбы",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 240,
+    "length": 18,
+    id: 520,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7128123882.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7128123951.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7128123882.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт3107)KLN",
+    title: "Набор вилок закусочных 6 шт Luxstahl Frida, нержавеющая сталь, 18 см",
+    brand: "Luxstahl",
+    type: "Вилка столовая",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 240,
+    "length": 18,
+    id: 521,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7128123996.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7128123953.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7128124014.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7128124015.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7128123849.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7128123996.jpg"
+      ]
+    }
+  },
+  {
+    article: "12-KVANT(7572)KLN",
+    title: "Набор бокалов для коньяка 12 шт Pasabahce Шарант, стекло, 310 мл",
+    brand: "Pasabahce",
+    type: "Набор бокалов",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 2412,
+    "height": 12,
+    id: 522,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7128123925.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7128123925.jpg"
+      ]
+    }
+  },
+  {
+    article: "12-KVANT(8344)KLN",
+    title: "Набор бокалов для шампанского 12 шт Pasabahce Энотека, стекло, 175 мл",
+    brand: "Pasabahce",
+    type: "Набор бокалов",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 2424,
+    "height": 22.6,
+    id: 523,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7128123972.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7128123972.jpg"
+      ]
+    }
+  },
+  {
+    article: "12-KVANT(1295)KLN",
+    title: "Набор бокалов для шампанского 12 шт Pasabahce Винтаж, стекло, 190 мл",
+    brand: "Pasabahce",
+    type: "Набор бокалов",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 3324,
+    "height": 23,
+    id: 524,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7128123852.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7128123852.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт0230)KLN",
+    title: "Набор ножей столовых 6 шт Luxstahl, нержавеющая сталь, 23 см",
+    brand: "Luxstahl",
+    type: "Нож столовый",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 528,
+    "length": 23,
+    id: 525,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7128123903.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7128123969.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7128123920.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7128123921.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7128123903.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт0274)KLN",
+    title: "Набор ножей закусочных 6 шт Luxstahl, нержавеющая сталь, 19,8 см",
+    brand: "Luxstahl",
+    type: "Нож столовый",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 480,
+    "length": 19.8,
+    id: 526,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7128123855.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7128124058.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7128123855.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт2947)KLN",
+    title: "Набор вилок столовых 6 шт Luxstahl Serena, нержавеющая сталь, 20 см",
+    brand: "Luxstahl",
+    type: "Вилка столовая",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 360,
+    "length": 20,
+    id: 527,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7128124004.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7128123979.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7128123838.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-h/7128124073.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7128124053.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7128123843.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7128124057.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-7/7128124063.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7128124050.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7128124032.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7128124004.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт0286)KLN",
+    title: "Набор вилок закусочных 6 шт Luxstahl Asti, нержавеющая сталь, 18,2 см",
+    brand: "Luxstahl",
+    type: "Вилка столовая",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 264,
+    "length": 18.2,
+    id: 528,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-n/7128123971.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7128123853.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-n/7128123971.jpg"
+      ]
+    }
+  },
+  {
+    article: "12-KVANT(1292)KLN",
+    title: "Набор бокалов для вина 12 шт Pasabahce Изабелла, стекло, 350 мл",
+    brand: "Pasabahce",
+    type: "Набор бокалов",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 2064,
+    "height": 20.2,
+    id: 529,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7155156557.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7155156557.jpg"
+      ]
+    }
+  },
+  {
+    article: "12-KVANT(8358)KLN",
+    title: "Набор бокалов для вина 12 шт Pasabahce Энотека, стекло, 655 мл",
+    brand: "Pasabahce",
+    type: "Набор бокалов",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 3432,
+    "height": 21.6,
+    id: 530,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7128124016.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7128124016.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт0271)KLN",
+    title: "Набор вилок столовых 6 шт Luxstahl Frankfurt, нержавеющая сталь, 20,3 см",
+    brand: "Luxstahl",
+    type: "Вилка столовая",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 312,
+    "length": 20.3,
+    id: 531,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7128123959.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7128123980.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7128123959.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт9122)KLN",
+    title: "Набор вилок столовых 6 шт Luxstahl Rome, нержавеющая сталь, 20,4 см",
+    brand: "Luxstahl",
+    type: "Вилка столовая",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 298,
+    "length": 20.4,
+    id: 532,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7128124086.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7128123947.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-7/7128124099.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7128123945.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7128124086.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт3115)KLN",
+    title: "Набор вилок столовых 6 шт Luxstahl Turin, нержавеющая сталь, 21,1 см",
+    brand: "Luxstahl",
+    type: "Вилка столовая",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 300,
+    "length": 21.1,
+    id: 533,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7128124035.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7128124017.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7128124019.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7128124011.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7128124061.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7128124049.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7128124035.jpg"
+      ]
+    }
+  },
+  {
+    article: "12-KVANT(7573)KLN",
+    title: "Набор бокалов для коньяка 12 шт Pasabahce Шарант, стекло, 175 мл",
+    brand: "Pasabahce",
+    type: "Набор бокалов",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 1596,
+    "height": 10.7,
+    id: 534,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7128123954.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7128123954.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт0246)KLN",
+    title: "Набор ножей столовых 6 шт Luxstahl, нержавеющая сталь, 22,9 см",
+    brand: "Luxstahl",
+    type: "Нож столовый",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 486,
+    "length": 22.9,
+    id: 535,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7128124047.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7128123770.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7128123795.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7128123768.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7128124047.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт208)KLN",
+    title: "Набор вилок закусочных 6 шт Luxstahl Verona, нержавеющая сталь, 18,6 см",
+    brand: "Luxstahl",
+    type: "Вилка столовая",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 516,
+    "length": 18.6,
+    id: 536,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7128123976.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-n/7128123935.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7128123948.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7128124003.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7128123976.jpg"
+      ]
+    }
+  },
+  {
+    article: "12-KVANT(3030)KLN",
+    title: "Набор бокалов для вина 12 шт Pasabahce Классик, стекло, 445 мл",
+    brand: "Pasabahce",
+    type: "Набор бокалов",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 2904,
+    "height": 21.9,
+    id: 537,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7128123966.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7128123966.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт0247)KLN",
+    title: "Набор вилок столовых 6 шт Luxstahl Cremona, нержавеющая сталь, 20,1 см",
+    brand: "Luxstahl",
+    type: "Вилка столовая",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 258,
+    "length": 20.1,
+    id: 538,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7128123987.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7128123770.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7128123795.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7128123768.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7128123987.jpg"
+      ]
+    }
+  },
+  {
+    article: "12-KVANT(927)KLN",
+    title: "Набор бокалов для вина 12 шт Pasabahce Bistro, стекло, 175 мл",
+    brand: "Pasabahce",
+    type: "Набор бокалов",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 2100,
+    "height": 13.2,
+    id: 539,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7128124089.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7128124089.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт205)KLN",
+    title: "Набор вилок столовых 6 шт Luxstahl Verona, нержавеющая сталь, 20,5 см",
+    brand: "Luxstahl",
+    type: "Вилка столовая",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 180,
+    "length": 20.5,
+    id: 540,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7128124087.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7128123931.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7128124093.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7128123958.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7128124087.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт0235)KLN",
+    title: "Набор ножей закусочных 6 шт Luxstahl, нержавеющая сталь, 19,9 см",
+    brand: "Luxstahl",
+    type: "Нож столовый",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 366,
+    "length": 19.9,
+    id: 541,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7128123904.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7128123969.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7128123920.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7128123921.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7128123904.jpg"
+      ]
+    }
+  },
+  {
+    article: "12-KVANT(890)KLN",
+    title: "Набор бокалов для вина 12 шт Pasabahce Bistro, стекло, 225 мл",
+    brand: "Pasabahce",
+    type: "Набор бокалов",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 2292,
+    "height": 14.7,
+    id: 542,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7128123950.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7128123950.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт0236)KLN",
+    title: "Набор вилок закусочных 6 шт Luxstahl Sophia, нержавеющая сталь, 18,1 см",
+    brand: "Luxstahl",
+    type: "Вилка столовая",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 192,
+    "length": 18.1,
+    id: 543,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7128124132.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7128123969.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7128123920.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7128123921.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7128124132.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт0250)KLN",
+    title: "Набор вилок закусочных 6 шт Luxstahl Cremona, нержавеющая сталь, 18,3 см",
+    brand: "Luxstahl",
+    type: "Вилка столовая",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 192,
+    "length": 18.3,
+    id: 544,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-h/7128124109.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7128123770.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7128123795.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7128123768.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-h/7128124109.jpg"
+      ]
+    }
+  },
+  {
+    article: "12-KVANT(2986)KLN",
+    title: "Набор бокалов для вина 12 шт Pasabahce Винтаж, стекло, 236 мл",
+    brand: "Pasabahce",
+    type: "Набор бокалов",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 3300,
+    "height": 20,
+    id: 545,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7128124030.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7128124030.jpg"
+      ]
+    }
+  },
+  {
+    article: "12-KVANT(3219)KLN",
+    title: "Набор бокалов для вина 12 шт Pasabahce Амбер, стекло, 365 мл",
+    brand: "Pasabahce",
+    type: "Набор бокалов",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 3000,
+    "height": 20,
+    id: 546,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7128124000.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7128124000.jpg"
+      ]
+    }
+  },
+  {
+    article: "12-KVANT(793)KLN",
+    title: "Набор бокалов для вина 12 шт Pasabahce Tulipe, стекло, 240 мл",
+    brand: "Pasabahce",
+    type: "Набор бокалов",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 2340,
+    "height": 16.5,
+    id: 547,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7128124097.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7128124097.jpg"
+      ]
+    }
+  },
+  {
+    article: "12-KVANT(933)KLN",
+    title: "Набор бокалов для коньяка 12 шт Pasabahce Bistro, стекло, 265 мл",
+    brand: "Pasabahce",
+    type: "Набор бокалов",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 2520,
+    "height": 11.8,
+    id: 548,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7128124110.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7128124110.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт0276)KLN",
+    title: "Набор вилок закусочных 6 шт Luxstahl Frankfurt, нержавеющая сталь, 18 см",
+    brand: "Luxstahl",
+    type: "Вилка столовая",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 240,
+    "length": 18,
+    id: 549,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7128124066.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7128124129.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7128124066.jpg"
+      ]
+    }
+  },
+  {
+    article: "12-KVANT(3071)KLN",
+    title: "Набор бокалов для вина 12 шт Pasabahce Карат, стекло, 335 мл",
+    brand: "Pasabahce",
+    type: "Набор бокалов",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 3324,
+    "height": 17.7,
+    id: 550,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7128123973.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7128123973.jpg"
+      ]
+    }
+  },
+  {
+    article: "12-KVANT(932)KLN",
+    title: "Набор бокалов для шампанского 12 шт Pasabahce Bistro, стекло, 190 мл",
+    brand: "Pasabahce",
+    type: "Набор бокалов",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 2700,
+    "height": 18.8,
+    id: 551,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7128124155.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7128124155.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт0231)KLN",
+    title: "Набор вилок столовых 6 шт Luxstahl Sophia, нержавеющая сталь, 20,3 см",
+    brand: "Luxstahl",
+    type: "Вилка столовая",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 270,
+    "length": 20.3,
+    id: 552,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7128124080.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7128123969.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7128123920.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7128123921.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7128124080.jpg"
+      ]
+    }
+  },
+  {
+    article: "12-KVANT(9696)KLN",
+    title: "Набор бокалов для вина 12 шт Pasabahce Таймлесс, закаленное стекло, 320 мл",
+    brand: "Pasabahce",
+    type: "Набор бокалов",
+    material: "Закаленное стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Россия",
+    weight: 5304,
+    "height": 15.1,
+    id: 553,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7128124094.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7128124094.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-KVANT(8357)KLN",
+    title: "Набор бокалов для вина 6 шт Pasabahce Энотека, стекло, 440 мл",
+    brand: "Pasabahce",
+    type: "Набор бокалов",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 1542,
+    "height": 22.3,
+    id: 554,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7128124134.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7128124134.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт2601)KLN",
+    title: "Набор вилок столовых 6 шт Luxstahl Oxford, нержавеющая сталь, 19,7 см",
+    brand: "Luxstahl",
+    type: "Вилка столовая",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 222,
+    "length": 19.7,
+    id: 555,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7128123960.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7128124119.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7128123960.jpg"
+      ]
+    }
+  },
+  {
+    article: "12-KVANT(748)KLN",
+    title: "Набор бокалов-блюдец под шампанское 12 шт Pasabahce Bistro, стекло, 270 мл",
+    brand: "Pasabahce",
+    type: "Набор бокалов",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 2424,
+    "height": 13.2,
+    id: 556,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7128124118.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7128124118.jpg"
+      ]
+    }
+  },
+  {
+    article: "12-KVANT(3026)KLN",
+    title: "Набор бокалов для шампанского 12 шт Pasabahce Классик, стекло, 250 мл",
+    brand: "Pasabahce",
+    type: "Набор бокалов",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 2448,
+    "height": 21.2,
+    id: 557,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7128124138.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7128124138.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт2609)KLN",
+    title: "Набор вилок столовых 6 шт Luxstahl Madrid, нержавеющая сталь, 19,8 см",
+    brand: "Luxstahl",
+    type: "Вилка столовая",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 240,
+    "length": 19.8,
+    id: 558,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7128124002.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7128123988.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7128124002.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт2026)KLN",
+    title: "Набор вилок для пирожного 6 шт Luxstahl Tokio, нержавеющая сталь, 16 см",
+    brand: "Luxstahl",
+    type: "Вилка столовая",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 132,
+    "length": 16,
+    id: 559,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7128124059.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7128124098.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7128124059.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт1991)KLN",
+    title: "Набор вилок столовых 6 шт Luxstahl Tokio, нержавеющая сталь, 19,9 см",
+    brand: "Luxstahl",
+    type: "Вилка столовая",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 198,
+    "length": 19.9,
+    id: 560,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7128124071.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7128124098.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7128124071.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт0257)KLN",
+    title: "Набор ножей закусочных 6 шт Luxstahl, нержавеющая сталь, 20 см",
+    brand: "Luxstahl",
+    type: "Нож столовый",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 444,
+    "length": 20,
+    id: 561,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-7/7128124171.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7128123760.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7128123751.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-7/7128124171.jpg"
+      ]
+    }
+  },
+  {
+    article: "12-KVANT(8356)KLN",
+    title: "Набор бокалов для вина 12 шт Pasabahce Энотека, стекло, 550 мл",
+    brand: "Pasabahce",
+    type: "Набор бокалов",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 3336,
+    "height": 23.2,
+    id: 562,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7128124052.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7128124052.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт2022)KLN",
+    title: "Набор вилок закусочных 6 шт Luxstahl Tokio, нержавеющая сталь, 17,5 см",
+    brand: "Luxstahl",
+    type: "Вилка столовая",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 156,
+    "length": 17.5,
+    id: 563,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7128124156.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7128124098.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7128124156.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт0288)KLN",
+    title: "Набор вилок для рыбы 6 шт Luxstahl Asti, нержавеющая сталь, 18,2 см",
+    brand: "Luxstahl",
+    type: "Вилка для рыбы",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 258,
+    "length": 18.2,
+    id: 564,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7128124184.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7128124170.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7128124184.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт2606)KLN",
+    title: "Набор вилок закусочных 6 шт Luxstahl Oxford, нержавеющая сталь, 18 см",
+    brand: "Luxstahl",
+    type: "Вилка столовая",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 180,
+    "length": 18,
+    id: 565,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7128124111.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7128124159.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7128124111.jpg"
+      ]
+    }
+  },
+  {
+    article: "12-KVANT(1252)KLN",
+    title: "Набор бокалов для шампанского 12 шт Pasabahce Карат, стекло, 163 мл",
+    brand: "Pasabahce",
+    type: "Набор бокалов",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 2724,
+    "height": 20.6,
+    id: 566,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7128124112.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7128124112.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт2945)KLN",
+    title: "Набор вилок для стейка 6 шт Luxstahl New York, нержавеющая сталь, 21 см",
+    brand: "Luxstahl",
+    type: "Вилка столовая",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 360,
+    "length": 21,
+    id: 567,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7128124126.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7128124162.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7128124133.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7128124126.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-KVANT(8355)KLN",
+    title: "Набор бокалов для вина 6 шт Pasabahce Энотека, стекло, 615 мл",
+    brand: "Pasabahce",
+    type: "Набор бокалов",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 1770,
+    "height": 23.8,
+    id: 568,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7128124085.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7128124085.jpg"
+      ]
+    }
+  },
+  {
+    article: "12-KVANT(3229)KLN",
+    title: "Набор бокалов для вина 12 шт Pasabahce Амбер, стекло, 460 мл",
+    brand: "Pasabahce",
+    type: "Набор бокалов",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 3600,
+    "height": 21.6,
+    id: 569,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7128124103.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7128124103.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт0280)KLN",
+    title: "Набор ножей столовых 6 шт Luxstahl, нержавеющая сталь, 24 см",
+    brand: "Luxstahl",
+    type: "Нож столовый",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 606,
+    "length": 24,
+    id: 570,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7128124267.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7128124290.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7128124267.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт0279)KLN",
+    title: "Набор ножей для рыбы 6 шт Luxstahl, нержавеющая сталь, 20,4 см",
+    brand: "Luxstahl",
+    type: "Нож для рыбы",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 276,
+    "length": 20.4,
+    id: 571,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7128124264.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-7/7128124243.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7128124264.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт1980)KLN",
+    title: "Набор ножей столовых 6 шт Luxstahl, нержавеющая сталь, 23 см",
+    brand: "Luxstahl",
+    type: "Нож столовый",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 438,
+    "length": 23,
+    id: 572,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7128124261.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7128123626.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7128124261.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт2024)KLN",
+    title: "Набор ножей закусочных 6 шт Luxstahl, нержавеющая сталь, 21 см",
+    brand: "Luxstahl",
+    type: "Нож столовый",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 324,
+    "length": 21,
+    id: 573,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7128124218.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7128124098.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7128124218.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт3122)KLN",
+    title: "Набор ножей столовых 6 шт Luxstahl, нержавеющая сталь, 23,5 см",
+    brand: "Luxstahl",
+    type: "Нож столовый",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 282,
+    "length": 23.5,
+    id: 574,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7128124204.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7128124209.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7128124248.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7128124258.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7128124246.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7128124251.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7128124262.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7128124300.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7128124282.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7128124219.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7128124241.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7128124225.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7128124204.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт2701)KLN",
+    title: "Набор ножей столовых 6 шт Luxstahl, нержавеющая сталь, 24,7 см",
+    brand: "Luxstahl",
+    type: "Нож столовый",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 606,
+    "length": 24.7,
+    id: 575,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7128124211.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7128124215.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-h/7128124217.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7128124200.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7128124328.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7128124239.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7128124202.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7128124211.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-KVANT(658)KLN",
+    title: "Набор стаканов рокс 6 шт Pasabahce TANGO, стекло, 250 мл",
+    brand: "Pasabahce",
+    type: "Набор стаканов",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 1482,
+    id: 576,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7128124260.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7128124260.jpg"
+      ]
+    }
+  },
+  {
+    article: "12-KVANT(3900)KLN",
+    title: "Набор стаканов 12 шт Pasabahce Casablanca, стекло, 295 мл",
+    brand: "Pasabahce",
+    type: "Набор стаканов",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 4248,
+    id: 577,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7128124285.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7128124285.jpg"
+      ]
+    }
+  },
+  {
+    article: "12-KVANT(7793)KLN",
+    title: "Набор стаканчиков для чая 12 шт Pasabahce Таймлесс, стекло, 170 мл",
+    brand: "Pasabahce",
+    type: "Набор стаканов",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Россия",
+    weight: 2196,
+    id: 578,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7128124272.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7128124272.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт9100)KLN",
+    title: "Набор ножей столовых 6 шт Luxstahl, нержавеющая сталь, 23,5 см",
+    brand: "Luxstahl",
+    type: "Нож столовый",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 438,
+    "length": 23.5,
+    id: 579,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7128124383.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7128124369.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7128124229.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7128124301.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7128124383.jpg"
+      ]
+    }
+  },
+  {
+    article: "12-KVANT(8206)KLN",
+    title: "Набор стаканов хайбол 12 шт Pasabahce SIDE, стекло, 290 мл",
+    brand: "Pasabahce",
+    type: "Набор стаканов",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 3516,
+    id: 580,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7128124233.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7128124233.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт4300]KLN",
+    title: "Гастроемкость Luxstahl, нержавеющая сталь, 18x13 см",
+    brand: "Luxstahl",
+    type: "Гастроемкость",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 200,
+    "height": 3,
+    "length": 18,
+    "width": 13,
+    id: 581,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7128124327.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7128124373.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7128124250.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7128124388.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7128124327.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт168]KLN",
+    title: "Гастроемкость Luxstahl, нержавеющая сталь, 32x22 см",
+    brand: "Luxstahl",
+    type: "Гастроемкость",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 270,
+    "height": 2,
+    "length": 32,
+    "width": 22,
+    id: 582,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7128124214.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7128124232.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7128124214.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт4306]KLN",
+    title: "Гастроемкость Luxstahl, нержавеющая сталь, 50x35 см",
+    brand: "Luxstahl",
+    type: "Гастроемкость",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 500,
+    "height": 3,
+    "length": 50,
+    "width": 35,
+    id: 583,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-7/7128124351.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7128124324.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7128124339.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7128124237.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-7/7128124351.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт4313]KLN",
+    title: "Гастроемкость Luxstahl, нержавеющая сталь, 20x20 см",
+    brand: "Luxstahl",
+    type: "Гастроемкость",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 550,
+    "height": 5,
+    "length": 20,
+    "width": 20,
+    id: 584,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7128124220.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7128124386.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-h/7128124253.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7128124220.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт2946)KLN",
+    title: "Набор ножей столовых 6 шт Luxstahl, нержавеющая сталь, 22,4 см",
+    brand: "Luxstahl",
+    type: "Нож столовый",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 498,
+    "length": 22.4,
+    id: 585,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7128124371.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7128124311.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7128124317.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-7/7128124279.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7128124275.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7128124269.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7128124310.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-h/7128124325.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7128124221.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7128124341.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7128124371.jpg"
+      ]
+    }
+  },
+  {
+    article: "12-KVANT(8878)KLN",
+    title: "Набор стаканов рокс 12 шт Pasabahce Балтик, стекло, 310 мл",
+    brand: "Pasabahce",
+    type: "Набор стаканов",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 3816,
+    id: 586,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7128124242.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7128124242.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-KVANT(411)KLN",
+    title: "Набор стаканов рокс 6 шт Pasabahce SILVANA, стекло, 315 мл",
+    brand: "Pasabahce",
+    type: "Набор стаканов",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 2040,
+    id: 587,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7128124362.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7128124362.jpg"
+      ]
+    }
+  },
+  {
+    article: "12-KVANT(465)KLN",
+    title: "Набор стаканов рокс 6 шт Pasabahce SIDE, стекло, 220 мл",
+    brand: "Pasabahce",
+    type: "Набор стаканов",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 3516,
+    id: 588,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7128124231.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7128124231.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт4314]KLN",
+    title: "Гастроемкость Luxstahl, нержавеющая сталь, 25x25 см",
+    brand: "Luxstahl",
+    type: "Гастроемкость",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 450,
+    "height": 5,
+    "length": 25,
+    "width": 25,
+    id: 589,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7128124255.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7128124249.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7128124342.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7128124255.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт2896]KLN",
+    title: "Гастроемкость Luxstahl, нержавеющая сталь, 26,5x15,5 см",
+    brand: "Luxstahl",
+    type: "Гастроемкость",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 150,
+    "height": 1.2,
+    "length": 26.5,
+    "width": 15.5,
+    id: 590,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7128124338.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7128124268.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7128124284.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7128124338.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-KVANT(568)KLN",
+    title: "Набор стаканов хайбол 6 шт Pasabahce SILVANA, стекло, 385 мл",
+    brand: "Pasabahce",
+    type: "Набор стаканов",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 2016,
+    id: 591,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7128124305.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7128124305.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт342]KLN",
+    title: "Гастроемкость Luxstahl, нержавеющая сталь, 36x27 см",
+    brand: "Luxstahl",
+    type: "Гастроемкость",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 330,
+    "height": 2,
+    "length": 36,
+    "width": 27,
+    id: 592,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7128124247.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7128124302.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7128124247.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт9110)KLN",
+    title: "Набор ножей столовых 6 шт Luxstahl, нержавеющая сталь, 22,7 см",
+    brand: "Luxstahl",
+    type: "Нож столовый",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 480,
+    "length": 22.7,
+    id: 593,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7128124400.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7128124343.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7128124404.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7128124335.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7128124400.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт2014)KLN",
+    title: "Набор ножей закусочных 6 шт Luxstahl, нержавеющая сталь, 19,9 см",
+    brand: "Luxstahl",
+    type: "Нож столовый",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 366,
+    "length": 19.9,
+    id: 594,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7128124333.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7128123686.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7128123685.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7128123698.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7128124333.jpg"
+      ]
+    }
+  },
+  {
+    article: "12-KVANT(3901)KLN",
+    title: "Набор стаканов хайбол 12 шт Pasabahce Casablanca, стекло, 33,5 мл",
+    brand: "Pasabahce",
+    type: "Набор стаканов",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 4296,
+    id: 595,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7128124398.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7128124392.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7128124398.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт4307]KLN",
+    title: "Гастроемкость Luxstahl, нержавеющая сталь, 60x40 см",
+    brand: "Luxstahl",
+    type: "Гастроемкость",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 500,
+    "height": 3,
+    "length": 60,
+    "width": 40,
+    id: 596,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7128124396.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7128124394.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7128124382.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7128124354.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7128124396.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт3114)KLN",
+    title: "Набор ножей столовых 6 шт Luxstahl, нержавеющая сталь, 23,9 см",
+    brand: "Luxstahl",
+    type: "Нож столовый",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 498,
+    "length": 23.9,
+    id: 597,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7128124379.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-7/7128124315.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7128124286.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7128124304.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7128124307.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7128124277.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7128124379.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт358]KLN",
+    title: "Гастроемкость Luxstahl, нержавеющая сталь, 50x40 см",
+    brand: "Luxstahl",
+    type: "Гастроемкость",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 750,
+    "height": 4.8,
+    "length": 50,
+    "width": 40,
+    id: 598,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7128124256.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7128124345.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7128124256.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт2939)KLN",
+    title: "Набор ножей столовых 6 шт Luxstahl, нержавеющая сталь, 20,2 см",
+    brand: "Luxstahl",
+    type: "Нож столовый",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 240,
+    "length": 20.2,
+    id: 599,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7128124336.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7128124303.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7128124293.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7128124297.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7128124309.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7128124270.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7128124288.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7128124336.jpg"
+      ]
+    }
+  },
+  {
+    article: "12-KVANT(1628)KLN",
+    title: "Набор стаканов рокс 12 шт Pasabahce Карат, стекло, 300 мл",
+    brand: "Pasabahce",
+    type: "Набор стаканов",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 3576,
+    id: 600,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7128124321.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7128124321.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт338]KLN",
+    title: "Гастроемкость Luxstahl, нержавеющая сталь, 40x30 см",
+    brand: "Luxstahl",
+    type: "Гастроемкость",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 500,
+    "height": 4.8,
+    "length": 40,
+    "width": 30,
+    id: 601,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-n/7128124367.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-n/7128124403.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-n/7128124367.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-KVANT(381)KLN",
+    title: "Набор стаканов рокс 12 шт Pasabahce SILVANA, стекло, 200 мл",
+    brand: "Pasabahce",
+    type: "Набор стаканов",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 1560,
+    id: 602,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7128124406.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7128124406.jpg"
+      ]
+    }
+  },
+  {
+    article: "12-KVANT(371)KLN",
+    title: "Набор стаканов рокс для виски 12 шт Pasabahce Istanbul, стекло, 250 мл",
+    brand: "Pasabahce",
+    type: "Набор стаканов",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 2856,
+    id: 603,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7128124419.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7128124419.jpg"
+      ]
+    }
+  },
+  {
+    article: "12-KVANT(4409)KLN",
+    title: "Набор бокалов для пива 12 шт Pasabahce Pub, стекло, 500 мл",
+    brand: "Pasabahce",
+    type: "Набор стаканов",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 5364,
+    id: 604,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7128124271.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7128124393.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7128124356.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7128124401.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7128124417.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7128124271.jpg"
+      ]
+    }
+  },
+  {
+    article: "12-KVANT(487)KLN",
+    title: "Набор стаканов хайбол 12 шт Pasabahce SIDE, стекло, 215 мл",
+    brand: "Pasabahce",
+    type: "Набор стаканов",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 2676,
+    id: 605,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7128124375.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7128124375.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт167]KLN",
+    title: "Гастроемкость Luxstahl, нержавеющая сталь, 40x30 см",
+    brand: "Luxstahl",
+    type: "Гастроемкость",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 430,
+    "height": 2,
+    "length": 40,
+    "width": 30,
+    id: 606,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7128124344.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7128124347.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7128124344.jpg"
+      ]
+    }
+  },
+  {
+    article: "12-KVANT(3950)KLN",
+    title: "Набор бокалов для пива 12 шт Pasabahce Casablanca, стекло, 475 мл",
+    brand: "Pasabahce",
+    type: "Набор стаканов",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 5628,
+    id: 607,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7128124411.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7128124411.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт0289)KLN",
+    title: "Набор ножей для рыбы 6 шт Luxstahl, нержавеющая сталь, 20,4 см",
+    brand: "Luxstahl",
+    type: "Нож для рыбы",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 360,
+    "length": 20.4,
+    id: 608,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7128124430.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7128124432.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7128124430.jpg"
+      ]
+    }
+  },
+  {
+    article: "12-KVANT(8876)KLN",
+    title: "Набор стаканов рокс 12 шт Pasabahce Балтик, стекло, 205 мл",
+    brand: "Pasabahce",
+    type: "Набор стаканов",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 2784,
+    id: 609,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7128124334.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7128124334.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт363]KLN",
+    title: "Гастроемкость Luxstahl, нержавеющая сталь, 27x20 см",
+    brand: "Luxstahl",
+    type: "Гастроемкость",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 240,
+    "height": 4.8,
+    "length": 27,
+    "width": 20,
+    id: 610,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7128124426.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7128124435.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7128124426.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт2043)KLN",
+    title: "Набор ножей столовых 6 шт Luxstahl, нержавеющая сталь, 22,3 см",
+    brand: "Luxstahl",
+    type: "Нож столовый",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 420,
+    "length": 22.3,
+    id: 611,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7128124391.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7128123862.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7128124391.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт2605)KLN",
+    title: "Набор ножей закусочных 6 шт Luxstahl, нержавеющая сталь, 20,1 см",
+    brand: "Luxstahl",
+    type: "Нож столовый",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 336,
+    "length": 20.1,
+    id: 612,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7128124306.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7128124291.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7128124306.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт3105)KLN",
+    title: "Набор ножей закусочных 6 шт Luxstahl, нержавеющая сталь, 20 см",
+    brand: "Luxstahl",
+    type: "Нож столовый",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 504,
+    "length": 20,
+    id: 613,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7128124314.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7128124308.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7128124434.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7128124424.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7128124313.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7128124314.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт2895]KLN",
+    title: "Гастроемкость Luxstahl, нержавеющая сталь, 22,8x14,8 см",
+    brand: "Luxstahl",
+    type: "Гастроемкость",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 120,
+    "height": 1.2,
+    "length": 22.8,
+    "width": 14.8,
+    id: 614,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7128124364.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7128124350.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7128124355.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7128124364.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-KVANT(1687)KLN",
+    title: "Набор стаканчиков для чая 12 шт Pasabahce, стекло, 160 мл",
+    brand: "Pasabahce",
+    type: "Набор стаканов",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 1074,
+    id: 615,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7128124363.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7128124363.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт1994)KLN",
+    title: "Набор ножей столовых 6 шт Luxstahl, нержавеющая сталь, 23 см",
+    brand: "Luxstahl",
+    type: "Нож столовый",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 630,
+    "length": 23,
+    id: 616,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7128124451.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7128124098.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7128124451.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт3109)KLN",
+    title: "Набор ножей столовых 6 шт Luxstahl, нержавеющая сталь, 23 см",
+    brand: "Luxstahl",
+    type: "Нож столовый",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 498,
+    "length": 23,
+    id: 617,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7128124421.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7128124337.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7128124444.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7128124330.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7128124421.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт9121)KLN",
+    title: "Набор ножей закусочных 6 шт Luxstahl, нержавеющая сталь, 20 см",
+    brand: "Luxstahl",
+    type: "Нож столовый",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 500,
+    "length": 20,
+    id: 618,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7128124402.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7128124428.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7128124408.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7128124425.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7128124402.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт185]KLN",
+    title: "Гастроемкость Luxstahl, нержавеющая сталь, 45x30 см",
+    brand: "Luxstahl",
+    type: "Гастроемкость",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 570,
+    "height": 4.8,
+    "length": 45,
+    "width": 30,
+    id: 619,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7128124366.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-h/7128124361.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7128124366.jpg"
+      ]
+    }
+  },
+  {
+    article: "12-KVANT(3930)KLN",
+    title: "Набор стаканчиков для чая с ручкой 12 шт Pasabahce, стекло, 140 мл",
+    brand: "Pasabahce",
+    type: "Набор стаканов",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 2820,
+    id: 620,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7128124443.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7128124443.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-KVANT(662)KLN",
+    title: "Набор стаканов рокс 6 шт Pasabahce TANGO, стекло, 315 мл",
+    brand: "Pasabahce",
+    type: "Набор стаканов",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 1776,
+    id: 621,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7128124448.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7128124448.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-KVANT(315)KLN",
+    title: "Набор стаканов рокс 6 шт Pasabahce LUNA, стекло, 245 мл",
+    brand: "Pasabahce",
+    type: "Набор стаканов",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 1536,
+    id: 622,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-7/7128124423.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-7/7128124423.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-KVANT(362)KLN",
+    title: "Набор стаканов рокс 6 шт Pasabahce LUNA, стекло, 369 мл",
+    brand: "Pasabahce",
+    type: "Набор стаканов",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 1950,
+    id: 623,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7128124415.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7128124415.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт382]KLN",
+    title: "Гастроемкость Luxstahl, нержавеющая сталь, 60x40 см",
+    brand: "Luxstahl",
+    type: "Гастроемкость",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 900,
+    "height": 2,
+    "length": 60,
+    "width": 40,
+    id: 624,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7128124405.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7128124420.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7128124405.jpg"
+      ]
+    }
+  },
+  {
+    article: "12-KVANT(1274)KLN",
+    title: "Набор стаканов хайбол 12 шт Pasabahce Карат, стекло, 330 мл",
+    brand: "Pasabahce",
+    type: "Набор стаканов",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 4284,
+    id: 625,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7128124399.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7128124399.jpg"
+      ]
+    }
+  },
+  {
+    article: "12-KVANT(1689)KLN",
+    title: "Набор стаканов рокс 6 шт Pasabahce Карат, стекло, 250 мл",
+    brand: "Pasabahce",
+    type: "Набор стаканов",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 3036,
+    id: 626,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7128124407.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7128124407.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт2608)KLN",
+    title: "Набор ножей столовых 6 шт Luxstahl, нержавеющая сталь, 22,7 см",
+    brand: "Luxstahl",
+    type: "Нож столовый",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 486,
+    "length": 22.7,
+    id: 627,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7128124484.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7128123988.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7128124484.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт2048)KLN",
+    title: "Набор ножей столовых 6 шт Luxstahl, нержавеющая сталь, 22,6 см",
+    brand: "Luxstahl",
+    type: "Нож столовый",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 540,
+    "length": 22.6,
+    id: 628,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7128124479.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7128123833.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7128124479.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт2600)KLN",
+    title: "Набор ножей столовых 6 шт Luxstahl, нержавеющая сталь, 22,2 см",
+    brand: "Luxstahl",
+    type: "Нож столовый",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 486,
+    "length": 22.2,
+    id: 629,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7128124422.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7128124418.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7128124422.jpg"
+      ]
+    }
+  },
+  {
+    article: "12-KVANT(8877)KLN",
+    title: "Набор стаканов хайбол 12 шт Pasabahce Балтик, стекло, 305 мл",
+    brand: "Pasabahce",
+    type: "Набор стаканов",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 3396,
+    id: 630,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7128124461.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7128124461.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт9115)KLN",
+    title: "Набор ножей столовых 6 шт Luxstahl, нержавеющая сталь, 23 см",
+    brand: "Luxstahl",
+    type: "Нож столовый",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 222,
+    "length": 23,
+    id: 631,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7128124449.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7128124440.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7128124431.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7128124429.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7128124449.jpg"
+      ]
+    }
+  },
+  {
+    article: "12-KVANT(9694)KLN",
+    title: "Набор стаканов рокс 12 шт Pasabahce Таймлесс, закаленное стекло, 205 мл",
+    brand: "Pasabahce",
+    type: "Набор стаканов",
+    material: "Закаленное стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Россия",
+    weight: 3144,
+    id: 632,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7128124464.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7128124445.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7128124452.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7128124464.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт162]KLN",
+    title: "Гастроемкость Luxstahl, нержавеющая сталь, 50x35 см",
+    brand: "Luxstahl",
+    type: "Гастроемкость",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 720,
+    "height": 4.8,
+    "length": 50,
+    "width": 35,
+    id: 633,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7128124473.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7128124412.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7128124473.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт164]KLN",
+    title: "Гастроемкость Luxstahl, нержавеющая сталь, 36x27 см",
+    brand: "Luxstahl",
+    type: "Гастроемкость",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 440,
+    "height": 4.8,
+    "length": 36,
+    "width": 27,
+    id: 634,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7128124446.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7128124457.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7128124446.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт340]KLN",
+    title: "Гастроемкость Luxstahl, нержавеющая сталь, 50x40 см",
+    brand: "Luxstahl",
+    type: "Гастроемкость",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 710,
+    "height": 2,
+    "length": 50,
+    "width": 40,
+    id: 635,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7128124466.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7128124460.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7128124466.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-KVANT(277)KLN",
+    title: "Набор бокалов для пива 6 шт Pasabahce Pub, стекло, 320 мл",
+    brand: "Pasabahce",
+    type: "Набор стаканов",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 1932,
+    id: 636,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7128124489.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7128124489.jpg"
+      ]
+    }
+  },
+  {
+    article: "12-KVANT(535)KLN",
+    title: "Набор стаканов хайбол 12 шт Pasabahce SIDE, стекло, 290 мл",
+    brand: "Pasabahce",
+    type: "Набор стаканов",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Россия",
+    weight: 3408,
+    id: 637,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7128124497.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7128124493.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7128124497.jpg"
+      ]
+    }
+  },
+  {
+    article: "12-KVANT(368)KLN",
+    title: "Набор стаканов рокс для сока 12 шт Pasabahce Istanbul, стекло, 185 мл",
+    brand: "Pasabahce",
+    type: "Набор стаканов",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 2388,
+    id: 638,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7128124490.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7128124490.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт165]KLN",
+    title: "Гастроемкость Luxstahl, нержавеющая сталь, 32x22 см",
+    brand: "Luxstahl",
+    type: "Гастроемкость",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 300,
+    "height": 4.8,
+    "length": 32,
+    "width": 22,
+    id: 639,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-7/7128124495.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7128124494.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-7/7128124495.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт4312]KLN",
+    title: "Гастроемкость Luxstahl, нержавеющая сталь, 15x15 см",
+    brand: "Luxstahl",
+    type: "Гастроемкость",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 300,
+    "height": 5,
+    "length": 15,
+    "width": 15,
+    id: 640,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7128124498.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7128124501.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7128124496.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7128124498.jpg"
+      ]
+    }
+  },
+  {
+    article: "12-KVANT(3896)KLN",
+    title: "Набор стаканов 12 шт Pasabahce Casablanca, стекло, 270 мл",
+    brand: "Pasabahce",
+    type: "Набор стаканов",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 3168,
+    id: 641,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7128124458.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7128124458.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт337]KLN",
+    title: "Гастроемкость Luxstahl, нержавеющая сталь, 45x35 см",
+    brand: "Luxstahl",
+    type: "Гастроемкость",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 700,
+    "height": 4.8,
+    "length": 45,
+    "width": 35,
+    id: 642,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7128124467.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7128124453.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7128124467.jpg"
+      ]
+    }
+  },
+  {
+    article: "12-KVANT(7994)KLN",
+    title: "Набор стаканов хайбол 12 шт Pasabahce Плэже, стекло, 480 мл",
+    brand: "Pasabahce",
+    type: "Набор стаканов",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 4236,
+    id: 643,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7128124509.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7128124509.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт341]KLN",
+    title: "Гастроемкость Luxstahl, нержавеющая сталь, 45x35 см",
+    brand: "Luxstahl",
+    type: "Гастроемкость",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 560,
+    "height": 2,
+    "length": 45,
+    "width": 35,
+    id: 644,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7128124536.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7128124533.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7128124536.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт4301]KLN",
+    title: "Гастроемкость Luxstahl, нержавеющая сталь, 21,5x15 см",
+    brand: "Luxstahl",
+    type: "Гастроемкость",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 250,
+    "height": 3,
+    "length": 21.5,
+    "width": 15,
+    id: 645,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7128124535.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7128124532.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7128124530.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7128124506.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7128124535.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт207)KLN",
+    title: "Набор ножей закусочных 6 шт Luxstahl, нержавеющая сталь, 21,8 см",
+    brand: "Luxstahl",
+    type: "Нож столовый",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 450,
+    "length": 21.8,
+    id: 646,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7128124510.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7128124557.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7128124556.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7128124549.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7128124551.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7128124510.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-KVANT(637)KLN",
+    title: "Набор стаканов хайбол 6 шт Pasabahce TANGO, стекло, 290 мл",
+    brand: "Pasabahce",
+    type: "Набор стаканов",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 1686,
+    id: 647,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7128124542.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7128124542.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт9105)KLN",
+    title: "Набор ножей столовых 6 шт Luxstahl, нержавеющая сталь, 22,8 см",
+    brand: "Luxstahl",
+    type: "Нож столовый",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 228,
+    "length": 22.8,
+    id: 648,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7128124544.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7128124534.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7128124525.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7128124522.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7128124544.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт2944)KLN",
+    title: "Набор ножей для стейка 6 шт Luxstahl, нержавеющая сталь, 22 см",
+    brand: "Luxstahl",
+    type: "Нож столовый",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 558,
+    "length": 22,
+    id: 649,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7128124539.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7128124546.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7128124521.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7128124539.jpg"
+      ]
+    }
+  },
+  {
+    article: "12-KVANT(931)KLN",
+    title: "Набор бокалов для пива 12 шт Pasabahce Bistro, стекло, 400 мл",
+    brand: "Pasabahce",
+    type: "Набор стаканов",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 3192,
+    id: 650,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7128124569.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7128124519.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7128124528.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7128124569.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт2897]KLN",
+    title: "Гастроемкость Luxstahl, нержавеющая сталь, 32,5x16,5 см",
+    brand: "Luxstahl",
+    type: "Гастроемкость",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 200,
+    "height": 1.5,
+    "length": 32.5,
+    "width": 16.5,
+    id: 651,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7128124554.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7128124560.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7128124558.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7128124554.jpg"
+      ]
+    }
+  },
+  {
+    article: "12-KVANT(816)KLN",
+    title: "Набор бокалов для пива 6 шт Pasabahce Tulipe, стекло, 385 мл",
+    brand: "Pasabahce",
+    type: "Набор стаканов",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 3516,
+    id: 652,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7128124559.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7128124559.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт169]KLN",
+    title: "Гастроемкость Luxstahl, нержавеющая сталь, 27x20 см",
+    brand: "Luxstahl",
+    type: "Гастроемкость",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 210,
+    "height": 2,
+    "length": 27,
+    "width": 20,
+    id: 653,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7128124562.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7128124512.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7128124562.jpg"
+      ]
+    }
+  },
+  {
+    article: "12-KVANT(9683-2)KLN",
+    title: "Набор стаканов рокс 12 шт Pasabahce, стекло, 355 мл",
+    brand: "Pasabahce",
+    type: "Набор стаканов",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 3204,
+    id: 654,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7128124553.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7128124553.jpg"
+      ]
+    }
+  },
+  {
+    article: "12-KVANT(5609)KLN",
+    title: "Набор стаканов рокс 12 шт Pasabahce Элизия, стекло, 210 мл",
+    brand: "Pasabahce",
+    type: "Набор стаканов",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 2796,
+    id: 655,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7128124575.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7128124621.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7128124575.jpg"
+      ]
+    }
+  },
+  {
+    article: "12-KVANT(365)KLN",
+    title: "Набор стаканов хайбол для сока 12 шт Pasabahce Istanbul, стекло, 290 мл",
+    brand: "Pasabahce",
+    type: "Набор стаканов",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 2844,
+    id: 656,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7128124566.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7128124566.jpg"
+      ]
+    }
+  },
+  {
+    article: "12-KVANT(3902)KLN",
+    title: "Набор стаканов хайбол 12 шт Pasabahce Casablanca, стекло, 365 мл",
+    brand: "Pasabahce",
+    type: "Набор стаканов",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 5160,
+    id: 657,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7128124615.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7128124615.jpg"
+      ]
+    }
+  },
+  {
+    article: "12-KVANT(3894)KLN",
+    title: "Набор стаканов рокс 12 шт Pasabahce Casablanca, стекло, 208 мл",
+    brand: "Pasabahce",
+    type: "Набор стаканов",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 2688,
+    id: 658,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7128124563.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7128124563.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт335]KLN",
+    title: "Гастроемкость Luxstahl, нержавеющая сталь, 60x40 см",
+    brand: "Luxstahl",
+    type: "Гастроемкость",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 1040,
+    "height": 4.8,
+    "length": 60,
+    "width": 40,
+    id: 659,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7128124582.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7128124610.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7128124582.jpg"
+      ]
+    }
+  },
+  {
+    article: "12-KVANT(363)KLN",
+    title: "Набор стаканов хайбол 6 шт Pasabahce LUNA, стекло, 390 мл",
+    brand: "Pasabahce",
+    type: "Набор стаканов",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 4044,
+    id: 660,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7128124606.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7128124606.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт1984)KLN",
+    title: "Набор ножей столовых 6 шт Luxstahl, нержавеющая сталь, 21,7 см",
+    brand: "Luxstahl",
+    type: "Нож столовый",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 468,
+    "length": 21.7,
+    id: 661,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7128124571.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7128123686.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7128123685.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7128123698.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7128124571.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт2051)KLN",
+    title: "Набор ножей закусочных 6 шт Luxstahl, нержавеющая сталь, 20,4 см",
+    brand: "Luxstahl",
+    type: "Нож столовый",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 414,
+    "length": 20.4,
+    id: 662,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7128124572.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7128123833.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7128124572.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт0284)KLN",
+    title: "Набор ножей закусочных 6 шт Luxstahl, нержавеющая сталь, 22,5 см",
+    brand: "Luxstahl",
+    type: "Нож столовый",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 480,
+    "length": 22.5,
+    id: 663,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7128124584.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7128124579.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7128124584.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт2934)KLN",
+    title: "Набор ножей столовых 6 шт Luxstahl, нержавеющая сталь, 23,7 см",
+    brand: "Luxstahl",
+    type: "Нож столовый",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 558,
+    "length": 23.7,
+    id: 664,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7128124590.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7128124586.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-n/7128124583.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7128124609.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7128124588.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7128124596.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-7/7128124603.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7128124601.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7128124633.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7128124602.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7128124587.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7128124595.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7128124590.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт3100)KLN",
+    title: "Набор ножей столовых 6 шт Luxstahl, нержавеющая сталь, 23 см",
+    brand: "Luxstahl",
+    type: "Нож столовый",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 612,
+    "length": 23,
+    id: 665,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7128124593.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7128124622.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7128124605.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7128124589.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7128124598.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7128124593.jpg"
+      ]
+    }
+  },
+  {
+    article: "12-KVANT(3890)KLN",
+    title: "Набор бокалов для пива 12 шт Pasabahce Casablanca, стекло, 645 мл",
+    brand: "Pasabahce",
+    type: "Набор стаканов",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 8316,
+    id: 666,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7128124580.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7128124580.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт9120)KLN",
+    title: "Набор ножей столовых 6 шт Luxstahl, нержавеющая сталь, 24,3 см",
+    brand: "Luxstahl",
+    type: "Нож столовый",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 240,
+    "length": 24.3,
+    id: 667,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7128124608.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7128124614.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7128124597.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7128124585.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7128124608.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт339]KLN",
+    title: "Гастроемкость Luxstahl, нержавеющая сталь, 55x40 см",
+    brand: "Luxstahl",
+    type: "Гастроемкость",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 800,
+    "height": 2,
+    "length": 55,
+    "width": 40,
+    id: 668,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7128124592.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7128124578.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7128124592.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт200)KLN",
+    title: "Набор ножей столовых 6 шт Luxstahl, нержавеющая сталь, 24 см",
+    brand: "Luxstahl",
+    type: "Нож столовый",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 228,
+    "length": 24,
+    id: 669,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7128124617.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-n/7128124619.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-h/7128124613.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7128124616.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7128124617.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт9117)KLN",
+    title: "Набор ложек столовых 6 шт Luxstahl Paris, нержавеющая сталь, 20,9 см",
+    brand: "Luxstahl",
+    type: "Ложка столовая",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 180,
+    "length": 20.9,
+    id: 670,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7128124759.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7128124905.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7128124749.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7128124751.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7128124759.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт0233)KLN",
+    title: "Набор ложек чайных 6 шт Luxstahl Sophia, нержавеющая сталь, 14,1 см",
+    brand: "Luxstahl",
+    type: "Ложка чайная",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 138,
+    "length": 14.1,
+    id: 671,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7128124734.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7128123969.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7128123920.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7128123921.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7128124734.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт1979)KLN",
+    title: "Набор ложек чайных 6 шт Luxstahl Nizza, нержавеющая сталь, 14,6 см",
+    brand: "Luxstahl",
+    type: "Ложка чайная",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 132,
+    "length": 14.6,
+    id: 672,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7128124761.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7128123626.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7128124761.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт2045)KLN",
+    title: "Набор ложек столовых 6 шт Luxstahl Monaco, нержавеющая сталь, 20,5 см",
+    brand: "Luxstahl",
+    type: "Ложка столовая",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 270,
+    "length": 20.5,
+    id: 673,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7128124867.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7128123862.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7128124867.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт1992)KLN",
+    title: "Набор ложек столовых 6 шт Luxstahl Tokio, нержавеющая сталь, 19,8 см",
+    brand: "Luxstahl",
+    type: "Ложка столовая",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 240,
+    "length": 19.8,
+    id: 674,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7128124746.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7128124098.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7128124746.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт2050)KLN",
+    title: "Набор ложек столовых 6 шт Luxstahl Barcelona, нержавеющая сталь, 20,6 см",
+    brand: "Luxstahl",
+    type: "Ложка столовая",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 294,
+    "length": 20.6,
+    id: 675,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7128124869.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7128123833.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7128124869.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт2941)KLN",
+    title: "Набор ложек столовых 6 шт Luxstahl Iris, нержавеющая сталь, 19,2 см",
+    brand: "Luxstahl",
+    type: "Ложка столовая",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 318,
+    "length": 19.2,
+    id: 676,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7128124773.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7128124728.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7128124831.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7128124929.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7128124741.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7128124857.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-h/7128124865.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7128124773.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт9102)KLN",
+    title: "Набор ложек столовых 6 шт Luxstahl Manhattan, нержавеющая сталь, 19,9 см",
+    brand: "Luxstahl",
+    type: "Ложка столовая",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 192,
+    "length": 19.9,
+    id: 677,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7128124729.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7128124736.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7128124731.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7128124816.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7128124729.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт2604)KLN",
+    title: "Набор кофейных ложек 6 шт Luxstahl Oxford, нержавеющая сталь, 11 см",
+    brand: "Luxstahl",
+    type: "Ложка кофейная",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 90,
+    "length": 11,
+    id: 678,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7128124723.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7128124733.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7128124723.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт0268)KLN",
+    title: "Набор ложек столовых 6 шт Luxstahl Vinci, нержавеющая сталь, 19 см",
+    brand: "Luxstahl",
+    type: "Ложка столовая",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 210,
+    "length": 19,
+    id: 679,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7128124724.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7128123628.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7128124724.jpg"
+      ]
+    }
+  },
+  {
+    article: "мки015]KLN",
+    title: "Форма для торта Luxstahl, нержавеющая сталь, 24x24 см",
+    brand: "Luxstahl",
+    type: "Форма для выпечки",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Россия",
+    weight: 230,
+    "length": 24,
+    id: 680,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7128124716.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7128124726.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7128124716.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт2603)KLN",
+    title: "Набор ложек чайных 6 шт Luxstahl Oxford, нержавеющая сталь, 14 см",
+    brand: "Luxstahl",
+    type: "Ложка чайная",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 114,
+    "length": 14,
+    id: 681,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7128124752.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-7/7128124747.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7128124752.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт221)KLN",
+    title: "Набор кофейных ложек 6 шт Luxstahl Verona, нержавеющая сталь, 11 см",
+    brand: "Luxstahl",
+    type: "Ложка кофейная",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 138,
+    "length": 11,
+    id: 682,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7128124806.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7128124823.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7128124841.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7128124878.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7128124806.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт0248)KLN",
+    title: "Набор ложек столовых 6 шт Luxstahl Cremona, нержавеющая сталь, 19,3 см",
+    brand: "Luxstahl",
+    type: "Ложка столовая",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 258,
+    "length": 19.3,
+    id: 683,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7128124919.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7128123770.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7128123795.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7128123768.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7128124919.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт2703)KLN",
+    title: "Набор ложек столовых 6 шт Luxstahl Baguette, нержавеющая сталь, 21 см",
+    brand: "Luxstahl",
+    type: "Ложка столовая",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 480,
+    "length": 21,
+    id: 684,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7128125005.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7128124961.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7128124965.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-h/7128124937.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7128125046.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7128124967.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7128125041.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7128125005.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт3117)KLN",
+    title: "Набор ложек чайных 6 шт Luxstahl Turin, нержавеющая сталь, 15,2 см",
+    brand: "Luxstahl",
+    type: "Ложка чайная",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 276,
+    "length": 15.2,
+    id: 685,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-n/7128125051.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7128124966.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7128124945.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7128124964.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7128124762.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7128124754.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-n/7128125051.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт2046)KLN",
+    title: "Набор ложек чайных 6 шт Luxstahl Monaco, нержавеющая сталь, 14,5 см",
+    brand: "Luxstahl",
+    type: "Ложка чайная",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 162,
+    "length": 14.5,
+    id: 686,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7128124932.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7128123862.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7128124932.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт9113)KLN",
+    title: "Набор ложек чайных 6 шт Luxstahl Oslo, нержавеющая сталь, 13,5 см",
+    brand: "Luxstahl",
+    type: "Ложка чайная",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 180,
+    "length": 13.5,
+    id: 687,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7128124892.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7128124742.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7128124745.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7128124784.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7128124892.jpg"
+      ]
+    }
+  },
+  {
+    article: "мки006]KLN",
+    title: "Форма для выпечки Luxstahl, нержавеющая сталь, 7x7 см",
+    brand: "Luxstahl",
+    type: "Форма для выпечки",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Россия",
+    weight: 71,
+    "length": 7,
+    id: 688,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7128125089.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7128125089.jpg"
+      ]
+    }
+  },
+  {
+    article: "мки033]KLN",
+    title: "Форма для выпечки Luxstahl, нержавеющая сталь, 20x20 см",
+    brand: "Luxstahl",
+    type: "Форма для выпечки",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Россия",
+    weight: 271,
+    "length": 20,
+    id: 689,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7128124899.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7128124993.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7128124899.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт4315]KLN",
+    title: "Гастроемкость Luxstahl, нержавеющая сталь, 31,5x24,5 см",
+    brand: "Luxstahl",
+    type: "Гастроемкость",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 380,
+    "height": 2.5,
+    "length": 31.5,
+    "width": 24.5,
+    id: 690,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7128124955.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7128125043.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7128124798.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-h/7128125081.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7128124955.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт9108)KLN",
+    title: "Набор ложек чайных 6 шт Luxstahl Prague, нержавеющая сталь, 13,7 см",
+    brand: "Luxstahl",
+    type: "Ложка чайная",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 72,
+    "length": 13.7,
+    id: 691,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7128124991.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-h/7128124793.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7128125053.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7128124969.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7128124991.jpg"
+      ]
+    }
+  },
+  {
+    article: "мки013]KLN",
+    title: "Форма для торта Luxstahl, нержавеющая сталь, 20x20 см",
+    brand: "Luxstahl",
+    type: "Форма для выпечки",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Россия",
+    weight: 204,
+    "length": 20,
+    id: 692,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7128124910.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7128124803.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7128124910.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт2610)KLN",
+    title: "Набор ложек столовых 6 шт Luxstahl Madrid, нержавеющая сталь, 19,8 см",
+    brand: "Luxstahl",
+    type: "Ложка столовая",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 264,
+    "length": 19.8,
+    id: 693,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-n/7128124907.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7128123988.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-n/7128124907.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт3103)KLN",
+    title: "Набор ложек столовых 6 шт Luxstahl Frida, нержавеющая сталь, 20,4 см",
+    brand: "Luxstahl",
+    type: "Ложка столовая",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 360,
+    "length": 20.4,
+    id: 694,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7128124984.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7128124822.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7128124805.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-7/7128124927.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7128125061.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7128124984.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт9109)KLN",
+    title: "Набор кофейных ложек 6 шт Luxstahl Prague, нержавеющая сталь, 11,8 см",
+    brand: "Luxstahl",
+    type: "Ложка кофейная",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 78,
+    "length": 11.8,
+    id: 695,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7128125090.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7128125101.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7128124788.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7128125105.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7128125090.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт9112)KLN",
+    title: "Набор ложек столовых 6 шт Luxstahl Oslo, нержавеющая сталь, 20,1 см",
+    brand: "Luxstahl",
+    type: "Ложка столовая",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 240,
+    "length": 20.1,
+    id: 696,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7128124804.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7128124997.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7128125054.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7128125063.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7128124804.jpg"
+      ]
+    }
+  },
+  {
+    article: "мки012]KLN",
+    title: "Форма для торта Luxstahl, нержавеющая сталь, 14x14 см",
+    brand: "Luxstahl",
+    type: "Форма для выпечки",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Россия",
+    weight: 148,
+    "length": 14,
+    id: 697,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7128125106.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7128124828.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7128125106.jpg"
+      ]
+    }
+  },
+  {
+    article: "мки016]KLN",
+    title: "Форма для торта Luxstahl, нержавеющая сталь, 26x26 см",
+    brand: "Luxstahl",
+    type: "Форма для выпечки",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Россия",
+    weight: 250,
+    "length": 26,
+    id: 698,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7128125049.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7128125099.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7128125049.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт0240)KLN",
+    title: "Набор ложек столовых 6 шт Luxstahl Malta, нержавеющая сталь, 19,2 см",
+    brand: "Luxstahl",
+    type: "Ложка столовая",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 258,
+    "length": 19.2,
+    id: 699,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7128125000.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7128123645.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7128123625.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7128123623.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7128125000.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт9104)KLN",
+    title: "Набор кофейных ложек 6 шт Luxstahl Manhattan, нержавеющая сталь, 11 см",
+    brand: "Luxstahl",
+    type: "Ложка кофейная",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 78,
+    "length": 11,
+    id: 700,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-7/7128125107.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7128125114.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7128125113.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7128125128.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-7/7128125107.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт206)KLN",
+    title: "Набор ложек столовых 6 шт Luxstahl Verona, нержавеющая сталь, 20,2 см",
+    brand: "Luxstahl",
+    type: "Ложка столовая",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 180,
+    "length": 20.2,
+    id: 701,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-n/7128125303.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7128125314.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7128125286.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-n/7128125123.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-n/7128125303.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт2602)KLN",
+    title: "Набор ложек столовых 6 шт Luxstahl Oxford, нержавеющая сталь, 19,3 см",
+    brand: "Luxstahl",
+    type: "Ложка столовая",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 252,
+    "length": 19.3,
+    id: 702,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7128125227.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7128125166.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7128125227.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт2943)KLN",
+    title: "Набор кофейных ложек 6 шт Luxstahl Iris, нержавеющая сталь, 11,5 см",
+    brand: "Luxstahl",
+    type: "Ложка кофейная",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 84,
+    "length": 11.5,
+    id: 703,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7128125124.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7128125160.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7128125133.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7128125145.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-7/7128125143.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7128125232.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7128125242.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7128125124.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт3108)KLN",
+    title: "Набор кофейных ложек 6 шт Luxstahl Frida, нержавеющая сталь, 11,5 см",
+    brand: "Luxstahl",
+    type: "Ложка кофейная",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 186,
+    "length": 11.5,
+    id: 704,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7128125147.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7128125187.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7128125167.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-h/7128125153.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7128125304.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7128125147.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт3113)KLN",
+    title: "Набор кофейных ложек 6 шт Luxstahl Palermo, нержавеющая сталь, 11,5 см",
+    brand: "Luxstahl",
+    type: "Ложка кофейная",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 114,
+    "length": 11.5,
+    id: 705,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7128125132.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7128125151.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7128125129.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7128125139.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7128125132.jpg"
+      ]
+    }
+  },
+  {
+    article: "мки011]KLN",
+    title: "Форма для торта Luxstahl, нержавеющая сталь, 18x18 см",
+    brand: "Luxstahl",
+    type: "Форма для выпечки",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Россия",
+    weight: 185,
+    "length": 18,
+    id: 706,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7128125293.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7128125293.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт9119)KLN",
+    title: "Набор кофейных ложек 6 шт Luxstahl Paris, нержавеющая сталь, 11,3 см",
+    brand: "Luxstahl",
+    type: "Ложка кофейная",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 348,
+    "length": 11.3,
+    id: 707,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7128125165.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7128125214.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7128125208.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-n/7128125195.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7128125165.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт0269)KLN",
+    title: "Набор ложек чайных 6 шт Luxstahl Vinci, нержавеющая сталь, 13,1 см",
+    brand: "Luxstahl",
+    type: "Ложка чайная",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 120,
+    "length": 13.1,
+    id: 708,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7128125298.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7128123628.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7128125298.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт1983)KLN",
+    title: "Набор ложек чайных 6 шт Luxstahl Toscana, нержавеющая сталь, 14 см",
+    brand: "Luxstahl",
+    type: "Ложка чайная",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 120,
+    "length": 14,
+    id: 709,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7128125158.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7128123686.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7128123685.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7128123698.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7128125158.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт2704)KLN",
+    title: "Набор ложек чайных 6 шт Luxstahl Baguette, нержавеющая сталь, 14 см",
+    brand: "Luxstahl",
+    type: "Ложка чайная",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 12,
+    "length": 14,
+    id: 710,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7128125300.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7128125164.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7128125363.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7128125220.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7128125252.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7128125341.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7128125336.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7128125300.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт2937)KLN",
+    title: "Набор ложек чайных 6 шт Luxstahl Satin, нержавеющая сталь, 13,8 см",
+    brand: "Luxstahl",
+    type: "Ложка чайная",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 150,
+    "length": 13.8,
+    id: 711,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7128125193.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7128125177.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7128125209.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7128125201.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7128125230.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7128125365.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7128125162.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7128125302.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7128125285.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7128125176.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7128125157.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7128125156.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7128125193.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт0261)KLN",
+    title: "Набор кофейных ложек 6 шт Luxstahl Casablanca, нержавеющая сталь, 11,2 см",
+    brand: "Luxstahl",
+    type: "Ложка кофейная",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 84,
+    "length": 11.2,
+    id: 712,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7128125278.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7128123760.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7128123751.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7128125278.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт2010)KLN",
+    title: "Набор кофейных ложек 6 шт Luxstahl Toscana, нержавеющая сталь, 11,8 см",
+    brand: "Luxstahl",
+    type: "Ложка кофейная",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 84,
+    "length": 11.8,
+    id: 713,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7128125272.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7128123686.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7128123685.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7128123698.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7128125272.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт2047)KLN",
+    title: "Набор кофейных ложек 6 шт Luxstahl Monaco, нержавеющая сталь, 11,6 см",
+    brand: "Luxstahl",
+    type: "Ложка кофейная",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 84,
+    "length": 11.6,
+    id: 714,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7128125328.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7128123862.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7128125328.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт4316]KLN",
+    title: "Гастроемкость Luxstahl, нержавеющая сталь, 40,5x30,5 см",
+    brand: "Luxstahl",
+    type: "Гастроемкость",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 300,
+    "height": 2.5,
+    "length": 40.5,
+    "width": 30.5,
+    id: 715,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7128125361.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7128125387.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7128125347.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-h/7128125405.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7128125361.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт0244)KLN",
+    title: "Набор ложек чайных 6 шт Luxstahl Malta, нержавеющая сталь, 13,8 см",
+    brand: "Luxstahl",
+    type: "Ложка чайная",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 144,
+    "length": 13.8,
+    id: 716,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7128125394.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7128123645.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7128123625.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7128123623.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7128125394.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт0256)KLN",
+    title: "Набор ложек столовых 6 шт Luxstahl Casablanca, нержавеющая сталь, 21 см",
+    brand: "Luxstahl",
+    type: "Ложка столовая",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 324,
+    "length": 21,
+    id: 717,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7128125427.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7128123760.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7128123751.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7128125427.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт2948)KLN",
+    title: "Набор ложек столовых 6 шт Luxstahl Serena, нержавеющая сталь, 20 см",
+    brand: "Luxstahl",
+    type: "Ложка столовая",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 312,
+    "length": 20,
+    id: 718,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7128125219.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7128125307.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7128125206.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7128125352.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7128125235.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7128125337.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7128125216.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7128125308.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7128125367.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7128125288.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7128125219.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт1982)KLN",
+    title: "Набор ложек столовых 6 шт Luxstahl Toscana, нержавеющая сталь, 19,9 см",
+    brand: "Luxstahl",
+    type: "Ложка столовая",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 294,
+    "length": 19.9,
+    id: 719,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7128125279.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7128123686.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7128123685.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7128123698.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7128125279.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт2055)KLN",
+    title: "Набор ложек чайных 6 шт Luxstahl Barcelona, нержавеющая сталь, 13,8 см",
+    brand: "Luxstahl",
+    type: "Ложка чайная",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 108,
+    "length": 13.8,
+    id: 720,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7128125281.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7128123833.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7128125281.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт0234)KLN",
+    title: "Набор кофейных ложек 6 шт Luxstahl Sophia, нержавеющая сталь, 11,5 см",
+    brand: "Luxstahl",
+    type: "Ложка кофейная",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 102,
+    "length": 11.5,
+    id: 721,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7128125194.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7128123969.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7128123920.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7128123921.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7128125194.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт220)KLN",
+    title: "Набор ложек чайных 6 шт Luxstahl Verona, нержавеющая сталь, 13,7 см",
+    brand: "Luxstahl",
+    type: "Ложка чайная",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 258,
+    "length": 13.7,
+    id: 722,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7128125188.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7128125296.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7128125217.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-7/7128125179.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7128125188.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт2936)KLN",
+    title: "Набор ложек столовых 6 шт Luxstahl Satin, нержавеющая сталь, 21 см",
+    brand: "Luxstahl",
+    type: "Ложка столовая",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 360,
+    "length": 21,
+    id: 723,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7128125294.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7128125306.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7128125373.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7128125236.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7128125335.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-h/7128125333.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7128125301.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7128125265.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7128125374.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7128125299.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7128125315.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7128125438.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7128125294.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт2057)KLN",
+    title: "Набор кофейных ложек 6 шт Luxstahl Barcelona, нержавеющая сталь, 11,7 см",
+    brand: "Luxstahl",
+    type: "Ложка кофейная",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 90,
+    "length": 11.7,
+    id: 724,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7128125196.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7128123833.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7128125196.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт2611)KLN",
+    title: "Набор ложек чайных 6 шт Luxstahl Madrid, нержавеющая сталь, 14,3 см",
+    brand: "Luxstahl",
+    type: "Ложка чайная",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 126,
+    "length": 14.3,
+    id: 725,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-n/7128125339.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7128123988.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-n/7128125339.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт2030)KLN",
+    title: "Набор кофейных ложек 6 шт Luxstahl Nizza, нержавеющая сталь, 11 см",
+    brand: "Luxstahl",
+    type: "Ложка кофейная",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 72,
+    "length": 11,
+    id: 726,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7128125226.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7128123626.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7128125226.jpg"
+      ]
+    }
+  },
+  {
+    article: "мки034]KLN",
+    title: "Форма для торта Luxstahl, нержавеющая сталь, 22x22 см",
+    brand: "Luxstahl",
+    type: "Форма для выпечки",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Россия",
+    weight: 290,
+    "length": 22,
+    id: 727,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7128125210.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7128125291.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7128125210.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт0245)KLN",
+    title: "Набор кофейных ложек 6 шт Luxstahl Malta, нержавеющая сталь, 11,6 см",
+    brand: "Luxstahl",
+    type: "Ложка кофейная",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 96,
+    "length": 11.6,
+    id: 728,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7128125356.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7128123625.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7128123623.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7128123645.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7128125356.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт2027)KLN",
+    title: "Набор кофейных ложек 6 шт Luxstahl Tokio, нержавеющая сталь, 11 см",
+    brand: "Luxstahl",
+    type: "Ложка кофейная",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 72,
+    "length": 11,
+    id: 729,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-h/7128125297.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7128124098.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-h/7128125297.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт1078]KLN",
+    title: "Миска Luxstahl, нержавеющая сталь, 700 мл",
+    brand: "Luxstahl",
+    type: "Миска",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 190,
+    id: 730,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7128125449.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7128125449.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт3116)KLN",
+    title: "Набор ложек столовых 6 шт Luxstahl Turin, нержавеющая сталь, 19,8 см",
+    brand: "Luxstahl",
+    type: "Ложка столовая",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 300,
+    "length": 19.8,
+    id: 731,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-7/7128125395.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7128125500.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7128125386.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7128125448.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7128125480.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7128125571.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-7/7128125395.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт9118)KLN",
+    title: "Набор ложек чайных 6 шт Luxstahl Paris, нержавеющая сталь, 14 см",
+    brand: "Luxstahl",
+    type: "Ложка чайная",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 84,
+    "length": 14,
+    id: 732,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7128125583.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7128125563.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7128125515.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7128125371.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7128125583.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт0283)KLN",
+    title: "Набор ложек чайных 6 шт Luxstahl Asti, нержавеющая сталь, 13,5 см",
+    brand: "Luxstahl",
+    type: "Ложка чайная",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 156,
+    "length": 13.5,
+    id: 733,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7128125471.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7128125499.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7128125471.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт3112)KLN",
+    title: "Набор ложек чайных 6 шт Luxstahl Palermo, нержавеющая сталь, 14 см",
+    brand: "Luxstahl",
+    type: "Ложка чайная",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 240,
+    "length": 14,
+    id: 734,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7128125418.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7128125444.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7128125439.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7128125507.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7128125418.jpg"
+      ]
+    }
+  },
+  {
+    article: "мки036]KLN",
+    title: "Форма для выпечки Luxstahl, нержавеющая сталь, 12x12 см",
+    brand: "Luxstahl",
+    type: "Форма для выпечки",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Россия",
+    weight: 130,
+    "length": 12,
+    id: 735,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7128125572.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7128125572.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт1978)KLN",
+    title: "Набор ложек столовых 6 шт Luxstahl Nizza, нержавеющая сталь, 20,5 см",
+    brand: "Luxstahl",
+    type: "Ложка столовая",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 306,
+    "length": 20.5,
+    id: 736,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7128125603.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7128123626.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7128125603.jpg"
+      ]
+    }
+  },
+  {
+    article: "мки009]KLN",
+    title: "Форма для выпечки Luxstahl, нержавеющая сталь, 10x10 см",
+    brand: "Luxstahl",
+    type: "Форма для выпечки",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Россия",
+    weight: 104,
+    "length": 10,
+    id: 737,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7128125566.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7128125566.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт9127)KLN",
+    title: "Набор кофейных ложек 6 шт Luxstahl Rome, нержавеющая сталь, 11,2 см",
+    brand: "Luxstahl",
+    type: "Ложка кофейная",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 252,
+    "length": 11.2,
+    id: 738,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7128125623.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-h/7128125441.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7128125419.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7128125625.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7128125623.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт3118)KLN",
+    title: "Набор кофейных ложек 6 шт Luxstahl Turin, нержавеющая сталь, 11,6 см",
+    brand: "Luxstahl",
+    type: "Ложка кофейная",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 180,
+    "length": 11.6,
+    id: 739,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-7/7128125539.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-n/7128125591.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7128125589.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7128125484.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7128125550.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7128125605.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-7/7128125539.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт9123)KLN",
+    title: "Набор ложек столовых 6 шт Luxstahl Rome, нержавеющая сталь, 20,3 см",
+    brand: "Luxstahl",
+    type: "Ложка столовая",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 150,
+    "length": 20.3,
+    id: 740,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7128125593.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7128125629.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7128125602.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7128125618.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7128125593.jpg"
+      ]
+    }
+  },
+  {
+    article: "мки069]KLN",
+    title: "Форма для выпечки Luxstahl, нержавеющая сталь, 11x8 см",
+    brand: "Luxstahl",
+    type: "Форма для выпечки",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Россия",
+    weight: 110,
+    "length": 11,
+    id: 741,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-h/7128125549.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-h/7128125549.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт2942)KLN",
+    title: "Набор ложек чайных 6 шт Luxstahl Iris, нержавеющая сталь, 14 см",
+    brand: "Luxstahl",
+    type: "Ложка чайная",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 120,
+    "length": 14,
+    id: 742,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7128125490.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7128125595.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7128125512.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7128125592.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7128125488.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7128125557.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7128125608.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7128125490.jpg"
+      ]
+    }
+  },
+  {
+    article: "мки010]KLN",
+    title: "Форма для торта Luxstahl, нержавеющая сталь, 16x16 см",
+    brand: "Luxstahl",
+    type: "Форма для выпечки",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Россия",
+    weight: 174,
+    "length": 16,
+    id: 743,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7128125607.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7128125607.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт3111)KLN",
+    title: "Набор ложек столовых 6 шт Luxstahl Palermo, нержавеющая сталь, 20,4 см",
+    brand: "Luxstahl",
+    type: "Ложка столовая",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 240,
+    "length": 20.4,
+    id: 744,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7128125654.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7128125731.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7128125672.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7128125671.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7128125654.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт0260)KLN",
+    title: "Набор ложек чайных 6 шт Luxstahl Casablanca, нержавеющая сталь, 14,3 см",
+    brand: "Luxstahl",
+    type: "Ложка чайная",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 138,
+    "length": 14.3,
+    id: 745,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7128125769.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7128123760.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7128123751.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7128125769.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт0253)KLN",
+    title: "Набор кофейных ложек 6 шт Luxstahl Cremona, нержавеющая сталь, 11,6 см",
+    brand: "Luxstahl",
+    type: "Ложка кофейная",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 90,
+    "length": 11.6,
+    id: 746,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7128125659.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7128123770.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7128123795.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7128123768.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7128125659.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт2950)KLN",
+    title: "Набор кофейных ложек 6 шт Luxstahl Serena, нержавеющая сталь, 11,5 см",
+    brand: "Luxstahl",
+    type: "Ложка кофейная",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 84,
+    "length": 11.5,
+    id: 747,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7128125741.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7128125851.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7128125662.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7128125809.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7128125778.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7128125844.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7128125833.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7128125796.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7128125842.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7128125732.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7128125741.jpg"
+      ]
+    }
+  },
+  {
+    article: "мки031]KLN",
+    title: "Форма для выпечки Luxstahl, нержавеющая сталь, 8x8 см",
+    brand: "Luxstahl",
+    type: "Форма для выпечки",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Россия",
+    weight: 97,
+    "length": 8,
+    id: 748,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7128125675.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7128125666.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7128125675.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт2938)KLN",
+    title: "Набор кофейных ложек 6 шт Luxstahl Satin, нержавеющая сталь, 11,5 см",
+    brand: "Luxstahl",
+    type: "Ложка кофейная",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 84,
+    "length": 11.5,
+    id: 749,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-7/7128125683.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7128125703.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-h/7128125693.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7128125734.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7128125660.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7128125710.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7128125706.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7128125689.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-h/7128125657.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7128125680.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7128125712.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7128125799.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-7/7128125683.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт0273)KLN",
+    title: "Набор ложек чайных 6 шт Luxstahl Frankfurt, нержавеющая сталь, 14 см",
+    brand: "Luxstahl",
+    type: "Ложка чайная",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 156,
+    "length": 14,
+    id: 750,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-n/7128125843.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7128125670.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-n/7128125843.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт0272)KLN",
+    title: "Набор ложек столовых 6 шт Luxstahl Frankfurt, нержавеющая сталь, 20 см",
+    brand: "Luxstahl",
+    type: "Ложка столовая",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 372,
+    "length": 20,
+    id: 751,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7128125733.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7128125676.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7128125733.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт9103)KLN",
+    title: "Набор ложек чайных 6 шт Luxstahl Manhattan, нержавеющая сталь, 15,2 см",
+    brand: "Luxstahl",
+    type: "Ложка чайная",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 72,
+    "length": 15.2,
+    id: 752,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7128125694.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7128125673.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7128125782.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7128125740.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7128125694.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт0232)KLN",
+    title: "Набор ложек столовых 6 шт Luxstahl Sophia, нержавеющая сталь, 20,1 см",
+    brand: "Luxstahl",
+    type: "Ложка столовая",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 324,
+    "length": 20.1,
+    id: 753,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7128125739.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7128123969.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7128123920.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7128123921.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7128125739.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт9107)KLN",
+    title: "Набор ложек столовых 6 шт Luxstahl Prague, нержавеющая сталь, 20,2 см",
+    brand: "Luxstahl",
+    type: "Ложка столовая",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 400,
+    "length": 20.2,
+    id: 754,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7128125775.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7128125792.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7128125826.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7128125797.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7128125775.jpg"
+      ]
+    }
+  },
+  {
+    article: "мки014]KLN",
+    title: "Форма для торта Luxstahl, нержавеющая сталь, 22x22 см",
+    brand: "Luxstahl",
+    type: "Форма для выпечки",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Россия",
+    weight: 210,
+    "length": 22,
+    id: 755,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7128125784.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7128125677.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7128125784.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт0287)KLN",
+    title: "Набор кофейных ложек 6 шт Luxstahl Asti, нержавеющая сталь, 11,5 см",
+    brand: "Luxstahl",
+    type: "Ложка кофейная",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 108,
+    "length": 11.5,
+    id: 756,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7128125865.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7128125824.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7128125865.jpg"
+      ]
+    }
+  },
+  {
+    article: "мки032]KLN",
+    title: "Форма для выпечки Luxstahl, нержавеющая сталь, 10x5 см",
+    brand: "Luxstahl",
+    type: "Форма для выпечки",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Россия",
+    weight: 128,
+    "length": 10,
+    id: 757,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7128125760.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7128125786.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7128125760.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт3104)KLN",
+    title: "Набор ложек чайных 6 шт Luxstahl Frida, нержавеющая сталь, 14 см",
+    brand: "Luxstahl",
+    type: "Ложка чайная",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 120,
+    "length": 14,
+    id: 758,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7128125840.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7128125805.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7128125761.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7128125768.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7128125748.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7128125840.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт1993)KLN",
+    title: "Набор ложек чайных 6 шт Luxstahl Tokio, нержавеющая сталь, 14,7 см",
+    brand: "Luxstahl",
+    type: "Ложка чайная",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 114,
+    "length": 14.7,
+    id: 759,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7128125850.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7128124098.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7128125850.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт0282)KLN",
+    title: "Набор ложек столовых 6 шт Luxstahl Asti, нержавеющая сталь, 20,7 см",
+    brand: "Luxstahl",
+    type: "Ложка столовая",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 384,
+    "length": 20.7,
+    id: 760,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7128125823.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7128125800.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7128125823.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт0277)KLN",
+    title: "Набор кофейных ложек 6 шт Luxstahl Frankfurt, нержавеющая сталь, 11,5 см",
+    brand: "Luxstahl",
+    type: "Ложка кофейная",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 108,
+    "length": 11.5,
+    id: 761,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7128125779.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7128125818.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7128125779.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт9126)KLN",
+    title: "Набор ложек чайных 6 шт Luxstahl Rome, нержавеющая сталь, 13,7 см",
+    brand: "Luxstahl",
+    type: "Ложка чайная",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 229,
+    "length": 13.7,
+    id: 762,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7128125876.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7128125882.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-h/7128125909.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7128125893.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7128125876.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт2949)KLN",
+    title: "Набор ложек чайных 6 шт Luxstahl Serena, нержавеющая сталь, 13,7 см",
+    brand: "Luxstahl",
+    type: "Ложка чайная",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 150,
+    "length": 13.7,
+    id: 763,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7128125785.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7128125845.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7128125780.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7128125764.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7128125770.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7128125742.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7128125772.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7128125812.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7128125831.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7128125912.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7128125785.jpg"
+      ]
+    }
+  },
+  {
+    article: "мки035]KLN",
+    title: "Форма для торта Luxstahl, нержавеющая сталь, 26x26 см",
+    brand: "Luxstahl",
+    type: "Форма для выпечки",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Россия",
+    weight: 350,
+    "length": 26,
+    id: 764,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7128125875.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7128125872.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7128125875.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт0252)KLN",
+    title: "Набор ложек чайных 6 шт Luxstahl Cremona, нержавеющая сталь, 13,8 см",
+    brand: "Luxstahl",
+    type: "Ложка чайная",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 126,
+    "length": 13.8,
+    id: 765,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7128125901.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7128123770.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7128123795.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7128123768.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7128125901.jpg"
+      ]
+    }
+  },
+  {
+    article: "мки030]KLN",
+    title: "Форма для выпечки Luxstahl, нержавеющая сталь, 7x7 см",
+    brand: "Luxstahl",
+    type: "Форма для выпечки",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Россия",
+    weight: 101,
+    "length": 7,
+    id: 766,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7128126004.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7128125939.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7128126004.jpg"
+      ]
+    }
+  },
+  {
+    article: "мки029]KLN",
+    title: "Форма для выпечки Luxstahl, нержавеющая сталь, 6x6 см",
+    brand: "Luxstahl",
+    type: "Форма для выпечки",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Россия",
+    weight: 82,
+    "length": 6,
+    id: 767,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7128126062.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7128126062.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт2612)KLN",
+    title: "Набор кофейных ложек 6 шт Luxstahl Madrid, нержавеющая сталь, 11,6 см",
+    brand: "Luxstahl",
+    type: "Ложка кофейная",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 90,
+    "length": 11.6,
+    id: 768,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7128126081.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7128123988.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7128126081.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт9114)KLN",
+    title: "Набор кофейных ложек 6 шт Luxstahl Oslo, нержавеющая сталь, 11 см",
+    brand: "Luxstahl",
+    type: "Ложка кофейная",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 402,
+    "length": 11,
+    id: 769,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7128126049.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7128126040.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7128125931.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7128126037.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7128126049.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт556]KLN",
+    title: "Миска Luxstahl, нержавеющая сталь, 6000 мл",
+    brand: "Luxstahl",
+    type: "Миска",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 456,
+    id: 770,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7128126138.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7128126138.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт2607)KLN",
+    title: "Набор ложек десертных 6 шт Luxstahl Oxford, нержавеющая сталь, 18,3 см",
+    brand: "Luxstahl",
+    type: "Ложка десертная",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 228,
+    "length": 18.3,
+    id: 771,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7128126149.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7128126150.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7128126149.jpg"
+      ]
+    }
+  },
+  {
+    article: "мки175]KLN",
+    title: "Противень Luxstahl, алюминиевый, 42,5x34,5 см",
+    brand: "Luxstahl",
+    type: "Противень",
+    material: "Алюминий",
+    color: [
+      "серебристый"
+    ],
+    origin: "Россия",
+    weight: 610,
+    "height": 1,
+    "length": 42.5,
+    "width": 34.5,
+    id: 772,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-h/7128126161.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7128126163.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7128126160.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7128126178.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-h/7128126161.jpg"
+      ]
+    }
+  },
+  {
+    article: "мки197]KLN",
+    title: "Противень 2-х бортовой Luxstahl, алюминиевый, антипригарный 60x40 см",
+    brand: "Luxstahl",
+    type: "Противень",
+    material: "Алюминий",
+    color: [
+      "черный"
+    ],
+    origin: "Россия",
+    weight: 700,
+    "height": 1.5,
+    "length": 60,
+    "width": 40,
+    id: 773,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7128126188.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7128126181.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7128126145.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7128126180.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7128126191.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7128126136.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7128126188.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт2909]KLN",
+    title: "Ведро для льда, для шампанского Luxstahl, нержавеющая сталь, 4,5 л",
+    brand: "Luxstahl",
+    type: "Ведерко для льда",
+    material: "Нержавеющая сталь",
+    color: [
+      "золотой"
+    ],
+    origin: "Китай",
+    weight: 983,
+    "length": 20,
+    "volume": 4.5,
+    id: 774,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7128126153.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7128126153.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт1366]KLN",
+    title: "Миска Luxstahl, нержавеющая сталь, 20000 мл",
+    brand: "Luxstahl",
+    type: "Миска",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 1337,
+    id: 775,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7128126158.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7128126158.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт1740]KLN",
+    title: "Сотейник с крышкой Luxstahl, нержавеющая сталь, индукция 1,3 л",
+    brand: "Luxstahl",
+    type: "Сотейник",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 763,
+    "volume": 1.3,
+    id: 776,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7128126166.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7128126186.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7128126190.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7128126207.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7128126166.jpg"
+      ]
+    }
+  },
+  {
+    article: "9680-1]KLN",
+    title: "Банка с крышкой для хранения Pasabahce Вуди, стеклянная, 1130 мл",
+    brand: "Pasabahce",
+    type: "Банка для продуктов универсальная",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 533,
+    "height": 19.5,
+    id: 777,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7128126189.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7128126189.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт1887]KLN",
+    title: "Щипцы для хлеба Luxstahl, нержавеющая сталь, 21,5 см",
+    brand: "Luxstahl",
+    type: "Щипцы кухонные",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 98,
+    "length": 21.5,
+    id: 778,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7128126272.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7128126272.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт551]KLN",
+    title: "Миска Luxstahl, нержавеющая сталь, 1800 мл",
+    brand: "Luxstahl",
+    type: "Миска",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 120,
+    id: 779,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7128126220.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7128126220.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт0275)KLN",
+    title: "Набор ложек десертных 6 шт Luxstahl Frankfurt, нержавеющая сталь, 17,8 см",
+    brand: "Luxstahl",
+    type: "Ложка десертная",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 270,
+    "length": 17.8,
+    id: 780,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7128126426.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7128126215.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7128126426.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт549]KLN",
+    title: "Миска Luxstahl, нержавеющая сталь, 900 мл",
+    brand: "Luxstahl",
+    type: "Миска",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 90,
+    id: 781,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7128126298.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7128126298.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт1363]KLN",
+    title: "Миска Luxstahl, нержавеющая сталь, 9000 мл",
+    brand: "Luxstahl",
+    type: "Миска",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 800,
+    id: 782,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7128126323.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7128126323.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт2053)KLN",
+    title: "Набор ложек десертных 6 шт Luxstahl Barcelona, нержавеющая сталь, 18,8 см",
+    brand: "Luxstahl",
+    type: "Ложка десертная",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 252,
+    "length": 18.8,
+    id: 783,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7128126290.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7128123833.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7128126290.jpg"
+      ]
+    }
+  },
+  {
+    article: "мки039]KLN",
+    title: "Противень 3-х бортовой Luxstahl, нержавеющая сталь, 60x40 см",
+    brand: "Luxstahl",
+    type: "Противень",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Россия",
+    weight: 1572,
+    "height": 1,
+    "length": 60,
+    "width": 40,
+    id: 784,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7128126317.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7128126359.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7128126317.jpg"
+      ]
+    }
+  },
+  {
+    article: "мки003]KLN",
+    title: "Противень Luxstahl, нержавеющая сталь, 60x40 см",
+    brand: "Luxstahl",
+    type: "Противень",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Россия",
+    weight: 1790,
+    "height": 3,
+    "length": 60,
+    "width": 40,
+    id: 785,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7128126375.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7128126424.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7128126375.jpg"
+      ]
+    }
+  },
+  {
+    article: "мки173]KLN",
+    title: "Противень Luxstahl, алюминиевый, 60x40 см",
+    brand: "Luxstahl",
+    type: "Противень",
+    material: "Алюминий",
+    color: [
+      "серебристый"
+    ],
+    origin: "Россия",
+    weight: 1150,
+    "height": 2,
+    "length": 60,
+    "width": 40,
+    id: 786,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7128126267.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7128126332.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7128126282.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7128126265.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7128126261.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7128126267.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-KVANT(1639)KLN",
+    title: "Набор креманок 6 шт Pasabahce Ice Ville, стекло, 265 мл",
+    brand: "Pasabahce",
+    type: "Креманка",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 1422,
+    id: 787,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7128126411.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7128126411.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт548]KLN",
+    title: "Миска Luxstahl, нержавеющая сталь, 600 мл",
+    brand: "Luxstahl",
+    type: "Миска",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 70,
+    id: 788,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7128126255.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7128126255.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт1747]KLN",
+    title: "Сотейник с крышкой и двумя ручками Luxstahl, нержавеющая сталь, индукция 8 л",
+    brand: "Luxstahl",
+    type: "Сотейник",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 2435,
+    "volume": 8,
+    id: 789,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7128126237.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7128126266.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7128126278.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7128126291.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7128126237.jpg"
+      ]
+    }
+  },
+  {
+    article: "мки177]KLN",
+    title: "Противень со скошенным краем Luxstahl, алюминиевый, 53x32,5 см",
+    brand: "Luxstahl",
+    type: "Противень",
+    material: "Алюминий",
+    color: [
+      "серебристый"
+    ],
+    origin: "Россия",
+    weight: 700,
+    "height": 1,
+    "length": 53,
+    "width": 32.5,
+    id: 790,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7128126262.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7128126242.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7128126277.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7128126289.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7128126262.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт553]KLN",
+    title: "Миска Luxstahl, нержавеющая сталь, 300 мл",
+    brand: "Luxstahl",
+    type: "Миска",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 162,
+    id: 791,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7128126307.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7128126307.jpg"
+      ]
+    }
+  },
+  {
+    article: "мки198]KLN",
+    title: "Противень 2-х бортовой Luxstahl, алюминиевый, антипригарный 53x32,5 см",
+    brand: "Luxstahl",
+    type: "Противень",
+    material: "Алюминий",
+    color: [
+      "черный"
+    ],
+    origin: "Россия",
+    weight: 700,
+    "height": 1.5,
+    "length": 53,
+    "width": 32.5,
+    id: 792,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7128126399.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-h/7128126377.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7128126357.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7128126297.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7128126362.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7128126336.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7128126399.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт2891]KLN",
+    title: "Блюдо сервировочное Luxstahl, нержавеющая сталь, 45,5x31,5 см",
+    brand: "Luxstahl",
+    type: "Блюдо",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 520,
+    id: 793,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7128126348.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7128126356.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7128126322.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7128126327.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7128126348.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт2013)KLN",
+    title: "Набор ложек десертных 6 шт Luxstahl Toscana, нержавеющая сталь, 17,9 см",
+    brand: "Luxstahl",
+    type: "Ложка десертная",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 240,
+    "length": 17.9,
+    id: 794,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7128126301.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7128123686.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7128123685.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7128123698.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7128126301.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-KVANT(946)KLN",
+    title: "Набор креманок 6 шт Pasabahce Silvana, стекло, 250 мл",
+    brand: "Pasabahce",
+    type: "Креманка",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 1824,
+    id: 795,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7128126330.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7128126344.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7128126330.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт1739]KLN",
+    title: "Сотейник с крышкой Luxstahl, нержавеющая сталь, индукция 1,2 л",
+    brand: "Luxstahl",
+    type: "Сотейник",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 833,
+    "volume": 1.2,
+    id: 796,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7128126353.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7128126409.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7128126284.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7128126353.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт758]KLN",
+    title: "Сотейник с крышкой и двумя ручками Luxstahl, нержавеющая сталь, индукция 10 л",
+    brand: "Luxstahl",
+    type: "Сотейник",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 2800,
+    "volume": 10,
+    id: 797,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-n/7128126419.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7128126438.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7128126309.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7128126445.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-n/7128126419.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт1744]KLN",
+    title: "Сотейник с крышкой и двумя ручками Luxstahl, нержавеющая сталь, индукция 4 л",
+    brand: "Luxstahl",
+    type: "Сотейник",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 1500,
+    "volume": 4,
+    id: 798,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7128126286.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7128126299.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7128126250.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7128126314.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7128126286.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт2876]KLN",
+    title: "Блюдо сервировочное Luxstahl, нержавеющая сталь, 30x30 см",
+    brand: "Luxstahl",
+    type: "Блюдо",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 350,
+    id: 799,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7128126232.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7128126372.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7128126434.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-h/7128126269.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7128126232.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт347]KLN",
+    title: "Ведро для льда, для шампанского Luxstahl, нержавеющая сталь, 3,7 л",
+    brand: "Luxstahl",
+    type: "Ведерко для льда",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 432,
+    "length": 18,
+    "volume": 3.7,
+    id: 800,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7128126361.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7128126361.jpg"
+      ]
+    }
+  },
+  {
+    article: "сл02]KLN",
+    title: "Ведро для льда Pasabahce, стеклянное, 0,84 л",
+    brand: "Pasabahce",
+    type: "Ведерко для льда",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 775,
+    "length": 12,
+    "volume": 0.84,
+    id: 801,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7128126388.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7128126388.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт2892]KLN",
+    title: "Блюдо сервировочное Luxstahl, нержавеющая сталь, 50x34 см",
+    brand: "Luxstahl",
+    type: "Блюдо",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 633,
+    id: 802,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7128126304.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7128126219.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7128126302.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7128126430.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7128126304.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт2867]KLN",
+    title: "Ведро для льда Luxstahl, нержавеющая сталь, 3,5 л",
+    brand: "Luxstahl",
+    type: "Ведерко для льда",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 538,
+    "length": 15.6,
+    "volume": 3.5,
+    id: 803,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7128126246.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7128126241.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7128126218.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7128126211.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7128126246.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт1721]KLN",
+    title: "Щипцы кухонные Luxstahl, нержавеющая сталь, 40 см",
+    brand: "Luxstahl",
+    type: "Щипцы кухонные",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 114,
+    "length": 40,
+    id: 804,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7128126380.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7128126380.jpg"
+      ]
+    }
+  },
+  {
+    article: "1986]KLN",
+    title: "Банка с крышкой для хранения Pasabahce Чешни, стеклянная, 1100 мл",
+    brand: "Pasabahce",
+    type: "Банка для продуктов универсальная",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 525,
+    "height": 16.3,
+    id: 805,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7128126231.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7128126231.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт1888]KLN",
+    title: "Щипцы для мяса Luxstahl, нержавеющая сталь, 21 см",
+    brand: "Luxstahl",
+    type: "Щипцы кухонные",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 69,
+    "length": 21,
+    id: 806,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-n/7128126275.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-n/7128126275.jpg"
+      ]
+    }
+  },
+  {
+    article: "мки161]KLN",
+    title: "Противень Luxstahl, нержавеющая сталь, 42,9x34,5 см",
+    brand: "Luxstahl",
+    type: "Противень",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Россия",
+    weight: 975,
+    "height": 1,
+    "length": 42.9,
+    "width": 34.5,
+    id: 807,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7128126258.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7128126258.jpg"
+      ]
+    }
+  },
+  {
+    article: "мки172]KLN",
+    title: "Противень Luxstahl, алюминиевый, 60x40 см",
+    brand: "Luxstahl",
+    type: "Противень",
+    material: "Алюминий",
+    color: [
+      "серебристый"
+    ],
+    origin: "Россия",
+    weight: 1100,
+    "height": 1.5,
+    "length": 60,
+    "width": 40,
+    id: 808,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7128126342.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-7/7128126259.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7128126253.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7128126313.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7128126303.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7128126342.jpg"
+      ]
+    }
+  },
+  {
+    article: "мки176]KLN",
+    title: "Противень Luxstahl, алюминиевый, 53x32,5 см",
+    brand: "Luxstahl",
+    type: "Противень",
+    material: "Алюминий",
+    color: [
+      "серебристый"
+    ],
+    origin: "Россия",
+    weight: 800,
+    "height": 1.5,
+    "length": 53,
+    "width": 32.5,
+    id: 809,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7128126247.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7128126244.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7128126227.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7128126446.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7128126247.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт1574]KLN",
+    title: "Блюдо сервировочное Luxstahl, нержавеющая сталь, 28,5x17 см",
+    brand: "Luxstahl",
+    type: "Блюдо",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 145,
+    id: 810,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7128126328.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7128126328.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт2865]KLN",
+    title: "Ведро для льда Luxstahl, нержавеющая сталь, 1,7 л",
+    brand: "Luxstahl",
+    type: "Ведерко для льда",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 367,
+    "length": 12.6,
+    "volume": 1.7,
+    id: 811,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7128126351.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7128126427.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7128126428.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7128126351.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт2878]KLN",
+    title: "Блюдо сервировочное Luxstahl, нержавеющая сталь, 40x40 см",
+    brand: "Luxstahl",
+    type: "Блюдо",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 668,
+    id: 812,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7128126425.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7128126264.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7128126335.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7128126283.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7128126425.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт550]KLN",
+    title: "Миска Luxstahl, нержавеющая сталь, 1200 мл",
+    brand: "Luxstahl",
+    type: "Миска",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 98,
+    id: 813,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7128126337.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7128126337.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт2888]KLN",
+    title: "Блюдо сервировочное Luxstahl, нержавеющая сталь, 30x20,5 см",
+    brand: "Luxstahl",
+    type: "Блюдо",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 148,
+    id: 814,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7128126296.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7128126405.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7128126488.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7128126484.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7128126296.jpg"
+      ]
+    }
+  },
+  {
+    article: "1796]KLN",
+    title: "Банка с крышкой для хранения Pasabahce Чешни, стеклянная, 500 мл",
+    brand: "Pasabahce",
+    type: "Банка для продуктов универсальная",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 375,
+    "height": 9.5,
+    id: 815,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7128126469.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7128126469.jpg"
+      ]
+    }
+  },
+  {
+    article: "9680]KLN",
+    title: "Банка с крышкой для хранения Pasabahce Вуди, стеклянная, 860 мл",
+    brand: "Pasabahce",
+    type: "Банка для продуктов универсальная",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 503,
+    "height": 14.8,
+    id: 816,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7128126474.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7128126474.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт1746]KLN",
+    title: "Сотейник с крышкой и двумя ручками Luxstahl, нержавеющая сталь, индукция 6,3 л",
+    brand: "Luxstahl",
+    type: "Сотейник",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 2125,
+    "volume": 6.3,
+    id: 817,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7128126378.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7128126435.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7128126432.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7128126412.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7128126378.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт1720]KLN",
+    title: "Щипцы кухонные Luxstahl, нержавеющая сталь, 35 см",
+    brand: "Luxstahl",
+    type: "Щипцы кухонные",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 95,
+    "length": 35,
+    id: 818,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7128126326.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7128126326.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт1365]KLN",
+    title: "Миска Luxstahl, нержавеющая сталь, 18000 мл",
+    brand: "Luxstahl",
+    type: "Миска",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 985,
+    id: 819,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7128126408.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7128126408.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт557]KLN",
+    title: "Миска Luxstahl, нержавеющая сталь, 7000 мл",
+    brand: "Luxstahl",
+    type: "Миска",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 530,
+    id: 820,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7128126486.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7128126486.jpg"
+      ]
+    }
+  },
+  {
+    article: "мки174]KLN",
+    title: "Противень Luxstahl, алюминиевый, 60x40 см",
+    brand: "Luxstahl",
+    type: "Противень",
+    material: "Алюминий",
+    color: [
+      "серебристый"
+    ],
+    origin: "Россия",
+    weight: 1200,
+    "height": 3,
+    "length": 60,
+    "width": 40,
+    id: 821,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7128126374.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7128126329.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7128126360.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7128126502.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7128126374.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт1743]KLN",
+    title: "Сотейник с крышкой Luxstahl, нержавеющая сталь, индукция 2,8 л",
+    brand: "Luxstahl",
+    type: "Сотейник",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 1205,
+    "volume": 2.8,
+    id: 822,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7128126415.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7128126400.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7128126421.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7128126415.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт2890]KLN",
+    title: "Блюдо сервировочное Luxstahl, нержавеющая сталь, 40x28 см",
+    brand: "Luxstahl",
+    type: "Блюдо",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 370,
+    id: 823,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-h/7128126413.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7128126483.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7128126410.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-7/7128126439.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-h/7128126413.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт1738]KLN",
+    title: "Сотейник с крышкой Luxstahl, нержавеющая сталь, индукция 0,86 л",
+    brand: "Luxstahl",
+    type: "Сотейник",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 711,
+    "volume": 0.86,
+    id: 824,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7128126370.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7128126437.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7128126473.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7128126464.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7128126370.jpg"
+      ]
+    }
+  },
+  {
+    article: "2574]KLN",
+    title: "Банка с крышкой для хранения Pasabahce Бэлла, стеклянная, 1500 мл",
+    brand: "Pasabahce",
+    type: "Банка для продуктов универсальная",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 860,
+    "height": 16,
+    id: 825,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7128126366.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7128126366.jpg"
+      ]
+    }
+  },
+  {
+    article: "9731]KLN",
+    title: "Ведро для льда Pasabahce, стеклянное, 1 л",
+    brand: "Pasabahce",
+    type: "Ведерко для льда",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 717,
+    "length": 15,
+    "volume": 1,
+    id: 826,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7128126417.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7128126417.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт1891]KLN",
+    title: "Щипцы для сахара Luxstahl, нержавеющая сталь, 11 см",
+    brand: "Luxstahl",
+    type: "Щипцы кухонные",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 14,
+    "length": 11,
+    id: 827,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7128126371.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7128126371.jpg"
+      ]
+    }
+  },
+  {
+    article: "1801]KLN",
+    title: "Банка с крышкой для хранения Pasabahce Чешни, стеклянная, 430 мл",
+    brand: "Pasabahce",
+    type: "Банка для продуктов универсальная",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 300,
+    "height": 7.4,
+    id: 828,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7128126447.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7128126447.jpg"
+      ]
+    }
+  },
+  {
+    article: "12-KVANT(4196)KLN",
+    title: "Набор креманок 12 шт Pasabahce Canada, стекло, 120 мл",
+    brand: "Pasabahce",
+    type: "Креманка",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 3888,
+    id: 829,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7128126448.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7128126448.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт0237)KLN",
+    title: "Набор ложек десертных 6 шт Luxstahl Sophia, нержавеющая сталь, 17 см",
+    brand: "Luxstahl",
+    type: "Ложка десертная",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 204,
+    "length": 17,
+    id: 830,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7128126520.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7128123969.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7128123920.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7128123921.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7128126520.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт555]KLN",
+    title: "Миска Luxstahl, нержавеющая сталь, 5000 мл",
+    brand: "Luxstahl",
+    type: "Миска",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 249,
+    id: 831,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7128126472.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7128126472.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт0243)KLN",
+    title: "Набор ложек десертных 6 шт Luxstahl Malta, нержавеющая сталь, 17,9 см",
+    brand: "Luxstahl",
+    type: "Ложка десертная",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 210,
+    "length": 17.9,
+    id: 832,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7128126471.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7128123645.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7128123625.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7128123623.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7128126471.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт0258)KLN",
+    title: "Набор ложек десертных 6 шт Luxstahl Casablanca, нержавеющая сталь, 18,1 см",
+    brand: "Luxstahl",
+    type: "Ложка десертная",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 234,
+    "length": 18.1,
+    id: 833,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7128126457.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7128123760.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7128123751.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7128126457.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт552]KLN",
+    title: "Миска Luxstahl, нержавеющая сталь, 2500 мл",
+    brand: "Luxstahl",
+    type: "Миска",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 143,
+    id: 834,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7128126513.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7128126513.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт2910]KLN",
+    title: "Ведро для льда, для шампанского Luxstahl, нержавеющая сталь, 3 л",
+    brand: "Luxstahl",
+    type: "Ведерко для льда",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 758,
+    "length": 18.5,
+    "volume": 3,
+    id: 835,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7128126451.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7128126451.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт2877]KLN",
+    title: "Блюдо сервировочное Luxstahl, нержавеющая сталь, 35x35 см",
+    brand: "Luxstahl",
+    type: "Блюдо",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 519,
+    id: 836,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7128126461.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7128126478.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7128126506.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7128126489.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7128126461.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт0251)KLN",
+    title: "Набор ложек десертных 6 шт Luxstahl Cremona, нержавеющая сталь, 17,9 см",
+    brand: "Luxstahl",
+    type: "Ложка десертная",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 204,
+    "length": 17.9,
+    id: 837,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7128126387.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7128123770.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7128123795.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7128123768.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7128126387.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт1745]KLN",
+    title: "Сотейник с крышкой и двумя ручками Luxstahl, нержавеющая сталь, индукция 5,1 л",
+    brand: "Luxstahl",
+    type: "Сотейник",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 1793,
+    "volume": 5.1,
+    id: 838,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7128126482.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7128126508.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7128126499.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7128126515.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7128126482.jpg"
+      ]
+    }
+  },
+  {
+    article: "мки043]KLN",
+    title: "Противень 2-х бортовой Luxstahl, нержавеющая сталь, 60x40 см",
+    brand: "Luxstahl",
+    type: "Противень",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Россия",
+    weight: 1600,
+    "height": 1,
+    "length": 60,
+    "width": 40,
+    id: 839,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7128126523.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7128126487.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7128126523.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт0285)KLN",
+    title: "Набор ложек десертных 6 шт Luxstahl Asti, нержавеющая сталь, 19,1 см",
+    brand: "Luxstahl",
+    type: "Ложка десертная",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 318,
+    "length": 19.1,
+    id: 840,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7128126536.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-h/7128126485.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7128126536.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт209)KLN",
+    title: "Набор ложек десертных 6 шт Luxstahl Verona, нержавеющая сталь, 18,5 см",
+    brand: "Luxstahl",
+    type: "Ложка десертная",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 600,
+    "length": 18.5,
+    id: 841,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7128126458.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7128126458.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт1742]KLN",
+    title: "Сотейник с крышкой Luxstahl, нержавеющая сталь, индукция 2 л",
+    brand: "Luxstahl",
+    type: "Сотейник",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 963,
+    "volume": 2,
+    id: 842,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7128126463.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7128126456.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7128126467.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7128126463.jpg"
+      ]
+    }
+  },
+  {
+    article: "мки178-2]KLN",
+    title: "Противень с широким бортом Luxstahl, алюминиевый, 46x33 см",
+    brand: "Luxstahl",
+    type: "Противень",
+    material: "Алюминий",
+    color: [
+      "серебристый"
+    ],
+    origin: "Россия",
+    weight: 850,
+    "height": 1,
+    "length": 46,
+    "width": 33,
+    id: 843,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-7/7128126511.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7128126492.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7128126493.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-7/7128126511.jpg"
+      ]
+    }
+  },
+  {
+    article: "1987]KLN",
+    title: "Банка с крышкой для хранения Pasabahce Чешни, стеклянная, 920 мл",
+    brand: "Pasabahce",
+    type: "Банка для продуктов универсальная",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 433,
+    "height": 12.5,
+    id: 844,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7128126490.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7128126490.jpg"
+      ]
+    }
+  },
+  {
+    article: "2537]KLN",
+    title: "Банка с крышкой для хранения Pasabahce Бэлла, стеклянная, 1700 мл",
+    brand: "Pasabahce",
+    type: "Банка для продуктов универсальная",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 984,
+    "height": 16,
+    id: 845,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7128126497.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7128126497.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт9125)KLN",
+    title: "Набор ложек десертных 6 шт Luxstahl Rome, нержавеющая сталь, 18,5 см",
+    brand: "Luxstahl",
+    type: "Ложка десертная",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 132,
+    "length": 18.5,
+    id: 846,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7128126524.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-h/7128126521.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7128126553.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7128126436.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7128126524.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт2864]KLN",
+    title: "Ведро для льда Luxstahl, нержавеющая сталь, 2 л",
+    brand: "Luxstahl",
+    type: "Ведерко для льда",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 1117,
+    "length": 13.9,
+    "volume": 2,
+    id: 847,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7128126462.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7128126459.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7128126452.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7128126454.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7128126462.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт2911]KLN",
+    title: "Ведро для льда, для шампанского Luxstahl, нержавеющая сталь, 3 л",
+    brand: "Luxstahl",
+    type: "Ведерко для льда",
+    material: "Нержавеющая сталь",
+    color: [
+      "золотой"
+    ],
+    origin: "Китай",
+    weight: 758,
+    "length": 18.5,
+    "volume": 3,
+    id: 848,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7128126453.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7128126470.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7128126453.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт348]KLN",
+    title: "Ведро для льда Luxstahl, нержавеющая сталь, 0,7 л",
+    brand: "Luxstahl",
+    type: "Ведерко для льда",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 360,
+    "length": 14,
+    "volume": 0.7,
+    id: 849,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7128126532.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7128126532.jpg"
+      ]
+    }
+  },
+  {
+    article: "12-KVANT(4195)KLN",
+    title: "Набор креманок 12 шт Pasabahce Bistro, стекло, 175 мл",
+    brand: "Pasabahce",
+    type: "Креманка",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 4800,
+    id: 850,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7128126481.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7128126481.jpg"
+      ]
+    }
+  },
+  {
+    article: "2551]KLN",
+    title: "Банка с крышкой для хранения Pasabahce Бэлла, стеклянная, 200 мл",
+    brand: "Pasabahce",
+    type: "Банка для продуктов универсальная",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 173,
+    "height": 8,
+    id: 851,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7128126510.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7128126510.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт1889]KLN",
+    title: "Щипцы для спагетти Luxstahl, нержавеющая сталь, 19,5 см",
+    brand: "Luxstahl",
+    type: "Щипцы кухонные",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 57,
+    "length": 19.5,
+    id: 852,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7128126476.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7128126476.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт1890]KLN",
+    title: "Щипцы для пирожных Luxstahl, нержавеющая сталь, 19,5 см",
+    brand: "Luxstahl",
+    type: "Щипцы кухонные",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 57,
+    "length": 19.5,
+    id: 853,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7128126537.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7128126537.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт1719]KLN",
+    title: "Щипцы кухонные Luxstahl, нержавеющая сталь, 30 см",
+    brand: "Luxstahl",
+    type: "Щипцы кухонные",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 90,
+    "length": 30,
+    id: 854,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-7/7128126583.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-7/7128126583.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт554]KLN",
+    title: "Миска Luxstahl, нержавеющая сталь, 3600 мл",
+    brand: "Luxstahl",
+    type: "Миска",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 180,
+    id: 855,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7128126587.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7128126587.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт1575]KLN",
+    title: "Блюдо сервировочное Luxstahl, нержавеющая сталь, 33,5x20 см",
+    brand: "Luxstahl",
+    type: "Блюдо",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 195,
+    id: 856,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7128126569.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7128126569.jpg"
+      ]
+    }
+  },
+  {
+    article: "9679]KLN",
+    title: "Банка с крышкой для хранения Pasabahce Вуди, стеклянная, 576 мл",
+    brand: "Pasabahce",
+    type: "Банка для продуктов универсальная",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 325,
+    "height": 9.5,
+    id: 857,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7128126580.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7128126580.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт2023)KLN",
+    title: "Набор ложек десертных 6 шт Luxstahl Tokio, нержавеющая сталь, 17,5 см",
+    brand: "Luxstahl",
+    type: "Ложка десертная",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 180,
+    "length": 17.5,
+    id: 858,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7128126509.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7128124098.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7128126509.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт1364]KLN",
+    title: "Миска Luxstahl, нержавеющая сталь, 12000 мл",
+    brand: "Luxstahl",
+    type: "Миска",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 904,
+    id: 859,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7128126514.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7128126514.jpg"
+      ]
+    }
+  },
+  {
+    article: "мки001]KLN",
+    title: "Противень Luxstahl, нержавеющая сталь, 60x40 см",
+    brand: "Luxstahl",
+    type: "Противень",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Россия",
+    weight: 1572,
+    "height": 1,
+    "length": 60,
+    "width": 40,
+    id: 860,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7128126505.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7128126559.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7128126505.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-KVANT(2266)KLN",
+    title: "Набор креманок 6 шт Pasabahce Bistro, стекло, 330 мл",
+    brand: "Pasabahce",
+    type: "Креманка",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 2568,
+    id: 861,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-n/7128126599.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-n/7128126599.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт547]KLN",
+    title: "Миска Luxstahl, нержавеющая сталь, 350 мл",
+    brand: "Luxstahl",
+    type: "Миска",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 45,
+    id: 862,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7128126591.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7128126591.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт2884]KLN",
+    title: "Блюдо сервировочное Luxstahl, нержавеющая сталь, 30x18,5 см",
+    brand: "Luxstahl",
+    type: "Блюдо",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 203,
+    id: 863,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7128126534.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7128126530.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7128126517.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7128126582.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7128126534.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-KVANT(3607)KLN",
+    title: "Набор креманок 6 шт Pasabahce Ice Ville, стекло, 310 мл",
+    brand: "Pasabahce",
+    type: "Креманка",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 1698,
+    id: 864,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7128126560.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7128126560.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт2879]KLN",
+    title: "Блюдо сервировочное Luxstahl, нержавеющая сталь, 50x50 см",
+    brand: "Luxstahl",
+    type: "Блюдо",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 1000,
+    id: 865,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7128126552.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7128126617.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7128126554.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7128126545.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7128126552.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт1741]KLN",
+    title: "Сотейник с крышкой Luxstahl, нержавеющая сталь, индукция 1,7 л",
+    brand: "Luxstahl",
+    type: "Сотейник",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 1000,
+    "volume": 1.7,
+    id: 866,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7128126601.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7128126551.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7128126615.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7128126611.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7128126601.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-SPAIK(кт3106)KLN",
+    title: "Набор ложек десертных 6 шт Luxstahl Frida, нержавеющая сталь, 17,8 см",
+    brand: "Luxstahl",
+    type: "Ложка десертная",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 258,
+    "length": 17.8,
+    id: 867,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-n/7128126563.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7128126571.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7128126577.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7128126585.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7128126595.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-n/7128126563.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт250]KLN",
+    title: "Щипцы для рыбы Luxstahl, нержавеющая сталь, 12 см",
+    brand: "Luxstahl",
+    type: "Щипцы кухонные",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 44,
+    "length": 12,
+    id: 868,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7128126548.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7128126566.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7128126548.jpg"
+      ]
+    }
+  },
+  {
+    article: "мки002]KLN",
+    title: "Противень Luxstahl, нержавеющая сталь, 60x40 см",
+    brand: "Luxstahl",
+    type: "Противень",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Россия",
+    weight: 1600,
+    "height": 2,
+    "length": 60,
+    "width": 40,
+    id: 869,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7128126600.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7128126567.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7128126600.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт117]KLN",
+    title: "Сковорода с антипригарным покрытием Luxstahl, нержавеющая сталь, 20 см",
+    brand: "Luxstahl",
+    type: "Сковорода",
+    material: "Нержавеющая сталь",
+    color: [
+      "черный",
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 640,
+    id: 870,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7128126654.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7128126649.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7128126689.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7128126685.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7128126654.jpg"
+      ]
+    }
+  },
+  {
+    article: "мки167-1]KLN",
+    title: "Доска разделочная, пластиковая, 35x26 см",
+    brand: "Нет бренда",
+    type: "Разделочная доска",
+    material: "Пластик",
+    color: [
+      "красный"
+    ],
+    origin: "Россия",
+    weight: 735,
+    "length": 35,
+    "width": 26,
+    id: 871,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7128126716.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7128126834.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7128126643.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7128126648.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7128126700.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7128126678.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7128126728.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7128126721.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7128126766.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7128126657.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-7/7128126655.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7128126692.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7128126684.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7128126716.jpg"
+      ]
+    }
+  },
+  {
+    article: "12-KVANT(2935)KLN",
+    title: "Набор рюмок 12 шт Pasabahce Винтаж, стекло, 50 мл",
+    brand: "Pasabahce",
+    type: "Набор рюмок",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 1368,
+    "height": 12.8,
+    id: 872,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7128126672.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7128126642.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7128126706.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7128126672.jpg"
+      ]
+    }
+  },
+  {
+    article: "мки1000]KLN",
+    title: "Доска разделочная, пластиковая, 40x30 см",
+    brand: "Нет бренда",
+    type: "Разделочная доска",
+    material: "Пластик",
+    color: [
+      "белый"
+    ],
+    origin: "Россия",
+    weight: 1000,
+    "length": 40,
+    "width": 30,
+    id: 873,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-n/7128126707.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7128126705.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7128126630.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7128126814.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7128126783.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7128126770.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7128126627.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7128126623.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7128126660.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-7/7128126727.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7128126765.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7128126679.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7128126699.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-n/7128126707.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт055]KLN",
+    title: "Дуршлаг на подставке Luxstahl, нержавеющая сталь, 32 см",
+    brand: "Luxstahl",
+    type: "Дуршлаг",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 3000,
+    "volume": 10,
+    id: 874,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7128126774.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7128126774.jpg"
+      ]
+    }
+  },
+  {
+    article: "мки1714-3]KLN",
+    title: "Доска разделочная, пластиковая, 40x30 см",
+    brand: "Нет бренда",
+    type: "Разделочная доска",
+    material: "Пластик",
+    color: [
+      "зеленый"
+    ],
+    origin: "Россия",
+    weight: 1300,
+    "length": 40,
+    "width": 30,
+    id: 875,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7128126725.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7128126659.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7128126658.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7128126680.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7128126790.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-n/7128126671.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7128126722.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7128126682.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7128126662.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7128126666.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7128126725.jpg"
+      ]
+    }
+  },
+  {
+    article: "12-KVANT(261)KLN",
+    title: "Стопки набор 12 шт Pasabahce, стекло, 50 мл",
+    brand: "Pasabahce",
+    type: "Набор стопок",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 1152,
+    "height": 7.5,
+    id: 876,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7128126731.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7128126731.jpg"
+      ]
+    }
+  },
+  {
+    article: "мки166-5]KLN",
+    title: "Доска разделочная, пластиковая, 53x32,5 см",
+    brand: "Нет бренда",
+    type: "Разделочная доска",
+    material: "Пластик",
+    color: [
+      "синий"
+    ],
+    origin: "Россия",
+    weight: 2400,
+    "length": 53,
+    "width": 32.5,
+    id: 877,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7128126750.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7128126816.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7128126822.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7128126670.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7128126794.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7128126914.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7128126902.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7128126751.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7128126710.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7128126926.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7128126733.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7128126771.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7128126810.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7128126750.jpg"
+      ]
+    }
+  },
+  {
+    article: "12-KVANT(9693)KLN",
+    title: "Стопки набор 12 шт Pasabahce Таймлесс, закаленное стекло, 60 мл",
+    brand: "Pasabahce",
+    type: "Набор стопок",
+    material: "Закаленное стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Россия",
+    weight: 1236,
+    "height": 6.5,
+    id: 878,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7128126703.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7128126636.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7128126703.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт2923]KLN",
+    title: "Кастрюля с крышкой Luxstahl, нержавеющая сталь, индукция 3 л",
+    brand: "Luxstahl",
+    type: "Кастрюля",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 1967,
+    id: 879,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7128126719.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7128126713.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7128126854.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7128126632.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7128126719.jpg"
+      ]
+    }
+  },
+  {
+    article: "мки166]KLN",
+    title: "Доска разделочная, пластиковая, 53x32,5 см",
+    brand: "Нет бренда",
+    type: "Разделочная доска",
+    material: "Пластик",
+    color: [
+      "белый"
+    ],
+    origin: "Россия",
+    weight: 2750,
+    "length": 53,
+    "width": 32.5,
+    id: 880,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7128126730.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7128126875.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7128126829.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7128126687.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7128126899.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-n/7128126851.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7128126724.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7128126664.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7128126676.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7128126746.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7128126761.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7128126877.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7128126645.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7128126730.jpg"
+      ]
+    }
+  },
+  {
+    article: "6704]KLN",
+    title: "Ваза для цветов Pasabahce Ботаника, стеклянная, 26 см",
+    brand: "Pasabahce",
+    type: "Ваза",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 733,
+    "height": 26,
+    "length": 11,
+    id: 881,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7128126669.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7128126669.jpg"
+      ]
+    }
+  },
+  {
+    article: "мки301-4]KLN",
+    title: "Доска разделочная, пластиковая, 50x35 см",
+    brand: "Нет бренда",
+    type: "Разделочная доска",
+    material: "Пластик",
+    color: [
+      "коричневый"
+    ],
+    origin: "Россия",
+    weight: 2600,
+    "length": 50,
+    "width": 35,
+    id: 882,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7128126712.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7128126717.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7128126796.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7128126732.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7128126675.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7128126702.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7128126714.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7128126897.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7128126744.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7128126712.jpg"
+      ]
+    }
+  },
+  {
+    article: "12-KVANT(1025)KLN",
+    title: "Стопки набор 12 шт Pasabahce, стекло, 60 мл",
+    brand: "Pasabahce",
+    type: "Набор стопок",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 1536,
+    "height": 8.9,
+    id: 883,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7128126673.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7128126697.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7128126673.jpg"
+      ]
+    }
+  },
+  {
+    article: "6703]KLN",
+    title: "Ваза для цветов Pasabahce Флора, стеклянная, 12x10,3 см",
+    brand: "Pasabahce",
+    type: "Ваза",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 255,
+    "height": 10.3,
+    "length": 12,
+    id: 884,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7128126734.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7128126734.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт1727]KLN",
+    title: "Дуршлаг-миска Luxstahl, нержавеющая сталь, 34,5 см",
+    brand: "Luxstahl",
+    type: "Дуршлаг",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 520,
+    id: 885,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7128126833.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7128126833.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-KVANT(7794)KLN",
+    title: "Набор креманок 6 шт Pasabahce Таймлесс, стекло, 260 мл",
+    brand: "Pasabahce",
+    type: "Креманка",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 1698,
+    id: 886,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7128126715.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7128126715.jpg"
+      ]
+    }
+  },
+  {
+    article: "ст43]KLN",
+    title: "Салатник Pasabahce, стеклянный, 2560 мл",
+    brand: "Pasabahce",
+    type: "Салатник",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 1243,
+    id: 887,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7128126698.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7128126698.jpg"
+      ]
+    }
+  },
+  {
+    article: "мки301-1]KLN",
+    title: "Доска разделочная, пластиковая, 50x35 см",
+    brand: "Нет бренда",
+    type: "Разделочная доска",
+    material: "Пластик",
+    color: [
+      "красный"
+    ],
+    origin: "Россия",
+    weight: 2820,
+    "length": 50,
+    "width": 35,
+    id: 888,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7128126711.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7128126865.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7128126827.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7128126782.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7128126777.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-7/7128126799.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7128126840.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7128126793.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7128126747.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7128126711.jpg"
+      ]
+    }
+  },
+  {
+    article: "мки166-2]KLN",
+    title: "Доска разделочная, пластиковая, 53x32,5 см",
+    brand: "Нет бренда",
+    type: "Разделочная доска",
+    material: "Пластик",
+    color: [
+      "желтый"
+    ],
+    origin: "Россия",
+    weight: 2780,
+    "length": 53,
+    "width": 32.5,
+    id: 889,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7128126864.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7128126803.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7128126825.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7128126738.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-h/7128126737.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7128126818.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-h/7128126809.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7128126795.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7128126892.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7128126748.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7128126883.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7128126839.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7128126951.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7128126864.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт1725]KLN",
+    title: "Дуршлаг-миска Luxstahl, нержавеющая сталь, 28,5 см",
+    brand: "Luxstahl",
+    type: "Дуршлаг",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 394,
+    id: 890,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7128126780.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7128126780.jpg"
+      ]
+    }
+  },
+  {
+    article: "мки166-1]KLN",
+    title: "Доска разделочная, пластиковая, 53x32,5 см",
+    brand: "Нет бренда",
+    type: "Разделочная доска",
+    material: "Пластик",
+    color: [
+      "красный"
+    ],
+    origin: "Россия",
+    weight: 2400,
+    "length": 53,
+    "width": 32.5,
+    id: 891,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7128126918.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7128126847.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7128126694.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7128126906.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7128126688.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7128126842.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7128126936.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7128126729.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7128126966.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7128126910.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7128126913.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7128126942.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7128126820.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7128126918.jpg"
+      ]
+    }
+  },
+  {
+    article: "12-KVANT(1284)KLN",
+    title: "Набор рюмок 12 шт Pasabahce Изабелла, стекло, 65 мл",
+    brand: "Pasabahce",
+    type: "Набор рюмок",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 1464,
+    "height": 14,
+    id: 892,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7128126934.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7128126934.jpg"
+      ]
+    }
+  },
+  {
+    article: "3131]KLN",
+    title: "Кувшин с крышкой Pasabahce Kosem, стеклянный, 1235 мл",
+    brand: "Pasabahce",
+    type: "Кувшин",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 1207,
+    "volume": 1.235,
+    id: 893,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7128126930.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7128126930.jpg"
+      ]
+    }
+  },
+  {
+    article: "мки307-2]KLN",
+    title: "Доска разделочная, пластиковая, 60x40 см",
+    brand: "Нет бренда",
+    type: "Разделочная доска",
+    material: "Пластик",
+    color: [
+      "желтый"
+    ],
+    origin: "Россия",
+    weight: 3900,
+    "length": 60,
+    "width": 40,
+    id: 894,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7128126752.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7128126920.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7128126841.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7128126861.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7128126690.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7128126686.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7128126862.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7128126726.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7128126984.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7128126952.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7128126752.jpg"
+      ]
+    }
+  },
+  {
+    article: "6714]KLN",
+    title: "Кувшин Pasabahce Bacchus, стеклянный, 1200 мл",
+    brand: "Pasabahce",
+    type: "Кувшин",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 1033,
+    "volume": 1.2,
+    id: 895,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7128126723.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7128126723.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт1164]KLN",
+    title: "Ложка соусная Luxstahl, нержавеющая сталь, 27 см",
+    brand: "Luxstahl",
+    type: "Ложка кулинарная",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 81,
+    "length": 27,
+    id: 896,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7128126709.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7128126850.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7128126709.jpg"
+      ]
+    }
+  },
+  {
+    article: "12-KVANT(1043)KLN",
+    title: "Набор рюмок 12 шт Pasabahce Карат, стекло, 58 мл",
+    brand: "Pasabahce",
+    type: "Набор рюмок",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 1500,
+    "height": 12.2,
+    id: 897,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7128126983.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7128126983.jpg"
+      ]
+    }
+  },
+  {
+    article: "ст41]KLN",
+    title: "Салатник Pasabahce, стеклянный, 626 мл",
+    brand: "Pasabahce",
+    type: "Салатник",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 352,
+    id: 898,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7128126683.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7128126683.jpg"
+      ]
+    }
+  },
+  {
+    article: "мки1714-5]KLN",
+    title: "Доска разделочная, пластиковая, 40x30 см",
+    brand: "Нет бренда",
+    type: "Разделочная доска",
+    material: "Пластик",
+    color: [
+      "синий"
+    ],
+    origin: "Россия",
+    weight: 1300,
+    "length": 40,
+    "width": 30,
+    id: 899,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7128126912.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7128126884.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7128126960.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7128126965.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7128126980.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-h/7128126701.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7128126735.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7128126991.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7128126912.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт119]KLN",
+    title: "Сковорода с антипригарным покрытием Luxstahl, нержавеющая сталь, 24 см",
+    brand: "Luxstahl",
+    type: "Сковорода",
+    material: "Нержавеющая сталь",
+    color: [
+      "черный",
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 840,
+    id: 900,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7128126866.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7128126813.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7128126757.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7128126787.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7128126866.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт3155]KLN",
+    title: "Кастрюля с крышкой Luxstahl, нержавеющая сталь, индукция 3 л",
+    brand: "Luxstahl",
+    type: "Кастрюля",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 1500,
+    id: 901,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7128127005.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7128126872.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7128126998.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7128126843.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-n/7128127067.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7128126994.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7128126988.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7128127005.jpg"
+      ]
+    }
+  },
+  {
+    article: "мки1714]KLN",
+    title: "Доска разделочная, пластиковая, 40x30 см",
+    brand: "Нет бренда",
+    type: "Разделочная доска",
+    material: "Пластик",
+    color: [
+      "белый"
+    ],
+    origin: "Россия",
+    weight: 1300,
+    "length": 40,
+    "width": 30,
+    id: 902,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-n/7128126779.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7128126811.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7128126801.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7128126973.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7128126802.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7128126856.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7128126896.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7128126760.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7128127049.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7128126745.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7128126764.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-n/7128126887.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7128126767.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-n/7128126779.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт1724]KLN",
+    title: "Дуршлаг-миска Luxstahl, нержавеющая сталь, 25,5 см",
+    brand: "Luxstahl",
+    type: "Дуршлаг",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 337,
+    id: 903,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7128126830.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7128126830.jpg"
+      ]
+    }
+  },
+  {
+    article: "6-KVANT(5122)KLN",
+    title: "Набор креманок 6 шт Pasabahce Ice Ville, стекло, 170 мл",
+    brand: "Pasabahce",
+    type: "Креманка",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 2130,
+    id: 904,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7128127021.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7128127021.jpg"
+      ]
+    }
+  },
+  {
+    article: "ст44]KLN",
+    title: "Салатник Pasabahce, стеклянный, 348 мл",
+    brand: "Pasabahce",
+    type: "Салатник",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 250,
+    id: 905,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7128126785.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7128126785.jpg"
+      ]
+    }
+  },
+  {
+    article: "8320]KLN",
+    title: "Кувшин Pasabahce Данс, стеклянный, 1700 мл",
+    brand: "Pasabahce",
+    type: "Кувшин",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 1178,
+    "volume": 1.7,
+    id: 906,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7128126909.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7128126909.jpg"
+      ]
+    }
+  },
+  {
+    article: "мки167-2]KLN",
+    title: "Доска разделочная, пластиковая, 35x26 см",
+    brand: "Нет бренда",
+    type: "Разделочная доска",
+    material: "Пластик",
+    color: [
+      "желтый"
+    ],
+    origin: "Россия",
+    weight: 720,
+    "length": 35,
+    "width": 26,
+    id: 907,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7128127083.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7128126797.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7128126975.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7128126798.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7128126756.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7128127044.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7128127019.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7128126860.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7128126976.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-n/7128126815.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7128127083.jpg"
+      ]
+    }
+  },
+  {
+    article: "мки166-3]KLN",
+    title: "Доска разделочная, пластиковая, 53x32,5 см",
+    brand: "Нет бренда",
+    type: "Разделочная доска",
+    material: "Пластик",
+    color: [
+      "зеленый"
+    ],
+    origin: "Россия",
+    weight: 2780,
+    "length": 53,
+    "width": 32.5,
+    id: 908,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7128127034.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7128127047.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7128126901.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7128126828.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7128126781.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7128127084.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-7/7128126835.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7128126806.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7128126888.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7128127064.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-7/7128126763.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7128126977.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7128127100.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7128127034.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт1166]KLN",
+    title: "Ложка гарнирная Luxstahl, нержавеющая сталь, 27 см",
+    brand: "Luxstahl",
+    type: "Ложка кулинарная",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 115,
+    "length": 27,
+    id: 909,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7128126755.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7128126849.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7128126755.jpg"
+      ]
+    }
+  },
+  {
+    article: "ст42]KLN",
+    title: "Салатник Pasabahce, стеклянный, 1160 мл",
+    brand: "Pasabahce",
+    type: "Салатник",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 596,
+    id: 910,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7128126823.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7128126823.jpg"
+      ]
+    }
+  },
+  {
+    article: "мки1010]KLN",
+    title: "Доска разделочная, пластиковая, 50x35 см",
+    brand: "Нет бренда",
+    type: "Разделочная доска",
+    material: "Пластик",
+    color: [
+      "белый"
+    ],
+    origin: "Россия",
+    weight: 1300,
+    "length": 50,
+    "width": 35,
+    id: 911,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7128127101.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-h/7128127061.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7128127052.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7128127190.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7128126999.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-n/7128127031.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7128126919.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7128127002.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7128126932.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7128127065.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7128126880.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7128127007.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7128126968.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7128127101.jpg"
+      ]
+    }
+  },
+  {
+    article: "мки301-3]KLN",
+    title: "Доска разделочная, пластиковая, 50x35 см",
+    brand: "Нет бренда",
+    type: "Разделочная доска",
+    material: "Пластик",
+    color: [
+      "зеленый"
+    ],
+    origin: "Россия",
+    weight: 2820,
+    "length": 50,
+    "width": 35,
+    id: 912,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7128126853.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7128126857.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-h/7128126917.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7128126927.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7128126846.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7128127076.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7128126962.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7128126947.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-n/7128126995.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7128127048.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7128126753.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-7/7128126907.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7128126905.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7128126853.jpg"
+      ]
+    }
+  },
+  {
+    article: "мки307]KLN",
+    title: "Доска разделочная, пластиковая, 60x40 см",
+    brand: "Нет бренда",
+    type: "Разделочная доска",
+    material: "Пластик",
+    color: [
+      "белый"
+    ],
+    origin: "Россия",
+    weight: 4000,
+    "length": 60,
+    "width": 40,
+    id: 913,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7128126885.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7128126933.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7128126921.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7128126894.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7128126824.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7128127013.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7128127006.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7128126939.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7128126971.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7128126749.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7128127091.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7128127024.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7128126762.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7128126885.jpg"
+      ]
+    }
+  },
+  {
+    article: "мки307-5]KLN",
+    title: "Доска разделочная, пластиковая, 60x40 см",
+    brand: "Нет бренда",
+    type: "Разделочная доска",
+    material: "Пластик",
+    color: [
+      "синий"
+    ],
+    origin: "Россия",
+    weight: 3800,
+    "length": 60,
+    "width": 40,
+    id: 914,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7128127077.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7128127039.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7128126800.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7128127082.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7128127018.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7128127035.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7128127073.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-m/7128126886.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7128127077.jpg"
+      ]
+    }
+  },
+  {
+    article: "мки307-1]KLN",
+    title: "Доска разделочная, пластиковая, 60x40 см",
+    brand: "Нет бренда",
+    type: "Разделочная доска",
+    material: "Пластик",
+    color: [
+      "красный"
+    ],
+    origin: "Россия",
+    weight: 3900,
+    "length": 60,
+    "width": 40,
+    id: 915,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-n/7128126743.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7128126792.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7128126807.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7128126786.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7128126832.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7128126759.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7128126805.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7128126768.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7128127106.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7128126867.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7128126776.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7128126837.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7128126964.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-n/7128126743.jpg"
+      ]
+    }
+  },
+  {
+    article: "мки167-3]KLN",
+    title: "Доска разделочная, пластиковая, 35x26 см",
+    brand: "Нет бренда",
+    type: "Разделочная доска",
+    material: "Пластик",
+    color: [
+      "зеленый"
+    ],
+    origin: "Россия",
+    weight: 720,
+    "length": 35,
+    "width": 26,
+    id: 916,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7128126990.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7128127060.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7128126925.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7128127000.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7128127010.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7128127032.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7128126916.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7128127063.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7128127050.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7128127104.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7128126990.jpg"
+      ]
+    }
+  },
+  {
+    article: "мки1714-4]KLN",
+    title: "Доска разделочная, пластиковая, 40x30 см",
+    brand: "Нет бренда",
+    type: "Разделочная доска",
+    material: "Пластик",
+    color: [
+      "коричневый"
+    ],
+    origin: "Россия",
+    weight: 1300,
+    "length": 40,
+    "width": 30,
+    id: 917,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7128127130.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-h/7128126773.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7128127120.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7128127122.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7128126869.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7128127128.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7128126831.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7128126956.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7128126924.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7128127130.jpg"
+      ]
+    }
+  },
+  {
+    article: "мки301-5]KLN",
+    title: "Доска разделочная, пластиковая, 50x35 см",
+    brand: "Нет бренда",
+    type: "Разделочная доска",
+    material: "Пластик",
+    color: [
+      "синий"
+    ],
+    origin: "Россия",
+    weight: 2600,
+    "length": 50,
+    "width": 35,
+    id: 918,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7128127016.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7128127094.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7128127036.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7128127068.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7128127054.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7128126893.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7128126915.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7128126821.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7128127016.jpg"
+      ]
+    }
+  },
+  {
+    article: "4037]KLN",
+    title: "Кувшин с крышкой Pasabahce Bistro, стеклянный, 1800 мл",
+    brand: "Pasabahce",
+    type: "Кувшин",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 1107,
+    "volume": 1.8,
+    id: 919,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7128126950.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7128126950.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт056]KLN",
+    title: "Дуршлаг на подставке Luxstahl, нержавеющая сталь, 38 см",
+    brand: "Luxstahl",
+    type: "Дуршлаг",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 1490,
+    "volume": 12,
+    id: 920,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7128126931.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7128126931.jpg"
+      ]
+    }
+  },
+  {
+    article: "мки167]KLN",
+    title: "Доска разделочная, пластиковая, 35x26 см",
+    brand: "Нет бренда",
+    type: "Разделочная доска",
+    material: "Пластик",
+    color: [
+      "белый"
+    ],
+    origin: "Россия",
+    weight: 700,
+    "length": 35,
+    "width": 26,
+    id: 921,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7128127110.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7128126900.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7128126882.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7128127185.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7128126903.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7128127008.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7128126895.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7128127003.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7128126858.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7128126863.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-i/7128126954.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7128126929.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-n/7128126923.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7128127110.jpg"
+      ]
+    }
+  },
+  {
+    article: "мки1714-2]KLN",
+    title: "Доска разделочная, пластиковая, 40x30 см",
+    brand: "Нет бренда",
+    type: "Разделочная доска",
+    material: "Пластик",
+    color: [
+      "желтый"
+    ],
+    origin: "Россия",
+    weight: 1300,
+    "length": 40,
+    "width": 30,
+    id: 922,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7128127153.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7128126879.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-7/7128127087.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-h/7128127133.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7128127161.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7128127182.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7128127162.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7128126970.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-n/7128127139.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7128127186.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7128127151.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7128127119.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7128127105.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7128127153.jpg"
+      ]
+    }
+  },
+  {
+    article: "12-KVANT(802)KLN",
+    title: "Набор рюмок 12 шт Pasabahce Tulipe, стекло, 55 мл",
+    brand: "Pasabahce",
+    type: "Набор рюмок",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 1176,
+    "height": 11,
+    id: 923,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7128126945.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7128126945.jpg"
+      ]
+    }
+  },
+  {
+    article: "мки166-4]KLN",
+    title: "Доска разделочная, пластиковая, 53x32,5 см",
+    brand: "Нет бренда",
+    type: "Разделочная доска",
+    material: "Пластик",
+    color: [
+      "коричневый"
+    ],
+    origin: "Россия",
+    weight: 2400,
+    "length": 53,
+    "width": 32.5,
+    id: 924,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7128127165.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7128127121.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7128127192.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7128127193.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7128127142.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-7/7128126979.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7128127196.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7128127136.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7128127163.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7128127115.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7128127131.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7128127081.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7128127188.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7128127165.jpg"
+      ]
+    }
+  },
+  {
+    article: "1670]KLN",
+    title: "Кувшин Pasabahce Silvana, стеклянный, 1370 мл",
+    brand: "Pasabahce",
+    type: "Кувшин",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 1150,
+    "volume": 1.37,
+    id: 925,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7128127137.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7128127137.jpg"
+      ]
+    }
+  },
+  {
+    article: "мки307-3]KLN",
+    title: "Доска разделочная, пластиковая, 60x40 см",
+    brand: "Нет бренда",
+    type: "Разделочная доска",
+    material: "Пластик",
+    color: [
+      "зеленый"
+    ],
+    origin: "Россия",
+    weight: 4000,
+    "length": 60,
+    "width": 40,
+    id: 926,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7128127129.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7128127108.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7128127166.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-7/7128127123.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-v/7128127111.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7128127201.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7128127085.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7128127125.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7128127156.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7128127172.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7128127129.jpg"
+      ]
+    }
+  },
+  {
+    article: "мки301]KLN",
+    title: "Доска разделочная, пластиковая, 50x30 см",
+    brand: "Нет бренда",
+    type: "Разделочная доска",
+    material: "Пластик",
+    color: [
+      "белый"
+    ],
+    origin: "Россия",
+    weight: 2820,
+    "length": 50,
+    "width": 30,
+    id: 927,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-h/7128127169.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7128127113.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7128127045.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7128127096.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7128127020.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7128127114.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-0/7128127116.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7128127202.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-c/7128126948.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-5/7128127157.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-x/7128126969.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7128127140.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-k/7128127208.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-h/7128127169.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт3154]KLN",
+    title: "Кастрюля с крышкой Luxstahl, нержавеющая сталь, индукция 2 л",
+    brand: "Luxstahl",
+    type: "Кастрюля",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Вьетнам",
+    weight: 1100,
+    id: 928,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7128126844.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7128126873.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7128127107.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7128127042.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-8/7128127088.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-h/7128127025.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7128127109.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7128126844.jpg"
+      ]
+    }
+  },
+  {
+    article: "12-KVANT(9692)KLN",
+    title: "Набор рюмок 12 шт Pasabahce Таймлесс, стекло, 60 мл",
+    brand: "Pasabahce",
+    type: "Набор рюмок",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Россия",
+    weight: 1596,
+    "height": 10.6,
+    id: 929,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7128126940.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-4/7128126940.jpg"
+      ]
+    }
+  },
+  {
+    article: "12-KVANT(744)KLN",
+    title: "Набор рюмок 12 шт Pasabahce Bistro, стекло, 60 мл",
+    brand: "Pasabahce",
+    type: "Набор рюмок",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 1152,
+    "height": 11.2,
+    id: 930,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7128126946.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7128126946.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт1726]KLN",
+    title: "Дуршлаг-миска Luxstahl, нержавеющая сталь, 31,5 см",
+    brand: "Luxstahl",
+    type: "Дуршлаг",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 464,
+    id: 931,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7128127203.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7128127203.jpg"
+      ]
+    }
+  },
+  {
+    article: "мки307-4]KLN",
+    title: "Доска разделочная, пластиковая, 60x40 см",
+    brand: "Нет бренда",
+    type: "Разделочная доска",
+    material: "Пластик",
+    color: [
+      "коричневый"
+    ],
+    origin: "Россия",
+    weight: 4000,
+    "length": 60,
+    "width": 40,
+    id: 932,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7128126987.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-f/7128126987.jpg"
+      ]
+    }
+  },
+  {
+    article: "5075]KLN",
+    title: "Кувшин Pasabahce Вилэдж, стеклянный, 1330 мл",
+    brand: "Pasabahce",
+    type: "Кувшин",
+    material: "Стекло",
+    color: [
+      "прозрачный"
+    ],
+    origin: "Турция",
+    weight: 450,
+    "volume": 1.33,
+    id: 933,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7128127053.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7128127053.jpg"
+      ]
+    }
+  },
+  {
+    article: "мки1714-1]KLN",
+    title: "Доска разделочная, пластиковая, 40x30 см",
+    brand: "Нет бренда",
+    type: "Разделочная доска",
+    material: "Пластик",
+    color: [
+      "красный"
+    ],
+    origin: "Россия",
+    weight: 1300,
+    "length": 40,
+    "width": 30,
+    id: 934,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7128127204.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7128127198.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7128127014.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7128127191.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-2/7128126938.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7128127072.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-a/7128126982.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7128126963.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-d/7128126949.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-j/7128127207.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7128127180.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-9/7128127197.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-3/7128127011.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-g/7128127204.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт1605]KLN",
+    title: "Ложка соусная Luxstahl, нержавеющая сталь, 28 см",
+    brand: "Luxstahl",
+    type: "Ложка кулинарная",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 96,
+    "length": 28,
+    id: 935,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7128126911.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7128126891.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7128126911.jpg"
+      ]
+    }
+  },
+  {
+    article: "мки1715]KLN",
+    title: "Доска разделочная, пластиковая, 25x15 см",
+    brand: "Нет бренда",
+    type: "Разделочная доска",
+    material: "Пластик",
+    color: [
+      "белый"
+    ],
+    origin: "Россия",
+    weight: 350,
+    "length": 25,
+    "width": 15,
+    id: 936,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7128127253.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-u/7128127218.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-z/7128127187.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7128127004.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-w/7128127184.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-s/7128127216.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-p/7128127033.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-q/7128127214.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-r/7128127215.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-o/7128126996.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-1/7128127009.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-h/7128127205.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-b/7128127055.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-t/7128127253.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт605]KLN",
+    title: "Сковорода с антипригарным покрытием Luxstahl, нержавеющая сталь, 20 см",
+    brand: "Luxstahl",
+    type: "Сковорода",
+    material: "Нержавеющая сталь",
+    color: [
+      "черный",
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 1000,
+    id: 937,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-7/7128127051.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-6/7128127194.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-l/7128127209.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-7/7128127051.jpg"
+      ]
+    }
+  },
+  {
+    article: "кт1165]KLN",
+    title: "Ложка соусная Luxstahl, нержавеющая сталь, 27,5 см",
+    brand: "Luxstahl",
+    type: "Ложка кулинарная",
+    material: "Нержавеющая сталь",
+    color: [
+      "серебристый"
+    ],
+    origin: "Китай",
+    weight: 91,
+    "length": 27.5,
+    id: 938,
+    imgs: {
+      thumbnails: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7128127222.jpg",
+        "https://cdn1.ozone.ru/s3/multimedia-1-e/7128127058.jpg"
+      ],
+      previews: [
+        "https://cdn1.ozone.ru/s3/multimedia-1-y/7128127222.jpg"
+      ]
+    }
+  }
+];
+
+export default shopData;
