@@ -21,9 +21,9 @@ const OrderSummary = () => {
             <div>
               <h4 className="font-medium text-dark">Product</h4>
             </div>
-            <div>
+            {/*<div>
               <h4 className="font-medium text-dark text-right">Subtotal</h4>
-            </div>
+            </div>*/}
           </div>
 
           {/* <!-- product item --> */}
@@ -41,7 +41,7 @@ const OrderSummary = () => {
           ))}
 
           {/* <!-- total --> */}
-          <div className="flex items-center justify-between pt-5">
+          {/*<div className="flex items-center justify-between pt-5">
             <div>
               <p className="font-medium text-lg text-dark">Total</p>
             </div>
@@ -50,12 +50,12 @@ const OrderSummary = () => {
                 ${totalPrice}
               </p>
             </div>
-          </div>
+          </div>*/}
 
           {/* <!-- checkout button --> */}
           <button
             type="submit"
-            className="w-full flex justify-center font-medium text-white bg-blue py-3 px-6 rounded-md ease-out duration-200 hover:bg-blue-dark mt-7.5"
+            className="w-full flex justify-center font-medium text-white bg-[#543b27] py-3 px-6 rounded-md ease-out duration-200 hover:bg-[#543b27]-dark mt-7.5"
           >
             Process to Checkout
           </button>

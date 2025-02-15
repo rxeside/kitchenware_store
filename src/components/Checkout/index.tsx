@@ -8,14 +8,45 @@ import PaymentMethod from "./PaymentMethod";
 import Coupon from "./Coupon";
 import Billing from "./Billing";
 
+const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
+  event.preventDefault();
+
+  const formData = new FormData(event.currentTarget);
+
+  const response = await fetch("/api/checkout", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({
+      email: formData.get("email"),
+      firstName: formData.get("firstName"),
+      lastName: formData.get("lastName"),
+      address: formData.get("address"),
+      town: formData.get("town"),
+      country: formData.get("country"),
+      phone: formData.get("phone"),
+      notes: formData.get("notes") || "", // По умолчанию пустая строка
+    }),
+  });
+
+  if (response.ok) {
+    alert("Уведомление отправлено!");
+  } else {
+    alert("Ошибка при отправке уведомления.");
+  }
+};
+
+
+
 const Checkout = () => {
   return (
     <>
       <Breadcrumb title={"Checkout"} pages={["checkout"]} />
       <section className="overflow-hidden py-20 bg-gray-2">
         <div className="max-w-[1170px] w-full mx-auto px-4 sm:px-8 xl:px-0">
-          <form>
-            <div className="flex flex-col lg:flex-row gap-7.5 xl:gap-11">
+          <form onSubmit={handleSubmit}>
+          <div className="flex flex-col lg:flex-row gap-7.5 xl:gap-11">
               {/* <!-- checkout left --> */}
               <div className="lg:max-w-[670px] w-full">
                 {/* <!-- login box --> */}
@@ -63,11 +94,11 @@ const Checkout = () => {
                       <div>
                         <h4 className="font-medium text-dark">Product</h4>
                       </div>
-                      <div>
+                      {/*<div>
                         <h4 className="font-medium text-dark text-right">
                           Subtotal
                         </h4>
-                      </div>
+                      </div>*/}
                     </div>
 
                     {/* <!-- product item -->
@@ -142,7 +173,7 @@ const Checkout = () => {
                 {/* <!-- checkout button --> */}
                 <button
                   type="submit"
-                  className="w-full flex justify-center font-medium text-white bg-blue py-3 px-6 rounded-md ease-out duration-200 hover:bg-blue-dark mt-7.5"
+                  className="w-full flex justify-center font-medium text-white bg-[#543b27] py-3 px-6 rounded-md ease-out duration-200 hover:bg-[#543b27]-dark mt-7.5"
                 >
                   Process to Checkout
                 </button>

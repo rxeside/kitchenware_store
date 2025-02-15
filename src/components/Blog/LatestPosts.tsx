@@ -33,7 +33,7 @@ const LatestPosts = ({ blogs }) => {
                 <span className="flex items-center gap-3">
                   <a
                     href="#"
-                    className="text-custom-xs ease-out duration-200 hover:text-blue"
+                    className="text-custom-xs ease-out duration-200 hover:text-[#543b27]"
                   >
                     {blog.date}
                   </a>
@@ -43,7 +43,7 @@ const LatestPosts = ({ blogs }) => {
 
                   <a
                     href="#"
-                    className="text-custom-xs ease-out duration-200 hover:text-blue"
+                    className="text-custom-xs ease-out duration-200 hover:text-[#543b27]"
                   >
                     {blog.views}k Views
                   </a>

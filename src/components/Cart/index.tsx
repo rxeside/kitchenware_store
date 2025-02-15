@@ -22,7 +22,7 @@ const Cart = () => {
           <div className="max-w-[1170px] w-full mx-auto px-4 sm:px-8 xl:px-0">
             <div className="flex flex-wrap items-center justify-between gap-5 mb-7.5">
               <h2 className="font-medium text-dark text-2xl">Your Cart</h2>
-              <button className="text-blue">Clear Shopping Cart</button>
+              <button className="text-[#543b27]">Clear Shopping Cart</button>
             </div>
 
             <div className="bg-white rounded-[10px] shadow-1">
@@ -34,17 +34,17 @@ const Cart = () => {
                       <p className="text-dark">Product</p>
                     </div>
 
-                    <div className="min-w-[180px]">
+                    {/*<div className="min-w-[180px]">
                       <p className="text-dark">Price</p>
-                    </div>
+                    </div>*/}
 
                     <div className="min-w-[275px]">
                       <p className="text-dark">Quantity</p>
                     </div>
 
-                    <div className="min-w-[200px]">
+                   {/* <div className="min-w-[200px]">
                       <p className="text-dark">Subtotal</p>
-                    </div>
+                    </div>*/}
 
                     <div className="min-w-[50px]">
                       <p className="text-dark text-right">Action</p>

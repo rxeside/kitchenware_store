@@ -110,7 +110,7 @@ const ShopDetails = () => {
                       <button
                         onClick={handlePreviewSlider}
                         aria-label="button for zoom"
-                        className="gallery__Image w-11 h-11 rounded-[5px] bg-gray-1 shadow-1 flex items-center justify-center ease-out duration-200 text-dark hover:text-blue absolute top-4 lg:top-6 right-4 lg:right-6 z-50"
+                        className="gallery__Image w-11 h-11 rounded-[5px] bg-gray-1 shadow-1 flex items-center justify-center ease-out duration-200 text-dark hover:text-[#543b27] absolute top-4 lg:top-6 right-4 lg:right-6 z-50"
                       >
                         <svg
                           className="fill-current"
@@ -138,19 +138,19 @@ const ShopDetails = () => {
                     </div>
                   </div>
 
-                  {/* ?  &apos;border-blue &apos; :  &apos;border-transparent&apos; */}
+                  {/* ?  &apos;border-[#543b27] &apos; :  &apos;border-transparent&apos; */}
                   <div className="flex flex-wrap sm:flex-nowrap gap-4.5 mt-6">
                     {product.imgs?.thumbnails.map((item, key) => (
                       <button
                         onClick={() => setPreviewImg(key)}
                         key={key}
-                        className={`flex items-center justify-center w-15 sm:w-25 h-15 sm:h-25 overflow-hidden rounded-lg bg-gray-2 shadow-1 ease-out duration-200 border-2 hover:border-blue ${
+                        className={`flex items-center justify-center w-15 sm:w-25 h-15 sm:h-25 overflow-hidden rounded-lg bg-gray-2 shadow-1 ease-out duration-200 border-2 hover:border-[#543b27] ${
                           key === previewImg
-                            ? "border-blue"
+                            ? "border-[#543b27]"
                             : "border-transparent"
                         }`}
                       >
-                        <Image
+                        <img
                           width={50}
                           height={50}
                           src={item}
@@ -168,7 +168,7 @@ const ShopDetails = () => {
                       {product.title}
                     </h2>
 
-                    <div className="inline-flex font-medium text-custom-sm text-white bg-blue rounded py-0.5 px-2.5">
+                    <div className="inline-flex font-medium text-custom-sm text-white bg-[#543b27] rounded py-0.5 px-2.5">
                       30% OFF
                     </div>
                   </div>
@@ -336,13 +336,13 @@ const ShopDetails = () => {
                       >
                         <path
                           d="M13.3589 8.35863C13.603 8.11455 13.603 7.71882 13.3589 7.47475C13.1149 7.23067 12.7191 7.23067 12.4751 7.47475L8.75033 11.1995L7.5256 9.97474C7.28152 9.73067 6.8858 9.73067 6.64172 9.97474C6.39764 10.2188 6.39764 10.6146 6.64172 10.8586L8.30838 12.5253C8.55246 12.7694 8.94819 12.7694 9.19227 12.5253L13.3589 8.35863Z"
-                          fill="#3C50E0"
+                          fill="#543b27"
                         />
                         <path
                           fillRule="evenodd"
                           clipRule="evenodd"
                           d="M10.0003 1.04169C5.05277 1.04169 1.04199 5.05247 1.04199 10C1.04199 14.9476 5.05277 18.9584 10.0003 18.9584C14.9479 18.9584 18.9587 14.9476 18.9587 10C18.9587 5.05247 14.9479 1.04169 10.0003 1.04169ZM2.29199 10C2.29199 5.74283 5.74313 2.29169 10.0003 2.29169C14.2575 2.29169 17.7087 5.74283 17.7087 10C17.7087 14.2572 14.2575 17.7084 10.0003 17.7084C5.74313 17.7084 2.29199 14.2572 2.29199 10Z"
-                          fill="#3C50E0"
+                          fill="#543b27"
                         />
                       </svg>
                       Free delivery available
@@ -358,13 +358,13 @@ const ShopDetails = () => {
                       >
                         <path
                           d="M13.3589 8.35863C13.603 8.11455 13.603 7.71882 13.3589 7.47475C13.1149 7.23067 12.7191 7.23067 12.4751 7.47475L8.75033 11.1995L7.5256 9.97474C7.28152 9.73067 6.8858 9.73067 6.64172 9.97474C6.39764 10.2188 6.39764 10.6146 6.64172 10.8586L8.30838 12.5253C8.55246 12.7694 8.94819 12.7694 9.19227 12.5253L13.3589 8.35863Z"
-                          fill="#3C50E0"
+                          fill="#543b27"
                         />
                         <path
                           fillRule="evenodd"
                           clipRule="evenodd"
                           d="M10.0003 1.04169C5.05277 1.04169 1.04199 5.05247 1.04199 10C1.04199 14.9476 5.05277 18.9584 10.0003 18.9584C14.9479 18.9584 18.9587 14.9476 18.9587 10C18.9587 5.05247 14.9479 1.04169 10.0003 1.04169ZM2.29199 10C2.29199 5.74283 5.74313 2.29169 10.0003 2.29169C14.2575 2.29169 17.7087 5.74283 17.7087 10C17.7087 14.2572 14.2575 17.7084 10.0003 17.7084C5.74313 17.7084 2.29199 14.2572 2.29199 10Z"
-                          fill="#3C50E0"
+                          fill="#543b27"
                         />
                       </svg>
                       Sales 30% Off Use Code: PROMO30
@@ -437,7 +437,7 @@ const ShopDetails = () => {
                                 <div
                                   className={`mr-2 flex h-4 w-4 items-center justify-center rounded border ${
                                     storage === item.id
-                                      ? "border-blue bg-blue"
+                                      ? "border-[#543b27] bg-[#543b27]"
                                       : "border-gray-4"
                                   } `}
                                 >
@@ -461,7 +461,7 @@ const ShopDetails = () => {
                                         width="16"
                                         height="16"
                                         rx="4"
-                                        fill="#3C50E0"
+                                        fill="#543b27"
                                       />
                                       <path
                                         fillRule="evenodd"
@@ -505,7 +505,7 @@ const ShopDetails = () => {
                                 <div
                                   className={`mr-2 flex h-4 w-4 items-center justify-center rounded border ${
                                     type === item.id
-                                      ? "border-blue bg-blue"
+                                      ? "border-[#543b27] bg-[#543b27]"
                                       : "border-gray-4"
                                   } `}
                                 >
@@ -529,7 +529,7 @@ const ShopDetails = () => {
                                         width="16"
                                         height="16"
                                         rx="4"
-                                        fill="#3C50E0"
+                                        fill="#543b27"
                                       />
                                       <path
                                         fillRule="evenodd"
@@ -573,7 +573,7 @@ const ShopDetails = () => {
                                 <div
                                   className={`mr-2 flex h-4 w-4 items-center justify-center rounded border ${
                                     sim === item.id
-                                      ? "border-blue bg-blue"
+                                      ? "border-[#543b27] bg-[#543b27]"
                                       : "border-gray-4"
                                   } `}
                                 >
@@ -597,7 +597,7 @@ const ShopDetails = () => {
                                         width="16"
                                         height="16"
                                         rx="4"
-                                        fill="#3C50E0"
+                                        fill="#543b27"
                                       />
                                       <path
                                         fillRule="evenodd"
@@ -620,7 +620,7 @@ const ShopDetails = () => {
                       <div className="flex items-center rounded-md border border-gray-3">
                         <button
                           aria-label="button for remove product"
-                          className="flex items-center justify-center w-12 h-12 ease-out duration-200 hover:text-blue"
+                          className="flex items-center justify-center w-12 h-12 ease-out duration-200 hover:text-[#543b27]"
                           onClick={() =>
                             quantity > 1 && setQuantity(quantity - 1)
                           }
@@ -647,7 +647,7 @@ const ShopDetails = () => {
                         <button
                           onClick={() => setQuantity(quantity + 1)}
                           aria-label="button for add product"
-                          className="flex items-center justify-center w-12 h-12 ease-out duration-200 hover:text-blue"
+                          className="flex items-center justify-center w-12 h-12 ease-out duration-200 hover:text-[#543b27]"
                         >
                           <svg
                             className="fill-current"
@@ -671,7 +671,7 @@ const ShopDetails = () => {
 
                       <a
                         href="#"
-                        className="inline-flex font-medium text-white bg-blue py-3 px-7 rounded-md ease-out duration-200 hover:bg-blue-dark"
+                        className="inline-flex font-medium text-white bg-[#543b27] py-3 px-7 rounded-md ease-out duration-200 hover:bg-[#543b27]-dark"
                       >
                         Purchase Now
                       </a>
@@ -711,9 +711,9 @@ const ShopDetails = () => {
                   <button
                     key={key}
                     onClick={() => setActiveTab(item.id)}
-                    className={`font-medium lg:text-lg ease-out duration-200 hover:text-blue relative before:h-0.5 before:bg-blue before:absolute before:left-0 before:bottom-0 before:ease-out before:duration-200 hover:before:w-full ${
+                    className={`font-medium lg:text-lg ease-out duration-200 hover:text-[#543b27] relative before:h-0.5 before:bg-[#543b27] before:absolute before:left-0 before:bottom-0 before:ease-out before:duration-200 hover:before:w-full ${
                       activeTab === item.id
-                        ? "text-blue before:w-full"
+                        ? "text-[#543b27] before:w-full"
                         : "text-dark before:w-0"
                     }`}
                   >
@@ -938,7 +938,7 @@ const ShopDetails = () => {
                         <div className="flex items-center justify-between">
                           <a href="#" className="flex items-center gap-4">
                             <div className="w-12.5 h-12.5 rounded-full overflow-hidden">
-                              <Image
+                              <img
                                 src="/images/users/user-01.jpg"
                                 alt="author"
                                 className="w-12.5 h-12.5 rounded-full overflow-hidden"
@@ -1430,7 +1430,7 @@ const ShopDetails = () => {
 
                         <button
                           type="submit"
-                          className="inline-flex font-medium text-white bg-blue py-3 px-7 rounded-md ease-out duration-200 hover:bg-blue-dark"
+                          className="inline-flex font-medium text-white bg-[#543b27] py-3 px-7 rounded-md ease-out duration-200 hover:bg-[#543b27]-dark"
                         >
                           Submit Reviews
                         </button>

@@ -62,6 +62,7 @@ const Billing = () => {
               <option value="0">Australia</option>
               <option value="1">America</option>
               <option value="2">England</option>
+              <option value="3">Russia</option>
             </select>
 
             <span className="absolute right-4 top-1/2 -translate-y-1/2 text-dark-4">
@@ -187,7 +188,7 @@ const Billing = () => {
                       width="16"
                       height="16"
                       rx="4"
-                      fill="#3C50E0"
+                      fill="#543b27"
                     />
                     <path
                       fillRule="evenodd"

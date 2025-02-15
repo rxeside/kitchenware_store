@@ -17,12 +17,14 @@ const SingleItem = ({ item, removeItemFromCart }) => {
           <img src={item.imgs?.thumbnails[0]} alt="product" width={100} height={100} />
         </div>
 
-        {/*<div>
-          <h3 className="font-medium text-dark mb-1 ease-out duration-200 hover:text-blue">
+        <div>
+          <h3 className="font-medium text-dark mb-1 ease-out duration-200 hover:text-[#543b27]">
             <a href="#"> {item.title} </a>
           </h3>
+{/*
           <p className="text-custom-sm">Price: ${item.discountedPrice}</p>
-        </div>*/}
+*/}
+        </div>
       </div>
 
       <button

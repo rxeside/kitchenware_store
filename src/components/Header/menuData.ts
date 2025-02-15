@@ -9,13 +9,13 @@ export const menuData: Menu[] = [
   },*/
   {
     id: 2,
-    title: "Shop",
+    title: "Магазин",
     newTab: false,
     path: "/shop-with-sidebar",
   },
   {
     id: 3,
-    title: "Contact",
+    title: "Контакт",
     newTab: false,
     path: "/contact",
   },

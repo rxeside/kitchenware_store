@@ -17,19 +17,16 @@ const QuickViewModal = () => {
 
   const dispatch = useDispatch<AppDispatch>();
 
-  // get the product data
   const product = useAppSelector((state) => state.quickViewReducer.value);
 
   const [activePreview, setActivePreview] = useState(0);
 
-  // preview modal
   const handlePreviewSlider = () => {
     dispatch(updateproductDetails(product));
 
     openPreviewModal();
   };
 
-  // add to cart
   const handleAddToCart = () => {
     dispatch(
       addItemToCart({
@@ -42,7 +39,6 @@ const QuickViewModal = () => {
   };
 
   useEffect(() => {
-    // closing modal while clicking outside
     function handleClickOutside(event) {
       if (!event.target.closest(".modal-content")) {
         closeModal();
@@ -94,15 +90,15 @@ const QuickViewModal = () => {
             <div className="max-w-[526px] w-full">
               <div className="flex gap-5">
                 <div className="flex flex-col gap-5">
-                  {product.imgs.thumbnails?.map((img, key) => (
+                  {product.imgs?.thumbnails?.map((img, key) => (
                     <button
                       onClick={() => setActivePreview(key)}
                       key={key}
-                      className={`flex items-center justify-center w-20 h-20 overflow-hidden rounded-lg bg-gray-1 ease-out duration-200 hover:border-2 hover:border-blue ${
-                        activePreview === key && "border-2 border-blue"
+                      className={`flex items-center justify-center w-20 h-20 overflow-hidden rounded-lg bg-gray-1 ease-out duration-200 hover:border-2 hover:border-[#543b27] ${
+                        activePreview === key && "border-2 border-[#543b27]"
                       }`}
                     >
-                      <Image
+                      <img
                         src={img || ""}
                         alt="thumbnail"
                         width={61}
@@ -118,7 +114,7 @@ const QuickViewModal = () => {
                     <button
                       onClick={handlePreviewSlider}
                       aria-label="button for zoom"
-                      className="gallery__Image w-10 h-10 rounded-[5px] bg-white shadow-1 flex items-center justify-center ease-out duration-200 text-dark hover:text-blue absolute top-4 lg:top-8 right-4 lg:right-8 z-50"
+                      className="gallery__Image w-10 h-10 rounded-[5px] bg-white shadow-1 flex items-center justify-center ease-out duration-200 text-dark hover:text-[#543b27] absolute top-4 lg:top-8 right-4 lg:right-8 z-50"
                     >
                       <svg
                         className="fill-current"
@@ -149,9 +145,6 @@ const QuickViewModal = () => {
             </div>
 
             <div className="max-w-[445px] w-full">
-              <span className="inline-block text-custom-xs font-medium text-white py-1 px-3 bg-green mb-6.5">
-                SALE 20% OFF
-              </span>
 
               <h3 className="font-semibold text-xl xl:text-heading-5 text-dark mb-4">
                 {product.title}
@@ -308,21 +301,21 @@ const QuickViewModal = () => {
               </p>
 
               <div className="flex flex-wrap justify-between gap-5 mt-6 mb-7.5">
-                <div>
+                {/*<div>
                   <h4 className="font-semibold text-lg text-dark mb-3.5">
                     Price
                   </h4>
 
                   <span className="flex items-center gap-2">
-                    {/*<span className="font-semibold text-dark text-xl xl:text-heading-4">
+                    <span className="font-semibold text-dark text-xl xl:text-heading-4">
                       ${product.discountedPrice}
-                    </span>*/}
-                    {/*<span className="font-medium text-dark-4 text-lg xl:text-2xl line-through">
+                    </span>
+                    <span className="font-medium text-dark-4 text-lg xl:text-2xl line-through">
                       ${product.price}
-                    </span>*/}
+                    </span>
                   </span>
                 </div>
-
+*/}
                 <div>
                   <h4 className="font-semibold text-lg text-dark mb-3.5">
                     Quantity
@@ -332,7 +325,7 @@ const QuickViewModal = () => {
                     <button
                       onClick={() => quantity > 1 && setQuantity(quantity - 1)}
                       aria-label="button for remove product"
-                      className="flex items-center justify-center w-10 h-10 rounded-[5px] bg-gray-2 text-dark ease-out duration-200 hover:text-blue"
+                      className="flex items-center justify-center w-10 h-10 rounded-[5px] bg-gray-2 text-dark ease-out duration-200 hover:text-[#543b27]"
                       disabled={quantity < 0 && true}
                     >
                       <svg
@@ -362,7 +355,7 @@ const QuickViewModal = () => {
                     <button
                       onClick={() => setQuantity(quantity + 1)}
                       aria-label="button for add product"
-                      className="flex items-center justify-center w-10 h-10 rounded-[5px] bg-gray-2 text-dark ease-out duration-200 hover:text-blue"
+                      className="flex items-center justify-center w-10 h-10 rounded-[5px] bg-gray-2 text-dark ease-out duration-200 hover:text-[#543b27]"
                     >
                       <svg
                         className="fill-current"
@@ -394,7 +387,7 @@ const QuickViewModal = () => {
                 <button
                   disabled={quantity === 0 && true}
                   onClick={() => handleAddToCart()}
-                  className={`inline-flex font-medium text-white bg-blue py-3 px-7 rounded-md ease-out duration-200 hover:bg-blue-dark
+                  className={`inline-flex font-medium text-white bg-[#543b27] py-3 px-7 rounded-md ease-out duration-200 hover:bg-[#543b27]-dark
                   `}
                 >
                   Add to Cart

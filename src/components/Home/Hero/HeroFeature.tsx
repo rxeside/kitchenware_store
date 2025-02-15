@@ -3,25 +3,27 @@ import Image from "next/image";
 
 const featureData = [
   {
-    img: "/images/icons/icon-01.svg",
-    title: "Free Shipping",
+    img: "/images/icons/icon-products.png",
+    title: "Более 100.000 товаров",
+/*
     description: "For all orders $200",
+*/
   },
   {
-    img: "/images/icons/icon-02.svg",
-    title: "1 & 1 Returns",
+    img: "/images/icons/icon-world.png",
+    title: "Более 37 стран производителей",
+/*
     description: "Cancellation after 1 day",
+*/
   },
   {
-    img: "/images/icons/icon-03.svg",
-    title: "100% Secure Payments",
+    img: "/images/icons/icon-brand.png",
+    title: "Более 550 брендов",
+/*
     description: "Gurantee secure payments",
+*/
   },
-  {
-    img: "/images/icons/icon-04.svg",
-    title: "24/7 Dedicated Support",
-    description: "Anywhere & anytime",
-  },
+
 ];
 
 const HeroFeature = () => {
